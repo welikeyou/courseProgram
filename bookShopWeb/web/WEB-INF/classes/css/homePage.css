@@ -1,0 +1,115 @@
+#regiserDiv{
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(250, 235, 215, 0.9);
+}
+
+#regiserForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+
+}
+#regiserForm input{
+    margin: 15px;
+    width: 15%;
+    padding: 2px;
+    color:deepskyblue;
+}
+
+#regiserForm span{
+    color:deepskyblue ;
+    margin-left:11%;
+}
+
+#searchBox{
+    margin-left:30px ;
+    width:50%;
+    position: fixed;
+}
+.showBordRow{
+    display: flex;
+    flex-direction: row;
+}
+.showBox div{
+    margin:7px 0px;
+}
+#detailBtn,#addToCarBtn{
+    width:auto;
+    height:20px;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.showBox span{
+    color:deepskyblue;
+    margin: 0px 10px ;
+
+}
+.showBox{
+    width:16%;
+    margin:3%;
+    padding:2%;
+    background-color: #faebd7;
+}
+.showBox img{
+    width:95%;
+    height: auto;
+    margin-bottom: 5px;
+}
+.upImg{
+    width:100%;
+    height: 20%;
+    position: fixed;
+    top:0px;
+    left:0px;
+}
+.leftUpBox{
+    width:80%;
+    height:30%;
+    border-radius:10%;
+    background-color:gainsboro;
+    padding-left:15px;
+}
+#account,#password{
+    margin-top: 30px;
+    width:60%;
+}
+#loginBtn{
+    margin:30px 32px;
+}
+.bookType{
+    width:80%;
+    height: 80%;
+    padding-left:15px;
+    background-color: antiquewhite;
+}
+ul li{
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+.bottomBox{
+    display: flex;
+    flex-direction: row;
+    margin-top:210px;
+}
+.leftBox{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    height: 80%;
+}
+
+.rightBox{
+    display: flex;
+    flex-direction: column;
+    width:75%;
+    margin-left: 22%;
+}

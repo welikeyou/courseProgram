@@ -1,0 +1,52 @@
+#goShopping{
+    width:auto;
+    height:20px;
+    color:deepskyblue;
+    position: fixed;
+    top:10px;
+    right:60px;
+    background-color: white;
+}
+.lists{
+    margin-top:30px;
+}
+.goodsList{
+    width: 90%;
+    margin: 10px 3%;
+    height: auto;
+    background-color: antiquewhite;
+    padding:10px 30px;
+    display: flex;
+    flex-direction: row;
+}
+.goodsList img{
+    width:10%;
+    height: 160px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info span{
+    margin: 10px 30px;
+}
+.bottomBox{
+    position: fixed;
+    left:0px;
+    bottom:20px;
+    width:100%;
+    padding: 20px;
+}
+.bottomBox span{
+    margin-left:70%;
+}
+#toPay{
+    background-color: aliceblue;
+    color: deepskyblue;
+    margin-left:10%;
+    padding:10px 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align:center;
+}

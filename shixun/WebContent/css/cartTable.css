@@ -1,0 +1,90 @@
+
+	
+	.to-buy {
+		color:#666;
+		font-size: 12px;
+		}
+    
+	.payForCart{
+		margin: 2% auto 5% auto;
+		display: flex;
+		width: 100%;
+		padding-left: 70% ;
+		
+	}
+	.payForCart input{
+		margin-left:20px;
+	}
+	.payForCart p{
+		margin-left: 20px;
+		padding-top: 15px;
+		font-size:12px ;
+		color:#666;
+		font-family: "Times New Roman",Times,serif;
+	}
+	
+	.note{
+		color:#000000;
+	}
+	.content {
+		font-family:"Times New Roman",Times,serif;
+		color: #555; 
+		width:100%; 
+		margin:auto;
+		padding-left: 20%;
+		padding-right:20%;
+		padding-top:180px;
+		}
+
+	.content table {
+		overflow:hidden;
+		border:1px solid #d3d3d3;
+		background:#fefefe;
+		-moz-border-radius:5px; /* FF1+ */
+		-webkit-border-radius:5px; /* Saf3-4 */
+		border-radius:10px;
+		-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	}
+	
+	.content th, td {
+		min-width:100px;
+		text-align:center; 
+		}
+	
+	.content th {
+		padding-top:15px;
+		padding-bottom: 15px; 
+		background:#e8eaeb;
+		font-size: 13px;
+		}
+	
+	.content td {
+		border-top:1px solid #e0e0e0; 
+		border-right:1px solid #e0e0e0;
+		font-size: 12px;
+		}
+	.content td a{
+		font-family: "Times New Roman",Times,serif;
+		color: #666;
+	}
+	.content td p{
+		font-family: "Times New Roman",Times,serif;
+		color: #666;
+		font-size: 12px;
+		margin: 0;
+	}
+	.content tr:hover{
+		background-color: #F0F0F0;
+	}
+
+	.content td {
+		background: -moz-linear-gradient(100% 25% 90deg, #fefefe, #f9f9f9);
+		background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f9f9f9), to(#fefefe));
+	}
+
+	.content th {
+		background: #F0F0F0;
+	}
+
+	

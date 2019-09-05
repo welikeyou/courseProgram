@@ -1,0 +1,11 @@
+[MASTER] 12:29:44.886 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.ChainedTransformer<T> : Type points to itself
+[MASTER] 12:29:44.886 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.ClosureTransformer<T> : Type points to itself
+[MASTER] 12:29:44.886 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.ConstantTransformer<I, O> : Type points to itself
+[MASTER] 12:29:44.887 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.FactoryTransformer<I, O> : Type points to itself
+[MASTER] 12:29:44.888 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.IfTransformer<I, O> : Type points to itself
+[MASTER] 12:29:44.889 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.InstantiateTransformer<T> : Type points to itself
+[MASTER] 12:29:44.889 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.InvokerTransformer<I, O> : Type points to itself
+[MASTER] 12:29:44.889 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.PredicateTransformer<T> : Type points to itself
+[MASTER] 12:29:44.890 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.SwitchTransformer<I, O> : Type points to itself
+[MASTER] 12:29:44.902 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Transformer<I, O> : Type points to itself
+[MASTER] 12:30:05.800 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Closure<T> : Type points to itself

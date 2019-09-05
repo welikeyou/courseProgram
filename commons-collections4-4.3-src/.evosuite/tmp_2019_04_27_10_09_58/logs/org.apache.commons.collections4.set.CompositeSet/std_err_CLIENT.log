@@ -1,0 +1,4 @@
+[MASTER] 11:01:54.647 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 11:01:54.647 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 11:01:55.059 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Set<E> : Type points to itself
+[MASTER] 11:04:15.112 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Predicate<T> : Type points to itself

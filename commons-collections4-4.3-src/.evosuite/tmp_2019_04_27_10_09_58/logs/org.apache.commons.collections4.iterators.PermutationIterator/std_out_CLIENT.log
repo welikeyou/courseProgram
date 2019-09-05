@@ -1,0 +1,80 @@
+* Starting client
+* Connecting to master process on port 8443
+* Analyzing classpath: 
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes
+  - D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar
+  - D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar
+  - D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar
+  - D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.collections4.iterators.PermutationIterator
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 11:31:47.919 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.iterators.PermutationIterator.seed
+* Loaded 0 tests from D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.iterators.PermutationIterator.seed
+* Total number of test goals: 
+  - Line 45
+  - Branch 35
+  - Exception 0
+  - MutationFactory 124
+  - Output 8
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 35
+* Using seed 1556335905162
+* Starting evolution
+* Search finished after 91s and 298 generations, 79847 statements, best individual has fitness: 8.866666666666667
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 45
+* Number of covered goals: 45
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 35
+* Number of covered goals: 35
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 93%
+* Total number of goals: 124
+* Number of covered goals: 115
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 75%
+* Total number of goals: 8
+* Number of covered goals: 6
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 75%
+* Total number of goals: 4
+* Number of covered goals: 3
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 94%
+* Total number of goals: 35
+* Number of covered goals: 33
+* Generated 9 tests with total length 49
+* Resulting test suite's coverage: 92% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 11:33:31.803 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.9001538461538462% of time used, but only 4/9 tests minimized), falling back to using all assertions
+* Resulting test suite's mutation score: 43%
+* Compiling and checking tests
+* Writing JUnit test case 'PermutationIterator_ESTest' to D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\tmp_2019_04_27_10_09_58\tests
+* Done!
+

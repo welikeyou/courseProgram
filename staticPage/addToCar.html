@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/addToCar.css">
+    <title>Title</title>
+</head>
+<body>
+<form action="AddToCarServlet.do" method="post" id="addToCarForm">
+    <div  class="addToCarDiv" >
+        <input type="text" value="" name="goodsIdAdd" style="display: none">
+        <img src="img/threeLight.jpg"/>
+        <div>书名：假如给我三天光明</div>
+        <div>价格：39元</div>
+        <div>库存：<span id="beforeNum" name="beforeNum">1780</span>本</div>
+        <div id="chooseAmount">
+            <span id="decrease">-</span>
+            <div><span id="num" name="num">1本</span></div>
+            <span id="increase">+</span>
+        </div>
+        <div id="addBtn">
+            <span onclick="toHomePage()">取消</span>
+            <span onclick="addToCar()">确定</span>
+        </div>
+    </div>
+</form>
+
+
+</body>
+</html>

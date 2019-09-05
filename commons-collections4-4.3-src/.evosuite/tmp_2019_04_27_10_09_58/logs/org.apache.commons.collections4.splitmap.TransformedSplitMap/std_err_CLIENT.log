@@ -1,0 +1,5 @@
+[MASTER] 12:26:17.203 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 12:26:17.203 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 12:26:17.203 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 12:26:18.683 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Predicate<T> : Type points to itself
+[MASTER] 12:26:18.687 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Transformer<I, O> : Type points to itself

@@ -1,0 +1,277 @@
+[MASTER] 11:44:19.446 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.ChainedClosure<E> : Type points to itself
+[MASTER] 11:44:19.447 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.ForClosure<E> : Type points to itself
+[MASTER] 11:44:19.447 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.IfClosure<E> : Type points to itself
+[MASTER] 11:44:19.447 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.SwitchClosure<E> : Type points to itself
+[MASTER] 11:44:19.449 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.TransformerClosure<E> : Type points to itself
+[MASTER] 11:44:19.449 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.WhileClosure<E> : Type points to itself
+[MASTER] 11:44:19.449 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 11:44:19.449 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 11:44:19.449 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.AllPredicate<T> : Type points to itself
+[MASTER] 11:44:19.449 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.AndPredicate<T> : Type points to itself
+[MASTER] 11:44:19.449 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.AnyPredicate<T> : Type points to itself
+[MASTER] 11:44:19.449 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.ComparatorPredicate<T> : Type points to itself
+[MASTER] 11:44:19.449 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.EqualPredicate<T> : Type points to itself
+[MASTER] 11:44:19.450 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.IdentityPredicate<T> : Type points to itself
+[MASTER] 11:44:19.450 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.NonePredicate<T> : Type points to itself
+[MASTER] 11:44:19.450 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.NotPredicate<T> : Type points to itself
+[MASTER] 11:44:19.450 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.NullIsExceptionPredicate<T> : Type points to itself
+[MASTER] 11:44:19.450 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.NullIsFalsePredicate<T> : Type points to itself
+[MASTER] 11:44:19.450 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.NullIsTruePredicate<T> : Type points to itself
+[MASTER] 11:44:19.450 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.OnePredicate<T> : Type points to itself
+[MASTER] 11:44:19.450 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.OrPredicate<T> : Type points to itself
+[MASTER] 11:44:19.450 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.TransformedPredicate<T> : Type points to itself
+[MASTER] 11:44:19.450 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.TransformerPredicate<T> : Type points to itself
+[MASTER] 11:44:19.450 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.UniquePredicate<T> : Type points to itself
+[MASTER] 11:44:19.587 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Closure<T> : Type points to itself
+[MASTER] 11:44:20.865 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Transformer<I, O> : Type points to itself
+[MASTER] 11:44:29.854 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Predicate<T> : Type points to itself
+[MASTER] 11:44:53.776 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 11:45:37.405 [pool-2-thread-1] ERROR JUnitAnalyzer - Compilation failed on compilation units: [RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_14_1556336737250\org\apache\commons\collections4\functors\SwitchClosure_14_tmp__ESTest.java], RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_14_1556336737250\org\apache\commons\collections4\functors\SwitchClosure_14_tmp__ESTest_scaffolding.java]]
+[MASTER] 11:45:37.405 [pool-2-thread-1] ERROR JUnitAnalyzer - Classpath: D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\evosuite\evosuite-master\1.0.6\evosuite-master-1.0.6.jar;D:\maven\LocalWare\org\evosuite\evosuite-client\1.0.6\evosuite-client-1.0.6-tests.jar;D:\maven\LocalWare\org\evosuite\evosuite-runtime\1.0.6\evosuite-runtime-1.0.6.jar;D:\maven\LocalWare\javax\ejb\javax.ejb-api\3.2\javax.ejb-api-3.2.jar;D:\maven\LocalWare\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;D:\maven\LocalWare\javax\faces\javax.faces-api\2.2\javax.faces-api-2.2.jar;D:\maven\LocalWare\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;D:\maven\LocalWare\org\hsqldb\hsqldb\2.4.0\hsqldb-2.4.0.jar;D:\maven\LocalWare\org\springframework\spring-orm\4.3.14.RELEASE\spring-orm-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-jdbc\4.3.14.RELEASE\spring-jdbc-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-context\4.3.14.RELEASE\spring-context-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-aop\4.3.14.RELEASE\spring-aop-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-expression\4.3.14.RELEASE\spring-expression-4.3.14.RELEASE.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\mockito\mockito-core\2.16.0\mockito-core-2.16.0.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy-agent\1.7.9\byte-buddy-agent-1.7.9.jar;D:\maven\LocalWare\org\objenesis\objenesis\2.6\objenesis-2.6.jar;D:\maven\LocalWare\org\slf4j\slf4j-api\1.7.22\slf4j-api-1.7.22.jar;D:\maven\LocalWare\org\ow2\asm\asm\6.0\asm-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-commons\6.0\asm-commons-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-tree\6.0\asm-tree-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-analysis\6.0\asm-analysis-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-util\6.0\asm-util-6.0.jar;D:\maven\LocalWare\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;D:\maven\LocalWare\com\opencsv\opencsv\4.1\opencsv-4.1.jar;D:\maven\LocalWare\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;D:\maven\LocalWare\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;D:\maven\LocalWare\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\LocalWare\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\maven\LocalWare\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;D:\maven\LocalWare\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;D:\maven\LocalWare\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;D:\maven\LocalWare\com\googlecode\gentyref\gentyref\1.2.0\gentyref-1.2.0.jar;D:\maven\LocalWare\net\sf\jgrapht\jgrapht\0.8.3\jgrapht-0.8.3.jar;D:\maven\LocalWare\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar;D:\maven\LocalWare\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;D:\maven\LocalWare\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;D:\maven\LocalWare\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\maven\LocalWare\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;D:\maven\LocalWare\org\kohsuke\graphviz-api\1.1\graphviz-api-1.1.jar;D:\maven\LocalWare\oro\oro\2.0.8\oro-2.0.8.jar;D:\maven\LocalWare\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\maven\LocalWare\org\jboss\spec\javax\servlet\jboss-servlet-api_3.1_spec\1.0.2.Final\jboss-servlet-api_3.1_spec-1.0.2.Final.jar;D:\maven\LocalWare\javax\inject\javax.inject\1\javax.inject-1.jar;D:\maven\LocalWare\javax\enterprise\cdi-api\1.2\cdi-api-1.2.jar;D:\maven\LocalWare\javax\el\javax.el-api\3.0.0\javax.el-api-3.0.0.jar;D:\maven\LocalWare\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;D:\maven\LocalWare\org\hibernate\hibernate-core\5.2.13.Final\hibernate-core-5.2.13.Final.jar;D:\maven\LocalWare\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;D:\maven\LocalWare\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;D:\maven\LocalWare\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;D:\maven\LocalWare\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\maven\LocalWare\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.1.Final\jboss-transaction-api_1.2_spec-1.0.1.Final.jar;D:\maven\LocalWare\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;D:\maven\LocalWare\com\fasterxml\classmate\1.3.0\classmate-1.3.0.jar;D:\maven\LocalWare\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maven\LocalWare\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;D:\maven\LocalWare\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+[MASTER] 11:45:37.405 [pool-2-thread-1] ERROR JUnitAnalyzer - evosuiteCP: D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\evosuite\evosuite-master\1.0.6\evosuite-master-1.0.6.jar;D:\maven\LocalWare\org\evosuite\evosuite-client\1.0.6\evosuite-client-1.0.6-tests.jar;D:\maven\LocalWare\org\evosuite\evosuite-runtime\1.0.6\evosuite-runtime-1.0.6.jar;D:\maven\LocalWare\javax\ejb\javax.ejb-api\3.2\javax.ejb-api-3.2.jar;D:\maven\LocalWare\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;D:\maven\LocalWare\javax\faces\javax.faces-api\2.2\javax.faces-api-2.2.jar;D:\maven\LocalWare\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;D:\maven\LocalWare\org\hsqldb\hsqldb\2.4.0\hsqldb-2.4.0.jar;D:\maven\LocalWare\org\springframework\spring-orm\4.3.14.RELEASE\spring-orm-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-jdbc\4.3.14.RELEASE\spring-jdbc-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-context\4.3.14.RELEASE\spring-context-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-aop\4.3.14.RELEASE\spring-aop-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-expression\4.3.14.RELEASE\spring-expression-4.3.14.RELEASE.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\mockito\mockito-core\2.16.0\mockito-core-2.16.0.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy-agent\1.7.9\byte-buddy-agent-1.7.9.jar;D:\maven\LocalWare\org\objenesis\objenesis\2.6\objenesis-2.6.jar;D:\maven\LocalWare\org\slf4j\slf4j-api\1.7.22\slf4j-api-1.7.22.jar;D:\maven\LocalWare\org\ow2\asm\asm\6.0\asm-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-commons\6.0\asm-commons-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-tree\6.0\asm-tree-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-analysis\6.0\asm-analysis-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-util\6.0\asm-util-6.0.jar;D:\maven\LocalWare\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;D:\maven\LocalWare\com\opencsv\opencsv\4.1\opencsv-4.1.jar;D:\maven\LocalWare\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;D:\maven\LocalWare\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;D:\maven\LocalWare\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\LocalWare\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\maven\LocalWare\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;D:\maven\LocalWare\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;D:\maven\LocalWare\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;D:\maven\LocalWare\com\googlecode\gentyref\gentyref\1.2.0\gentyref-1.2.0.jar;D:\maven\LocalWare\net\sf\jgrapht\jgrapht\0.8.3\jgrapht-0.8.3.jar;D:\maven\LocalWare\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar;D:\maven\LocalWare\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;D:\maven\LocalWare\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;D:\maven\LocalWare\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\maven\LocalWare\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;D:\maven\LocalWare\org\kohsuke\graphviz-api\1.1\graphviz-api-1.1.jar;D:\maven\LocalWare\oro\oro\2.0.8\oro-2.0.8.jar;D:\maven\LocalWare\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\maven\LocalWare\org\jboss\spec\javax\servlet\jboss-servlet-api_3.1_spec\1.0.2.Final\jboss-servlet-api_3.1_spec-1.0.2.Final.jar;D:\maven\LocalWare\javax\inject\javax.inject\1\javax.inject-1.jar;D:\maven\LocalWare\javax\enterprise\cdi-api\1.2\cdi-api-1.2.jar;D:\maven\LocalWare\javax\el\javax.el-api\3.0.0\javax.el-api-3.0.0.jar;D:\maven\LocalWare\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;D:\maven\LocalWare\org\hibernate\hibernate-core\5.2.13.Final\hibernate-core-5.2.13.Final.jar;D:\maven\LocalWare\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;D:\maven\LocalWare\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;D:\maven\LocalWare\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;D:\maven\LocalWare\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\maven\LocalWare\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.1.Final\jboss-transaction-api_1.2_spec-1.0.1.Final.jar;D:\maven\LocalWare\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;D:\maven\LocalWare\com\fasterxml\classmate\1.3.0\classmate-1.3.0.jar;D:\maven\LocalWare\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maven\LocalWare\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;D:\maven\LocalWare\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+[MASTER] 11:45:37.411 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: incompatible types: java.util.HashMap<java.lang.String,java.lang.Integer> cannot be converted to java.util.Map<org.apache.commons.collections4.Predicate<org.apache.commons.collections4.functors.ComparatorPredicate<org.apache.commons.collections4.functors.ExceptionPredicate>>,org.apache.commons.collections4.Closure<org.apache.commons.collections4.functors.ComparatorPredicate<org.apache.commons.collections4.functors.ExceptionPredicate>>>: 32
+[MASTER] 11:45:37.413 [pool-2-thread-1] ERROR JUnitAnalyzer - RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_14_1556336737250\org\apache\commons\collections4\functors\SwitchClosure_14_tmp__ESTest.java]
+1: /*
+2:  * This file was automatically generated by EvoSuite
+3:  * Sat Apr 27 03:45:37 GMT 2019
+4:  */
+5: 
+6: package org.apache.commons.collections4.functors;
+7: 
+8: import org.junit.Test;
+9: import static org.junit.Assert.*;
+10: import static org.evosuite.runtime.EvoAssertions.*;
+11: import java.util.HashMap;
+12: import java.util.Map;
+13: import org.apache.commons.collections4.Closure;
+14: import org.apache.commons.collections4.Predicate;
+15: import org.apache.commons.collections4.functors.ComparatorPredicate;
+16: import org.apache.commons.collections4.functors.ExceptionPredicate;
+17: import org.apache.commons.collections4.functors.SwitchClosure;
+18: import org.evosuite.runtime.EvoRunner;
+19: import org.evosuite.runtime.EvoRunnerParameters;
+20: import org.junit.runner.RunWith;
+21: 
+22: @RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, useJEE = true) 
+23: public class SwitchClosure_14_tmp__ESTest extends SwitchClosure_14_tmp__ESTest_scaffolding {
+24: 
+25:   @Test(timeout = 4000)
+26:   public void test0()  throws Throwable  {
+27:       HashMap<String, Integer> hashMap0 = new HashMap<String, Integer>();
+28:       Integer integer0 = new Integer((-1));
+29:       hashMap0.put("java.vm.name", integer0);
+30:       // Undeclared exception!
+31:       try { 
+32:         SwitchClosure.switchClosure((Map<Predicate<ComparatorPredicate<ExceptionPredicate>>, Closure<ComparatorPredicate<ExceptionPredicate>>>) hashMap0);
+33:         fail("Expecting exception: ClassCastException");
+34:       
+35:       } catch(ClassCastException e) {
+36:          //
+37:          // java.lang.String cannot be cast to org.apache.commons.collections4.Predicate
+38:          //
+39:          verifyException("org.apache.commons.collections4.functors.SwitchClosure", e);
+40:       }
+41:   }
+42: }
+RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_14_1556336737250\org\apache\commons\collections4\functors\SwitchClosure_14_tmp__ESTest.java]
+1: /**
+2:  * Scaffolding file used to store all the setups needed to run 
+3:  * tests automatically generated by EvoSuite
+4:  * Sat Apr 27 03:45:37 GMT 2019
+5:  */
+6: 
+7: package org.apache.commons.collections4.functors;
+8: 
+9: import org.evosuite.runtime.annotation.EvoSuiteClassExclude;
+10: import org.junit.BeforeClass;
+11: import org.junit.Before;
+12: import org.junit.After;
+13: import org.junit.AfterClass;
+14: import org.evosuite.runtime.sandbox.Sandbox;
+15: import org.evosuite.runtime.sandbox.Sandbox.SandboxMode;
+16: 
+17: @EvoSuiteClassExclude
+18: public class SwitchClosure_14_tmp__ESTest_scaffolding {
+19: 
+20:   @org.junit.Rule 
+21:   public org.evosuite.runtime.vnet.NonFunctionalRequirementRule nfr = new org.evosuite.runtime.vnet.NonFunctionalRequirementRule();
+22: 
+23:   private static final java.util.Properties defaultProperties = (java.util.Properties) java.lang.System.getProperties().clone(); 
+24: 
+25:   private org.evosuite.runtime.thread.ThreadStopper threadStopper =  new org.evosuite.runtime.thread.ThreadStopper (org.evosuite.runtime.thread.KillSwitchHandler.getInstance(), 3000);
+26: 
+27: 
+28:   @BeforeClass 
+29:   public static void initEvoSuiteFramework() { 
+30:     org.evosuite.runtime.RuntimeSettings.className = "org.apache.commons.collections4.functors.SwitchClosure"; 
+31:     org.evosuite.runtime.GuiSupport.initialize(); 
+32:     org.evosuite.runtime.RuntimeSettings.maxNumberOfThreads = 100; 
+33:     org.evosuite.runtime.RuntimeSettings.maxNumberOfIterationsPerLoop = 10000; 
+34:     org.evosuite.runtime.RuntimeSettings.mockSystemIn = true; 
+35:     org.evosuite.runtime.RuntimeSettings.sandboxMode = org.evosuite.runtime.sandbox.Sandbox.SandboxMode.RECOMMENDED; 
+36:     org.evosuite.runtime.sandbox.Sandbox.initializeSecurityManagerForSUT(); 
+37:     org.evosuite.runtime.classhandling.JDKClassResetter.init();
+38:     setSystemProperties();
+39:     initializeClasses();
+40:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+41:   } 
+42: 
+43:   @AfterClass 
+44:   public static void clearEvoSuiteFramework(){ 
+45:     Sandbox.resetDefaultSecurityManager(); 
+46:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+47:   } 
+48: 
+49:   @Before 
+50:   public void initTestCase(){ 
+51:     threadStopper.storeCurrentThreads();
+52:     threadStopper.startRecordingTime();
+53:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().initHandler(); 
+54:     org.evosuite.runtime.sandbox.Sandbox.goingToExecuteSUTCode(); 
+55:     setSystemProperties(); 
+56:     org.evosuite.runtime.GuiSupport.setHeadless(); 
+57:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+58:     org.evosuite.runtime.agent.InstrumentingAgent.activate(); 
+59:   } 
+60: 
+61:   @After 
+62:   public void doneWithTestCase(){ 
+63:     threadStopper.killAndJoinClientThreads();
+64:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().safeExecuteAddedHooks(); 
+65:     org.evosuite.runtime.classhandling.JDKClassResetter.reset(); 
+66:     resetClasses(); 
+67:     org.evosuite.runtime.sandbox.Sandbox.doneWithExecutingSUTCode(); 
+68:     org.evosuite.runtime.agent.InstrumentingAgent.deactivate(); 
+69:     org.evosuite.runtime.GuiSupport.restoreHeadlessMode(); 
+70:   } 
+71: 
+72:   public static void setSystemProperties() {
+73:  
+74:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+75:     java.lang.System.setProperty("file.encoding", "GBK"); 
+76:     java.lang.System.setProperty("java.awt.headless", "true"); 
+77:     java.lang.System.setProperty("java.io.tmpdir", "C:\\Users\\Dell\\AppData\\Local\\Temp\\"); 
+78:     java.lang.System.setProperty("user.country", "CN"); 
+79:     java.lang.System.setProperty("user.dir", "D:\\myProjects\\courseProgram\\commons-collections4-4.3-src"); 
+80:     java.lang.System.setProperty("user.home", "C:\\Users\\Dell"); 
+81:     java.lang.System.setProperty("user.language", "zh"); 
+82:     java.lang.System.setProperty("user.name", "Dell"); 
+83:     java.lang.System.setProperty("user.timezone", "Asia/Shanghai"); 
+84:   }
+85: 
+86:   private static void initializeClasses() {
+87:     org.evosuite.runtime.classhandling.ClassStateSupport.initializeClasses(SwitchClosure_14_tmp__ESTest_scaffolding.class.getClassLoader() ,
+88:       "org.apache.commons.collections4.functors.MapTransformer",
+89:       "org.apache.commons.collections4.functors.UniquePredicate",
+90:       "org.apache.commons.collections4.functors.ComparatorPredicate$Criterion",
+91:       "org.apache.commons.collections4.Predicate",
+92:       "org.apache.commons.collections4.functors.NullIsFalsePredicate",
+93:       "org.apache.commons.collections4.functors.ExceptionPredicate",
+94:       "org.apache.commons.collections4.functors.ComparatorPredicate$1",
+95:       "org.apache.commons.collections4.functors.NOPTransformer",
+96:       "org.apache.commons.collections4.functors.InstanceofPredicate",
+97:       "org.apache.commons.collections4.Equator",
+98:       "org.apache.commons.collections4.functors.EqualPredicate",
+99:       "org.apache.commons.collections4.functors.IfClosure",
+100:       "org.apache.commons.collections4.functors.NullPredicate",
+101:       "org.apache.commons.collections4.Closure",
+102:       "org.apache.commons.collections4.functors.IdentityPredicate",
+103:       "org.apache.commons.collections4.functors.TruePredicate",
+104:       "org.apache.commons.collections4.functors.TransformerClosure",
+105:       "org.apache.commons.collections4.functors.ComparatorPredicate",
+106:       "org.apache.commons.collections4.functors.OnePredicate",
+107:       "org.apache.commons.collections4.functors.NotNullPredicate",
+108:       "org.apache.commons.collections4.functors.AbstractQuantifierPredicate",
+109:       "org.apache.commons.collections4.functors.DefaultEquator",
+110:       "org.apache.commons.collections4.functors.ExceptionClosure",
+111:       "org.apache.commons.collections4.functors.FalsePredicate",
+112:       "org.apache.commons.collections4.functors.FactoryTransformer",
+113:       "org.apache.commons.collections4.functors.ForClosure",
+114:       "org.apache.commons.collections4.FunctorException",
+115:       "org.apache.commons.collections4.functors.OrPredicate",
+116:       "org.apache.commons.collections4.Factory",
+117:       "org.apache.commons.collections4.functors.NotPredicate",
+118:       "org.apache.commons.collections4.functors.FunctorUtils",
+119:       "org.apache.commons.collections4.functors.PredicateDecorator",
+120:       "org.apache.commons.collections4.functors.AnyPredicate",
+121:       "org.apache.commons.collections4.functors.AndPredicate",
+122:       "org.apache.commons.collections4.functors.ChainedClosure",
+123:       "org.apache.commons.collections4.Transformer",
+124:       "org.apache.commons.collections4.functors.SwitchClosure",
+125:       "org.apache.commons.collections4.functors.ExceptionTransformer",
+126:       "org.apache.commons.collections4.functors.NOPClosure",
+127:       "org.apache.commons.collections4.functors.InvokerTransformer",
+128:       "org.apache.commons.collections4.functors.TransformedPredicate",
+129:       "org.apache.commons.collections4.functors.AllPredicate",
+130:       "org.apache.commons.collections4.functors.IfTransformer",
+131:       "org.apache.commons.collections4.functors.ConstantFactory",
+132:       "org.apache.commons.collections4.functors.NullIsTruePredicate",
+133:       "org.apache.commons.collections4.functors.NonePredicate"
+134:     );
+135:   } 
+136: 
+137:   private static void resetClasses() {
+138:     org.evosuite.runtime.classhandling.ClassResetter.getInstance().setClassLoader(SwitchClosure_14_tmp__ESTest_scaffolding.class.getClassLoader()); 
+139: 
+140:     org.evosuite.runtime.classhandling.ClassStateSupport.resetClasses(
+141:       "org.apache.commons.collections4.functors.SwitchClosure",
+142:       "org.apache.commons.collections4.functors.NOPClosure",
+143:       "org.apache.commons.collections4.functors.UniquePredicate",
+144:       "org.apache.commons.collections4.functors.AndPredicate",
+145:       "org.apache.commons.collections4.functors.NullIsTruePredicate",
+146:       "org.apache.commons.collections4.functors.ExceptionClosure",
+147:       "org.apache.commons.collections4.functors.ForClosure",
+148:       "org.apache.commons.collections4.functors.IfClosure",
+149:       "org.apache.commons.collections4.functors.FunctorUtils",
+150:       "org.apache.commons.collections4.functors.AbstractQuantifierPredicate",
+151:       "org.apache.commons.collections4.functors.OnePredicate",
+152:       "org.apache.commons.collections4.functors.AnyPredicate",
+153:       "org.apache.commons.collections4.functors.NullIsExceptionPredicate",
+154:       "org.apache.commons.collections4.functors.ConstantTransformer",
+155:       "org.apache.commons.collections4.functors.TransformedPredicate",
+156:       "org.apache.commons.collections4.functors.NonePredicate",
+157:       "org.apache.commons.collections4.functors.ChainedClosure",
+158:       "org.apache.commons.collections4.functors.ExceptionPredicate",
+159:       "org.apache.commons.collections4.functors.InstanceofPredicate",
+160:       "org.apache.commons.collections4.functors.TransformerPredicate",
+161:       "org.apache.commons.collections4.functors.TransformerClosure",
+162:       "org.apache.commons.collections4.functors.AllPredicate",
+163:       "org.apache.commons.collections4.functors.TruePredicate",
+164:       "org.apache.commons.collections4.functors.NullPredicate",
+165:       "org.apache.commons.collections4.functors.OrPredicate",
+166:       "org.apache.commons.collections4.functors.ComparatorPredicate",
+167:       "org.apache.commons.collections4.functors.IdentityPredicate",
+168:       "org.apache.commons.collections4.functors.FalsePredicate",
+169:       "org.apache.commons.collections4.functors.WhileClosure",
+170:       "org.apache.commons.collections4.functors.DefaultEquator",
+171:       "org.apache.commons.collections4.functors.EqualPredicate",
+172:       "org.apache.commons.collections4.functors.SwitchTransformer",
+173:       "org.apache.commons.collections4.functors.NotPredicate",
+174:       "org.apache.commons.collections4.functors.NullIsFalsePredicate",
+175:       "org.apache.commons.collections4.functors.ComparatorPredicate$1",
+176:       "org.apache.commons.collections4.functors.NOPTransformer",
+177:       "org.apache.commons.collections4.functors.InvokerTransformer",
+178:       "org.apache.commons.collections4.functors.PredicateTransformer",
+179:       "org.apache.commons.collections4.FunctorException",
+180:       "org.apache.commons.collections4.functors.MapTransformer",
+181:       "org.apache.commons.collections4.functors.NotNullPredicate",
+182:       "org.apache.commons.collections4.functors.ConstantFactory",
+183:       "org.apache.commons.collections4.functors.FactoryTransformer",
+184:       "org.apache.commons.collections4.functors.IfTransformer",
+185:       "org.apache.commons.collections4.functors.ExceptionTransformer",
+186:       "org.apache.commons.collections4.functors.StringValueTransformer",
+187:       "org.apache.commons.collections4.functors.CloneTransformer",
+188:       "org.apache.commons.collections4.functors.ExceptionFactory",
+189:       "org.apache.commons.collections4.functors.InstantiateFactory",
+190:       "org.apache.commons.collections4.functors.ChainedTransformer",
+191:       "org.apache.commons.collections4.functors.ClosureTransformer"
+192:     );
+193:   }
+194: }
+
+[MASTER] 11:45:37.413 [pool-2-thread-1] ERROR JUnitAnalyzer - Failed to compile test case:
+HashMap<String, Integer> hashMap0 = new HashMap<String, Integer>();
+Integer integer0 = new Integer((-1));
+hashMap0.put("java.vm.name", integer0);
+SwitchClosure.switchClosure((Map<Predicate<ComparatorPredicate<ExceptionPredicate>>, Closure<ComparatorPredicate<ExceptionPredicate>>>) hashMap0);
+

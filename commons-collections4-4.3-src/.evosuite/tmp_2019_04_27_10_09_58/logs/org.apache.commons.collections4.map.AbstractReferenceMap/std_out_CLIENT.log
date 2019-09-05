@@ -1,0 +1,81 @@
+* Starting client
+* Connecting to master process on port 7049
+* Analyzing classpath: 
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes
+  - D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar
+  - D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar
+  - D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar
+  - D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.collections4.map.AbstractReferenceMap
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 11:11:49.876 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.map.AbstractReferenceMap.seed
+* Loaded 0 tests from D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.map.AbstractReferenceMap.seed
+* Total number of test goals: 
+  - Line 272
+  - Branch 172
+  - Exception 0
+  - MutationFactory 382
+  - Output 51
+  - Method 66
+  - MethodNoException 66
+  - CBranchFitnessFactory 172
+* Using seed 1556334704620
+* Starting evolution
+* Search finished after 111s and 0 generations, 1159 statements, best individual has fitness: 651.2985253479253
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 11:14:00.119 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 65%
+* Total number of goals: 272
+* Number of covered goals: 177
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 52%
+* Total number of goals: 172
+* Number of covered goals: 89
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 51%
+* Total number of goals: 382
+* Number of covered goals: 195
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 29%
+* Total number of goals: 51
+* Number of covered goals: 15
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 77%
+* Total number of goals: 66
+* Number of covered goals: 51
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 64%
+* Total number of goals: 66
+* Number of covered goals: 42
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 52%
+* Total number of goals: 172
+* Number of covered goals: 89
+* Generated 44 tests with total length 927
+* Resulting test suite's coverage: 58% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 11:14:15.165 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.82% of time used, but only 1/44 tests minimized), falling back to using all assertions
+* Resulting test suite's mutation score: 1%
+* Compiling and checking tests
+* Writing JUnit test case 'AbstractReferenceMap_ESTest' to D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\tmp_2019_04_27_10_09_58\tests
+* Done!
+

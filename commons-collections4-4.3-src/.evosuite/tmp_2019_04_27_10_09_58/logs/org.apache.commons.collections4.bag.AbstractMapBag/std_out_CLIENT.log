@@ -1,0 +1,80 @@
+* Starting client
+* Connecting to master process on port 21630
+* Analyzing classpath: 
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes
+  - D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar
+  - D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar
+  - D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar
+  - D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.collections4.bag.AbstractMapBag
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 10:53:42.242 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.bag.AbstractMapBag.seed
+* Loaded 0 tests from D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.bag.AbstractMapBag.seed
+* Total number of test goals: 
+  - Line 200
+  - Branch 114
+  - Exception 0
+  - MutationFactory 459
+  - Output 55
+  - Method 31
+  - MethodNoException 31
+  - CBranchFitnessFactory 114
+* Using seed 1556333618152
+* Starting evolution
+* Search finished after 171s and 9 generations, 5635 statements, best individual has fitness: 162.18916666666667
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 88%
+* Total number of goals: 200
+* Number of covered goals: 176
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 86%
+* Total number of goals: 114
+* Number of covered goals: 98
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 15
+* Number of covered goals: 15
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 81%
+* Total number of goals: 459
+* Number of covered goals: 372
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 64%
+* Total number of goals: 55
+* Number of covered goals: 35
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 97%
+* Total number of goals: 31
+* Number of covered goals: 30
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 97%
+* Total number of goals: 31
+* Number of covered goals: 30
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 75%
+* Total number of goals: 114
+* Number of covered goals: 86
+* Generated 61 tests with total length 240
+* Resulting test suite's coverage: 86% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 10:57:18.751 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 28%
+* Compiling and checking tests
+* Writing JUnit test case 'AbstractMapBag_ESTest' to D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\tmp_2019_04_27_10_09_58\tests
+* Done!
+

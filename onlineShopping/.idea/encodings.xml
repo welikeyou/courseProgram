@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/czy/bean/AlreadyBuy.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/czy/bean/Goods.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/czy/bean/ShoppingCart.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/czy/bean/User.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/czy/dao/AlreadyBuyDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/czy/dao/GoodsDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/czy/dao/ShoppingCartDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/czy/dao/UserDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/czy/db/ShoppingCartDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/czy/db/UserDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/czy/filter/EncodingFilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/czy/filter/LoginFilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/czy/servlet/EditInfoServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/czy/servlet/LoginServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/czy/servlet/RegisterServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/czy/util/Test.java" charset="GBK" />
+  </component>
+</project>

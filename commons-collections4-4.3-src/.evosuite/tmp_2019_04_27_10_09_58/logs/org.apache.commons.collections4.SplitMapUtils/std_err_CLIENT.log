@@ -1,0 +1,33 @@
+[MASTER] 12:33:23.508 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.bidimap.DualHashBidiMap<K, V> : Type points to itself
+[MASTER] 12:33:23.509 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.bidimap.DualLinkedHashBidiMap<K, V> : Type points to itself
+[MASTER] 12:33:23.509 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.bidimap.DualTreeBidiMap<K, V> : Type points to itself
+[MASTER] 12:33:23.510 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.bidimap.TreeBidiMap<K, V> : Type points to itself
+[MASTER] 12:33:23.514 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.CaseInsensitiveMap<K, V> : Type points to itself
+[MASTER] 12:33:23.515 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.CompositeMap<K, V> : Type points to itself
+[MASTER] 12:33:23.515 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.DefaultedMap<K, V> : Type points to itself
+[MASTER] 12:33:23.515 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.FixedSizeMap<K, V> : Type points to itself
+[MASTER] 12:33:23.515 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.FixedSizeSortedMap<K, V> : Type points to itself
+[MASTER] 12:33:23.515 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.Flat3Map<K, V> : Type points to itself
+[MASTER] 12:33:23.515 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.HashedMap<K, V> : Type points to itself
+[MASTER] 12:33:23.515 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.IdentityMap<K, V> : Type points to itself
+[MASTER] 12:33:23.515 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.LRUMap<K, V> : Type points to itself
+[MASTER] 12:33:23.515 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.LazyMap<K, V> : Type points to itself
+[MASTER] 12:33:23.515 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.LazySortedMap<K, V> : Type points to itself
+[MASTER] 12:33:23.515 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.LinkedMap<K, V> : Type points to itself
+[MASTER] 12:33:23.516 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.ListOrderedMap<K, V> : Type points to itself
+[MASTER] 12:33:23.516 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.MultiKeyMap<K, V> : Type points to itself
+[MASTER] 12:33:23.516 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.PassiveExpiringMap<K, V> : Type points to itself
+[MASTER] 12:33:23.516 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.PredicatedMap<K, V> : Type points to itself
+[MASTER] 12:33:23.516 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.PredicatedSortedMap<K, V> : Type points to itself
+[MASTER] 12:33:23.516 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.ReferenceIdentityMap<K, V> : Type points to itself
+[MASTER] 12:33:23.516 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.ReferenceMap<K, V> : Type points to itself
+[MASTER] 12:33:23.516 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.SingletonMap<K, V> : Type points to itself
+[MASTER] 12:33:23.516 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.StaticBucketMap<K, V> : Type points to itself
+[MASTER] 12:33:23.516 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.TransformedMap<K, V> : Type points to itself
+[MASTER] 12:33:23.516 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.map.TransformedSortedMap<K, V> : Type points to itself
+[MASTER] 12:33:23.517 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.trie.PatriciaTrie<E> : Type points to itself
+[MASTER] 12:33:23.517 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.trie.UnmodifiableTrie<K, V> : Type points to itself
+[MASTER] 12:33:23.517 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 12:34:18.861 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Get<java.lang.Integer, java.lang.Object> : Unable to instantiate V
+[MASTER] 12:34:49.863 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Predicate<T> : Type points to itself
+[MASTER] 12:35:36.134 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Put<java.lang.Integer, org.apache.commons.collections4.Predicate<java.lang.Object>> : Unable to instantiate V

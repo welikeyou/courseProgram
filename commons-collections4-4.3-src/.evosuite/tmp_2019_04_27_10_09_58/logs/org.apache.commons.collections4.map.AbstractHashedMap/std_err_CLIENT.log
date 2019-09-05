@@ -1,0 +1,6 @@
+[MASTER] 10:48:17.178 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 10:48:17.178 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 10:48:17.178 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 10:48:28.607 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Map<K, V>.Entry<K, V> : Type points to itself
+[MASTER] 10:48:50.525 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 10:54:24.843 [pool-2-thread-1] ERROR JUnitAnalyzer - Ran out of time while checking tests

@@ -1,0 +1,331 @@
+[MASTER] 11:05:27.039 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 11:05:27.040 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 11:05:27.040 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 11:05:27.040 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.multimap.ArrayListValuedHashMap<K, V> : Type points to itself
+[MASTER] 11:05:27.040 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.multimap.HashSetValuedHashMap<K, V> : Type points to itself
+[MASTER] 11:05:27.040 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.multimap.TransformedMultiValuedMap<K, V> : Type points to itself
+[MASTER] 11:05:27.040 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMap<K, V> : Type points to itself
+[MASTER] 11:05:29.182 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.ComparatorPredicate<T>.Criterion : Type points to itself
+[MASTER] 11:05:29.182 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Predicate<T> : Type points to itself
+[MASTER] 11:05:29.186 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Transformer<I, O> : Type points to itself
+[MASTER] 11:05:35.802 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Collection<E> : Type points to itself
+[MASTER] 11:06:30.811 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 11:06:45.022 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 11:08:08.755 [pool-2-thread-1] ERROR JUnitAnalyzer - Compilation failed on compilation units: [RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_34_1556334488560\org\apache\commons\collections4\multimap\AbstractMultiValuedMap_34_tmp__ESTest.java], RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_34_1556334488560\org\apache\commons\collections4\multimap\AbstractMultiValuedMap_34_tmp__ESTest_scaffolding.java]]
+[MASTER] 11:08:08.755 [pool-2-thread-1] ERROR JUnitAnalyzer - Classpath: D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\evosuite\evosuite-master\1.0.6\evosuite-master-1.0.6.jar;D:\maven\LocalWare\org\evosuite\evosuite-client\1.0.6\evosuite-client-1.0.6-tests.jar;D:\maven\LocalWare\org\evosuite\evosuite-runtime\1.0.6\evosuite-runtime-1.0.6.jar;D:\maven\LocalWare\javax\ejb\javax.ejb-api\3.2\javax.ejb-api-3.2.jar;D:\maven\LocalWare\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;D:\maven\LocalWare\javax\faces\javax.faces-api\2.2\javax.faces-api-2.2.jar;D:\maven\LocalWare\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;D:\maven\LocalWare\org\hsqldb\hsqldb\2.4.0\hsqldb-2.4.0.jar;D:\maven\LocalWare\org\springframework\spring-orm\4.3.14.RELEASE\spring-orm-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-jdbc\4.3.14.RELEASE\spring-jdbc-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-context\4.3.14.RELEASE\spring-context-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-aop\4.3.14.RELEASE\spring-aop-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-expression\4.3.14.RELEASE\spring-expression-4.3.14.RELEASE.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\mockito\mockito-core\2.16.0\mockito-core-2.16.0.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy-agent\1.7.9\byte-buddy-agent-1.7.9.jar;D:\maven\LocalWare\org\objenesis\objenesis\2.6\objenesis-2.6.jar;D:\maven\LocalWare\org\slf4j\slf4j-api\1.7.22\slf4j-api-1.7.22.jar;D:\maven\LocalWare\org\ow2\asm\asm\6.0\asm-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-commons\6.0\asm-commons-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-tree\6.0\asm-tree-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-analysis\6.0\asm-analysis-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-util\6.0\asm-util-6.0.jar;D:\maven\LocalWare\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;D:\maven\LocalWare\com\opencsv\opencsv\4.1\opencsv-4.1.jar;D:\maven\LocalWare\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;D:\maven\LocalWare\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;D:\maven\LocalWare\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\LocalWare\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\maven\LocalWare\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;D:\maven\LocalWare\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;D:\maven\LocalWare\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;D:\maven\LocalWare\com\googlecode\gentyref\gentyref\1.2.0\gentyref-1.2.0.jar;D:\maven\LocalWare\net\sf\jgrapht\jgrapht\0.8.3\jgrapht-0.8.3.jar;D:\maven\LocalWare\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar;D:\maven\LocalWare\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;D:\maven\LocalWare\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;D:\maven\LocalWare\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\maven\LocalWare\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;D:\maven\LocalWare\org\kohsuke\graphviz-api\1.1\graphviz-api-1.1.jar;D:\maven\LocalWare\oro\oro\2.0.8\oro-2.0.8.jar;D:\maven\LocalWare\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\maven\LocalWare\org\jboss\spec\javax\servlet\jboss-servlet-api_3.1_spec\1.0.2.Final\jboss-servlet-api_3.1_spec-1.0.2.Final.jar;D:\maven\LocalWare\javax\inject\javax.inject\1\javax.inject-1.jar;D:\maven\LocalWare\javax\enterprise\cdi-api\1.2\cdi-api-1.2.jar;D:\maven\LocalWare\javax\el\javax.el-api\3.0.0\javax.el-api-3.0.0.jar;D:\maven\LocalWare\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;D:\maven\LocalWare\org\hibernate\hibernate-core\5.2.13.Final\hibernate-core-5.2.13.Final.jar;D:\maven\LocalWare\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;D:\maven\LocalWare\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;D:\maven\LocalWare\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;D:\maven\LocalWare\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\maven\LocalWare\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.1.Final\jboss-transaction-api_1.2_spec-1.0.1.Final.jar;D:\maven\LocalWare\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;D:\maven\LocalWare\com\fasterxml\classmate\1.3.0\classmate-1.3.0.jar;D:\maven\LocalWare\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maven\LocalWare\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;D:\maven\LocalWare\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+[MASTER] 11:08:08.755 [pool-2-thread-1] ERROR JUnitAnalyzer - evosuiteCP: D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\evosuite\evosuite-master\1.0.6\evosuite-master-1.0.6.jar;D:\maven\LocalWare\org\evosuite\evosuite-client\1.0.6\evosuite-client-1.0.6-tests.jar;D:\maven\LocalWare\org\evosuite\evosuite-runtime\1.0.6\evosuite-runtime-1.0.6.jar;D:\maven\LocalWare\javax\ejb\javax.ejb-api\3.2\javax.ejb-api-3.2.jar;D:\maven\LocalWare\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;D:\maven\LocalWare\javax\faces\javax.faces-api\2.2\javax.faces-api-2.2.jar;D:\maven\LocalWare\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;D:\maven\LocalWare\org\hsqldb\hsqldb\2.4.0\hsqldb-2.4.0.jar;D:\maven\LocalWare\org\springframework\spring-orm\4.3.14.RELEASE\spring-orm-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-jdbc\4.3.14.RELEASE\spring-jdbc-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-context\4.3.14.RELEASE\spring-context-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-aop\4.3.14.RELEASE\spring-aop-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-expression\4.3.14.RELEASE\spring-expression-4.3.14.RELEASE.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\mockito\mockito-core\2.16.0\mockito-core-2.16.0.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy-agent\1.7.9\byte-buddy-agent-1.7.9.jar;D:\maven\LocalWare\org\objenesis\objenesis\2.6\objenesis-2.6.jar;D:\maven\LocalWare\org\slf4j\slf4j-api\1.7.22\slf4j-api-1.7.22.jar;D:\maven\LocalWare\org\ow2\asm\asm\6.0\asm-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-commons\6.0\asm-commons-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-tree\6.0\asm-tree-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-analysis\6.0\asm-analysis-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-util\6.0\asm-util-6.0.jar;D:\maven\LocalWare\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;D:\maven\LocalWare\com\opencsv\opencsv\4.1\opencsv-4.1.jar;D:\maven\LocalWare\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;D:\maven\LocalWare\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;D:\maven\LocalWare\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\LocalWare\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\maven\LocalWare\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;D:\maven\LocalWare\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;D:\maven\LocalWare\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;D:\maven\LocalWare\com\googlecode\gentyref\gentyref\1.2.0\gentyref-1.2.0.jar;D:\maven\LocalWare\net\sf\jgrapht\jgrapht\0.8.3\jgrapht-0.8.3.jar;D:\maven\LocalWare\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar;D:\maven\LocalWare\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;D:\maven\LocalWare\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;D:\maven\LocalWare\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\maven\LocalWare\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;D:\maven\LocalWare\org\kohsuke\graphviz-api\1.1\graphviz-api-1.1.jar;D:\maven\LocalWare\oro\oro\2.0.8\oro-2.0.8.jar;D:\maven\LocalWare\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\maven\LocalWare\org\jboss\spec\javax\servlet\jboss-servlet-api_3.1_spec\1.0.2.Final\jboss-servlet-api_3.1_spec-1.0.2.Final.jar;D:\maven\LocalWare\javax\inject\javax.inject\1\javax.inject-1.jar;D:\maven\LocalWare\javax\enterprise\cdi-api\1.2\cdi-api-1.2.jar;D:\maven\LocalWare\javax\el\javax.el-api\3.0.0\javax.el-api-3.0.0.jar;D:\maven\LocalWare\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;D:\maven\LocalWare\org\hibernate\hibernate-core\5.2.13.Final\hibernate-core-5.2.13.Final.jar;D:\maven\LocalWare\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;D:\maven\LocalWare\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;D:\maven\LocalWare\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;D:\maven\LocalWare\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\maven\LocalWare\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.1.Final\jboss-transaction-api_1.2_spec-1.0.1.Final.jar;D:\maven\LocalWare\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;D:\maven\LocalWare\com\fasterxml\classmate\1.3.0\classmate-1.3.0.jar;D:\maven\LocalWare\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maven\LocalWare\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;D:\maven\LocalWare\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+[MASTER] 11:08:08.762 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: incompatible types: java.lang.Object[] cannot be converted to java.lang.Integer[]: 29
+[MASTER] 11:08:08.762 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: C:\Users\Dell\AppData\Local\Temp\EvoSuite_34_1556334488560\org\apache\commons\collections4\multimap\AbstractMultiValuedMap_34_tmp__ESTest.java uses unchecked or unsafe operations.: -1
+[MASTER] 11:08:08.762 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: Recompile with -Xlint:unchecked for details.: -1
+[MASTER] 11:08:08.763 [pool-2-thread-1] ERROR JUnitAnalyzer - RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_34_1556334488560\org\apache\commons\collections4\multimap\AbstractMultiValuedMap_34_tmp__ESTest.java]
+1: /*
+2:  * This file was automatically generated by EvoSuite
+3:  * Sat Apr 27 03:08:08 GMT 2019
+4:  */
+5: 
+6: package org.apache.commons.collections4.multimap;
+7: 
+8: import org.junit.Test;
+9: import static org.junit.Assert.*;
+10: import java.util.AbstractMap;
+11: import org.apache.commons.collections4.functors.ComparatorPredicate;
+12: import org.apache.commons.collections4.multimap.AbstractMultiValuedMap;
+13: import org.apache.commons.collections4.multimap.HashSetValuedHashMap;
+14: import org.evosuite.runtime.EvoRunner;
+15: import org.evosuite.runtime.EvoRunnerParameters;
+16: import org.junit.runner.RunWith;
+17: 
+18: @RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, useJEE = true) 
+19: public class AbstractMultiValuedMap_34_tmp__ESTest extends AbstractMultiValuedMap_34_tmp__ESTest_scaffolding {
+20: 
+21:   @Test(timeout = 4000)
+22:   public void test0()  throws Throwable  {
+23:       HashSetValuedHashMap<AbstractMap.SimpleImmutableEntry<Integer, Integer>, ComparatorPredicate.Criterion> hashSetValuedHashMap0 = new HashSetValuedHashMap<AbstractMap.SimpleImmutableEntry<Integer, Integer>, ComparatorPredicate.Criterion>(6122);
+24:       Integer integer0 = new Integer(6122);
+25:       AbstractMap.SimpleEntry<Integer, Integer> abstractMap_SimpleEntry0 = new AbstractMap.SimpleEntry<Integer, Integer>(integer0, integer0);
+26:       AbstractMap.SimpleImmutableEntry<Integer, Integer> abstractMap_SimpleImmutableEntry0 = new AbstractMap.SimpleImmutableEntry<Integer, Integer>(abstractMap_SimpleEntry0);
+27:       AbstractMultiValuedMap.WrappedCollection abstractMultiValuedMap_WrappedCollection0 = hashSetValuedHashMap0.new WrappedCollection(abstractMap_SimpleImmutableEntry0);
+28:       Integer[] integerArray0 = new Integer[6];
+29:       Integer[] integerArray1 = abstractMultiValuedMap_WrappedCollection0.toArray(integerArray0);
+30:       assertSame(integerArray0, integerArray1);
+31:   }
+32: }
+RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_34_1556334488560\org\apache\commons\collections4\multimap\AbstractMultiValuedMap_34_tmp__ESTest.java]
+1: /**
+2:  * Scaffolding file used to store all the setups needed to run 
+3:  * tests automatically generated by EvoSuite
+4:  * Sat Apr 27 03:08:08 GMT 2019
+5:  */
+6: 
+7: package org.apache.commons.collections4.multimap;
+8: 
+9: import org.evosuite.runtime.annotation.EvoSuiteClassExclude;
+10: import org.junit.BeforeClass;
+11: import org.junit.Before;
+12: import org.junit.After;
+13: import org.junit.AfterClass;
+14: import org.evosuite.runtime.sandbox.Sandbox;
+15: import org.evosuite.runtime.sandbox.Sandbox.SandboxMode;
+16: 
+17: @EvoSuiteClassExclude
+18: public class AbstractMultiValuedMap_34_tmp__ESTest_scaffolding {
+19: 
+20:   @org.junit.Rule 
+21:   public org.evosuite.runtime.vnet.NonFunctionalRequirementRule nfr = new org.evosuite.runtime.vnet.NonFunctionalRequirementRule();
+22: 
+23:   private static final java.util.Properties defaultProperties = (java.util.Properties) java.lang.System.getProperties().clone(); 
+24: 
+25:   private org.evosuite.runtime.thread.ThreadStopper threadStopper =  new org.evosuite.runtime.thread.ThreadStopper (org.evosuite.runtime.thread.KillSwitchHandler.getInstance(), 3000);
+26: 
+27: 
+28:   @BeforeClass 
+29:   public static void initEvoSuiteFramework() { 
+30:     org.evosuite.runtime.RuntimeSettings.className = "org.apache.commons.collections4.multimap.AbstractMultiValuedMap"; 
+31:     org.evosuite.runtime.GuiSupport.initialize(); 
+32:     org.evosuite.runtime.RuntimeSettings.maxNumberOfThreads = 100; 
+33:     org.evosuite.runtime.RuntimeSettings.maxNumberOfIterationsPerLoop = 10000; 
+34:     org.evosuite.runtime.RuntimeSettings.mockSystemIn = true; 
+35:     org.evosuite.runtime.RuntimeSettings.sandboxMode = org.evosuite.runtime.sandbox.Sandbox.SandboxMode.RECOMMENDED; 
+36:     org.evosuite.runtime.sandbox.Sandbox.initializeSecurityManagerForSUT(); 
+37:     org.evosuite.runtime.classhandling.JDKClassResetter.init();
+38:     setSystemProperties();
+39:     initializeClasses();
+40:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+41:   } 
+42: 
+43:   @AfterClass 
+44:   public static void clearEvoSuiteFramework(){ 
+45:     Sandbox.resetDefaultSecurityManager(); 
+46:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+47:   } 
+48: 
+49:   @Before 
+50:   public void initTestCase(){ 
+51:     threadStopper.storeCurrentThreads();
+52:     threadStopper.startRecordingTime();
+53:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().initHandler(); 
+54:     org.evosuite.runtime.sandbox.Sandbox.goingToExecuteSUTCode(); 
+55:     setSystemProperties(); 
+56:     org.evosuite.runtime.GuiSupport.setHeadless(); 
+57:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+58:     org.evosuite.runtime.agent.InstrumentingAgent.activate(); 
+59:   } 
+60: 
+61:   @After 
+62:   public void doneWithTestCase(){ 
+63:     threadStopper.killAndJoinClientThreads();
+64:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().safeExecuteAddedHooks(); 
+65:     org.evosuite.runtime.classhandling.JDKClassResetter.reset(); 
+66:     resetClasses(); 
+67:     org.evosuite.runtime.sandbox.Sandbox.doneWithExecutingSUTCode(); 
+68:     org.evosuite.runtime.agent.InstrumentingAgent.deactivate(); 
+69:     org.evosuite.runtime.GuiSupport.restoreHeadlessMode(); 
+70:   } 
+71: 
+72:   public static void setSystemProperties() {
+73:  
+74:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+75:     java.lang.System.setProperty("file.encoding", "GBK"); 
+76:     java.lang.System.setProperty("java.awt.headless", "true"); 
+77:     java.lang.System.setProperty("java.io.tmpdir", "C:\\Users\\Dell\\AppData\\Local\\Temp\\"); 
+78:     java.lang.System.setProperty("user.country", "CN"); 
+79:     java.lang.System.setProperty("user.dir", "D:\\myProjects\\courseProgram\\commons-collections4-4.3-src"); 
+80:     java.lang.System.setProperty("user.home", "C:\\Users\\Dell"); 
+81:     java.lang.System.setProperty("user.language", "zh"); 
+82:     java.lang.System.setProperty("user.name", "Dell"); 
+83:     java.lang.System.setProperty("user.timezone", "Asia/Shanghai"); 
+84:   }
+85: 
+86:   private static void initializeClasses() {
+87:     org.evosuite.runtime.classhandling.ClassStateSupport.initializeClasses(AbstractMultiValuedMap_34_tmp__ESTest_scaffolding.class.getClassLoader() ,
+88:       "org.apache.commons.collections4.keyvalue.AbstractMapEntry",
+89:       "org.apache.commons.collections4.functors.MapTransformer",
+90:       "org.apache.commons.collections4.IteratorUtils",
+91:       "org.apache.commons.collections4.iterators.EmptyListIterator",
+92:       "org.apache.commons.collections4.KeyValue",
+93:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$EntryValues$1$1",
+94:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$KeysMultiSet",
+95:       "org.apache.commons.collections4.Equator",
+96:       "org.apache.commons.collections4.functors.NullPredicate",
+97:       "org.apache.commons.collections4.SetUtils$6",
+98:       "org.apache.commons.collections4.SetUtils$5",
+99:       "org.apache.commons.collections4.multimap.HashSetValuedHashMap",
+100:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$MultiValuedMapEntry",
+101:       "org.apache.commons.collections4.SetUtils$3",
+102:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap",
+103:       "org.apache.commons.collections4.SetUtils$2",
+104:       "org.apache.commons.collections4.functors.ComparatorPredicate",
+105:       "org.apache.commons.collections4.functors.OnePredicate",
+106:       "org.apache.commons.collections4.iterators.EmptyOrderedMapIterator",
+107:       "org.apache.commons.collections4.ListUtils",
+108:       "org.apache.commons.collections4.iterators.LazyIteratorChain",
+109:       "org.apache.commons.collections4.SetValuedMap",
+110:       "org.apache.commons.collections4.multimap.AbstractListValuedMap",
+111:       "org.apache.commons.collections4.functors.PredicateDecorator",
+112:       "org.apache.commons.collections4.MultiValuedMap",
+113:       "org.apache.commons.collections4.Transformer",
+114:       "org.apache.commons.collections4.iterators.UnmodifiableIterator",
+115:       "org.apache.commons.collections4.multiset.UnmodifiableMultiSet",
+116:       "org.apache.commons.collections4.set.AbstractSortedSetDecorator",
+117:       "org.apache.commons.collections4.OrderedMapIterator",
+118:       "org.apache.commons.collections4.functors.PredicateTransformer",
+119:       "org.apache.commons.collections4.iterators.EmptyIterator",
+120:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$WrappedCollection",
+121:       "org.apache.commons.collections4.multimap.TransformedMultiValuedMap",
+122:       "org.apache.commons.collections4.collection.AbstractCollectionDecorator",
+123:       "org.apache.commons.collections4.multimap.AbstractSetValuedMap$WrappedSet",
+124:       "org.apache.commons.collections4.iterators.EmptyMapIterator",
+125:       "org.apache.commons.collections4.iterators.EmptyOrderedIterator",
+126:       "org.apache.commons.collections4.functors.NullIsTruePredicate",
+127:       "org.apache.commons.collections4.iterators.TransformIterator",
+128:       "org.apache.commons.collections4.MapIterator",
+129:       "org.apache.commons.collections4.iterators.IteratorChain",
+130:       "org.apache.commons.collections4.keyvalue.AbstractKeyValue",
+131:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$EntryValues",
+132:       "org.apache.commons.collections4.sequence.CommandVisitor",
+133:       "org.apache.commons.collections4.functors.UniquePredicate",
+134:       "org.apache.commons.collections4.functors.ComparatorPredicate$Criterion",
+135:       "org.apache.commons.collections4.set.UnmodifiableSortedSet",
+136:       "org.apache.commons.collections4.Predicate",
+137:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$Values",
+138:       "org.apache.commons.collections4.iterators.AbstractEmptyMapIterator",
+139:       "org.apache.commons.collections4.SetUtils$SetView",
+140:       "org.apache.commons.collections4.functors.TruePredicate",
+141:       "org.apache.commons.collections4.iterators.AbstractEmptyIterator",
+142:       "org.apache.commons.collections4.CollectionUtils",
+143:       "org.apache.commons.collections4.multiset.AbstractMultiSetDecorator",
+144:       "org.apache.commons.collections4.multimap.ArrayListValuedHashMap",
+145:       "org.apache.commons.collections4.functors.AbstractQuantifierPredicate",
+146:       "org.apache.commons.collections4.multimap.AbstractSetValuedMap",
+147:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$AsMap",
+148:       "org.apache.commons.collections4.ListValuedMap",
+149:       "org.apache.commons.collections4.SetUtils",
+150:       "org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMap",
+151:       "org.apache.commons.collections4.Unmodifiable",
+152:       "org.apache.commons.collections4.functors.FunctorUtils",
+153:       "org.apache.commons.collections4.collection.UnmodifiableCollection",
+154:       "org.apache.commons.collections4.functors.ConstantTransformer",
+155:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$MultiValuedMapIterator",
+156:       "org.apache.commons.collections4.set.AbstractSetDecorator",
+157:       "org.apache.commons.collections4.ResettableIterator",
+158:       "org.apache.commons.collections4.functors.AllPredicate",
+159:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMapDecorator",
+160:       "org.apache.commons.collections4.ResettableListIterator",
+161:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$ValuesIterator",
+162:       "org.apache.commons.collections4.multiset.AbstractMultiSet",
+163:       "org.apache.commons.collections4.OrderedIterator",
+164:       "org.apache.commons.collections4.MultiSet",
+165:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$EntryValues$1"
+166:     );
+167:   } 
+168: 
+169:   private static void resetClasses() {
+170:     org.evosuite.runtime.classhandling.ClassResetter.getInstance().setClassLoader(AbstractMultiValuedMap_34_tmp__ESTest_scaffolding.class.getClassLoader()); 
+171: 
+172:     org.evosuite.runtime.classhandling.ClassStateSupport.resetClasses(
+173:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap",
+174:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$Values",
+175:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$EntryValues",
+176:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$WrappedCollection",
+177:       "org.apache.commons.collections4.multiset.AbstractMultiSet",
+178:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$KeysMultiSet",
+179:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$AsMap",
+180:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$MultiValuedMapIterator",
+181:       "org.apache.commons.collections4.CollectionUtils",
+182:       "org.apache.commons.collections4.iterators.AbstractEmptyIterator",
+183:       "org.apache.commons.collections4.iterators.AbstractEmptyMapIterator",
+184:       "org.apache.commons.collections4.iterators.EmptyMapIterator",
+185:       "org.apache.commons.collections4.multimap.AbstractSetValuedMap",
+186:       "org.apache.commons.collections4.multimap.HashSetValuedHashMap",
+187:       "org.apache.commons.collections4.iterators.LazyIteratorChain",
+188:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$EntryValues$1",
+189:       "org.apache.commons.collections4.iterators.EmptyIterator",
+190:       "org.apache.commons.collections4.iterators.IteratorChain",
+191:       "org.apache.commons.collections4.multimap.AbstractListValuedMap",
+192:       "org.apache.commons.collections4.multimap.ArrayListValuedHashMap",
+193:       "org.apache.commons.collections4.functors.ExceptionFactory",
+194:       "org.apache.commons.collections4.functors.FactoryTransformer",
+195:       "org.apache.commons.collections4.FunctorException",
+196:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMapDecorator",
+197:       "org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMap",
+198:       "org.apache.commons.collections4.functors.AbstractQuantifierPredicate",
+199:       "org.apache.commons.collections4.functors.NonePredicate",
+200:       "org.apache.commons.collections4.functors.FunctorUtils",
+201:       "org.apache.commons.collections4.collection.AbstractCollectionDecorator",
+202:       "org.apache.commons.collections4.set.AbstractSetDecorator",
+203:       "org.apache.commons.collections4.set.AbstractSortedSetDecorator",
+204:       "org.apache.commons.collections4.set.UnmodifiableSortedSet",
+205:       "org.apache.commons.collections4.SetUtils",
+206:       "org.apache.commons.collections4.functors.AnyPredicate",
+207:       "org.apache.commons.collections4.iterators.EmptyListIterator",
+208:       "org.apache.commons.collections4.iterators.EmptyOrderedIterator",
+209:       "org.apache.commons.collections4.iterators.EmptyOrderedMapIterator",
+210:       "org.apache.commons.collections4.IteratorUtils",
+211:       "org.apache.commons.collections4.functors.FalsePredicate",
+212:       "org.apache.commons.collections4.functors.IdentityPredicate",
+213:       "org.apache.commons.collections4.functors.ComparatorPredicate",
+214:       "org.apache.commons.collections4.functors.NullIsExceptionPredicate",
+215:       "org.apache.commons.collections4.functors.DefaultEquator",
+216:       "org.apache.commons.collections4.functors.EqualPredicate",
+217:       "org.apache.commons.collections4.functors.NullIsFalsePredicate",
+218:       "org.apache.commons.collections4.functors.AllPredicate",
+219:       "org.apache.commons.collections4.functors.AndPredicate",
+220:       "org.apache.commons.collections4.multimap.AbstractSetValuedMap$WrappedSet",
+221:       "org.apache.commons.collections4.multiset.AbstractMultiSetDecorator",
+222:       "org.apache.commons.collections4.multiset.UnmodifiableMultiSet",
+223:       "org.apache.commons.collections4.multimap.AbstractListValuedMap$WrappedList",
+224:       "org.apache.commons.collections4.functors.PredicateTransformer",
+225:       "org.apache.commons.collections4.functors.NullIsTruePredicate",
+226:       "org.apache.commons.collections4.functors.InstanceofPredicate",
+227:       "org.apache.commons.collections4.functors.ExceptionTransformer",
+228:       "org.apache.commons.collections4.functors.SwitchTransformer",
+229:       "org.apache.commons.collections4.ListUtils",
+230:       "org.apache.commons.collections4.functors.UniquePredicate",
+231:       "org.apache.commons.collections4.functors.NullPredicate",
+232:       "org.apache.commons.collections4.functors.OnePredicate",
+233:       "org.apache.commons.collections4.functors.OrPredicate",
+234:       "org.apache.commons.collections4.functors.TruePredicate",
+235:       "org.apache.commons.collections4.functors.InvokerTransformer",
+236:       "org.apache.commons.collections4.functors.InstantiateFactory",
+237:       "org.apache.commons.collections4.functors.ExceptionPredicate",
+238:       "org.apache.commons.collections4.functors.ConstantTransformer",
+239:       "org.apache.commons.collections4.multimap.TransformedMultiValuedMap",
+240:       "org.apache.commons.collections4.functors.NotNullPredicate",
+241:       "org.apache.commons.collections4.functors.MapTransformer",
+242:       "org.apache.commons.collections4.functors.IfTransformer",
+243:       "org.apache.commons.collections4.functors.ConstantFactory",
+244:       "org.apache.commons.collections4.functors.TransformedPredicate",
+245:       "org.apache.commons.collections4.functors.NotPredicate",
+246:       "org.apache.commons.collections4.collection.UnmodifiableCollection",
+247:       "org.apache.commons.collections4.iterators.UnmodifiableIterator",
+248:       "org.apache.commons.collections4.functors.TransformerPredicate",
+249:       "org.apache.commons.collections4.functors.ComparatorPredicate$1",
+250:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$ValuesIterator",
+251:       "org.apache.commons.collections4.FluentIterable",
+252:       "org.apache.commons.collections4.IterableUtils$1",
+253:       "org.apache.commons.collections4.IterableUtils",
+254:       "org.apache.commons.collections4.IterableUtils$10",
+255:       "org.apache.commons.collections4.iterators.TransformIterator",
+256:       "org.apache.commons.collections4.multiset.AbstractMultiSet$EntrySet",
+257:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$KeysMultiSet$MapEntryTransformer",
+258:       "org.apache.commons.collections4.functors.NOPTransformer",
+259:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$EntryValues$1$1",
+260:       "org.apache.commons.collections4.keyvalue.AbstractKeyValue",
+261:       "org.apache.commons.collections4.keyvalue.AbstractMapEntry",
+262:       "org.apache.commons.collections4.multimap.AbstractMultiValuedMap$MultiValuedMapEntry"
+263:     );
+264:   }
+265: }
+
+[MASTER] 11:08:08.764 [pool-2-thread-1] ERROR JUnitAnalyzer - Failed to compile test case:
+HashSetValuedHashMap<AbstractMap.SimpleImmutableEntry<Integer, Integer>, ComparatorPredicate.Criterion> hashSetValuedHashMap0 = new HashSetValuedHashMap<AbstractMap.SimpleImmutableEntry<Integer, Integer>, ComparatorPredicate.Criterion>(6122);
+Integer integer0 = new Integer(6122);
+AbstractMap.SimpleEntry<Integer, Integer> abstractMap_SimpleEntry0 = new AbstractMap.SimpleEntry<Integer, Integer>(integer0, integer0);
+AbstractMap.SimpleImmutableEntry<Integer, Integer> abstractMap_SimpleImmutableEntry0 = new AbstractMap.SimpleImmutableEntry<Integer, Integer>(abstractMap_SimpleEntry0);
+AbstractMultiValuedMap.WrappedCollection abstractMultiValuedMap_WrappedCollection0 = hashSetValuedHashMap0.new WrappedCollection(abstractMap_SimpleImmutableEntry0);
+Integer[] integerArray0 = new Integer[6];
+Integer[] integerArray1 = abstractMultiValuedMap_WrappedCollection0.toArray(integerArray0);
+assertSame(integerArray0, integerArray1);
+
+
+[MASTER] 11:08:20.003 [pool-2-thread-1] ERROR JUnitAnalyzer - Ran out of time while checking tests

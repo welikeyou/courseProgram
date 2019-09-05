@@ -1,0 +1,65 @@
+ .addGoodsDiv{
+     margin-left: 30%;
+     margin-top:10%;
+     width: 50%;
+     padding: 20px;
+ }
+.addGoodsBg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #a9c6c9;
+    z-index: 999;
+}
+.addGoodsDiv span{
+    width: 100px;
+    margin-top:40px;
+}
+.addGoodsDiv input{
+    width: 40%;
+    margin-left: 20px;
+}
+#sureBtn{
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+#cancelBtn{
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 6%;
+}
+table.hovertable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table.hovertable th {
+    background-color:#c3dde0;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+table.hovertable tr {
+    background-color:#d4e3e5;
+}
+table.hovertable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+
+.addGoods{
+    width: 20%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

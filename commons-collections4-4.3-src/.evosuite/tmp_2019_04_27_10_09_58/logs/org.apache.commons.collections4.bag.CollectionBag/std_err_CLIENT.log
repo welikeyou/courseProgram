@@ -1,0 +1,5 @@
+[MASTER] 11:42:38.597 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 11:42:38.652 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Predicate<T> : Type points to itself
+[MASTER] 11:42:38.658 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Transformer<I, O> : Type points to itself
+[MASTER] 11:42:46.335 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 11:43:22.150 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Closure<T> : Type points to itself

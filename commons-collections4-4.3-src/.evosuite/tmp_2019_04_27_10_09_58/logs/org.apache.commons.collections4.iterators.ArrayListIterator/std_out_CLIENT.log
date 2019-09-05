@@ -1,0 +1,79 @@
+* Starting client
+* Connecting to master process on port 7256
+* Analyzing classpath: 
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes
+  - D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar
+  - D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar
+  - D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar
+  - D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.collections4.iterators.ArrayListIterator
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 12:39:22.073 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.iterators.ArrayListIterator.seed
+* Loaded 0 tests from D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.iterators.ArrayListIterator.seed
+* Total number of test goals: 
+  - Line 28
+  - Branch 15
+  - Exception 0
+  - MutationFactory 104
+  - Output 12
+  - Method 11
+  - MethodNoException 11
+  - CBranchFitnessFactory 15
+* Using seed 1556339957349
+* Starting evolution
+* Search finished after 44s and 894 generations, 51344 statements, best individual has fitness: 207.1058201058201
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 0%
+* Total number of goals: 28
+* Number of covered goals: 0
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 20%
+* Total number of goals: 15
+* Number of covered goals: 3
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 0%
+* Total number of goals: 104
+* Number of covered goals: 0
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 0%
+* Total number of goals: 12
+* Number of covered goals: 0
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 27%
+* Total number of goals: 11
+* Number of covered goals: 3
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 0%
+* Total number of goals: 11
+* Number of covered goals: 0
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 0%
+* Total number of goals: 15
+* Number of covered goals: 0
+* Generated 6 tests with total length 6
+* Resulting test suite's coverage: 18% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+* Writing JUnit test case 'ArrayListIterator_ESTest' to D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\tmp_2019_04_27_10_09_58\tests
+* Done!
+

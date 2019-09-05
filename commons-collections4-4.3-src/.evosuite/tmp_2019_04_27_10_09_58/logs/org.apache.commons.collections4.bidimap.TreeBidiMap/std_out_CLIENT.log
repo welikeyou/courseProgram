@@ -1,0 +1,83 @@
+* Starting client
+* Connecting to master process on port 18837
+* Analyzing classpath: 
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes
+  - D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar
+  - D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar
+  - D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar
+  - D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.collections4.bidimap.TreeBidiMap
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 10:35:51.909 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.bidimap.TreeBidiMap.seed
+* Loaded 0 tests from D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.bidimap.TreeBidiMap.seed
+* Total number of test goals: 
+  - Line 699
+  - Branch 440
+  - Exception 0
+  - MutationFactory 827
+  - Output 66
+  - Method 95
+  - MethodNoException 95
+  - CBranchFitnessFactory 440
+* Using seed 1556332547166
+* Starting evolution
+* Search finished after 516s and 101 generations, 48912 statements, best individual has fitness: 738.532700729927
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 81%
+* Total number of goals: 699
+* Number of covered goals: 567
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 74%
+* Total number of goals: 440
+* Number of covered goals: 325
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 24
+* Number of covered goals: 24
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 67%
+* Total number of goals: 827
+* Number of covered goals: 558
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 56%
+* Total number of goals: 66
+* Number of covered goals: 37
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 98%
+* Total number of goals: 95
+* Number of covered goals: 93
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 82%
+* Total number of goals: 95
+* Number of covered goals: 78
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 73%
+* Total number of goals: 440
+* Number of covered goals: 322
+* Generated 141 tests with total length 578
+* Resulting test suite's coverage: 79% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 10:46:20.358 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.91215% of time used, but only 40/141 tests minimized), falling back to using all assertions
+* Resulting test suite's mutation score: 22%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'TreeBidiMap_ESTest' to D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\tmp_2019_04_27_10_09_58\tests
+* Done!
+

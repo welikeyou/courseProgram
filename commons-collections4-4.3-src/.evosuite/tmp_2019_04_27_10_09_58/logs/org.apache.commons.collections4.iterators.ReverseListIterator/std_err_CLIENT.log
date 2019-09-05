@@ -1,0 +1,3 @@
+[MASTER] 12:40:33.042 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 12:40:33.656 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Predicate<T> : Type points to itself
+[MASTER] 12:40:59.189 [Thread-2] ERROR SpawnProcessKeepAliveChecker - Failed to receive keep alive message. Going to shutdown the process.

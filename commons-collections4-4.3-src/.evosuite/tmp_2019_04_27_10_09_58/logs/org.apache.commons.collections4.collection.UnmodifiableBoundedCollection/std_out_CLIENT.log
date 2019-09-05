@@ -1,0 +1,83 @@
+* Starting client
+* Connecting to master process on port 17850
+* Analyzing classpath: 
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes
+  - D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar
+  - D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar
+  - D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar
+  - D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.collections4.collection.UnmodifiableBoundedCollection
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 12:07:54.455 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.seed
+* Loaded 0 tests from D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.seed
+* Total number of test goals: 
+  - Line 28
+  - Branch 24
+  - Exception 0
+  - MutationFactory 21
+  - Output 26
+  - Method 12
+  - MethodNoException 12
+  - CBranchFitnessFactory 24
+* Using seed 1556338067163
+* Starting evolution
+[MASTER] 12:15:47.622 [pool-2-thread-1] WARN  TimeController - Operation 'update from archive' took too long: 77387ms
+* Search finished after 473s and 0 generations, 0 statements, best individual has fitness: 0.0
+* Writing sequences to pool
+[MASTER] 12:15:47.663 [pool-2-thread-1] WARN  TimeController - Phase SEARCH lasted too long, 416 seconds more than allowed.
+[MASTER] 12:15:47.665 [pool-2-thread-1] WARN  TimeController - Current phase MINIMIZATION could run up to 8s, but only -376s are left
+* Skipping minimization because not enough time is left
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 0%
+* Total number of goals: 28
+* Number of covered goals: 0
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 0%
+* Total number of goals: 24
+* Number of covered goals: 0
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100% (no goals)
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 0%
+* Total number of goals: 21
+* Number of covered goals: 0
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 0%
+* Total number of goals: 26
+* Number of covered goals: 0
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 0%
+* Total number of goals: 12
+* Number of covered goals: 0
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 0%
+* Total number of goals: 12
+* Number of covered goals: 0
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 0%
+* Total number of goals: 24
+* Number of covered goals: 0
+* Generated 0 tests with total length 0
+* Resulting test suite's coverage: 0% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 12:15:47.688 [pool-2-thread-1] WARN  TimeController - Current phase ASSERTION_GENERATION could run up to 8s, but only -376s are left
+* Skipping assertion generation because not enough time is left
+* Compiling and checking tests
+[MASTER] 12:15:47.707 [pool-2-thread-1] WARN  TimeController - Current phase JUNIT_CHECK could run up to 8s, but only -376s are left
+[MASTER] 12:15:47.708 [pool-2-thread-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 8s, but only -376s are left
+* Writing JUnit test case 'UnmodifiableBoundedCollection_ESTest' to D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\tmp_2019_04_27_10_09_58\tests
+* Done!
+

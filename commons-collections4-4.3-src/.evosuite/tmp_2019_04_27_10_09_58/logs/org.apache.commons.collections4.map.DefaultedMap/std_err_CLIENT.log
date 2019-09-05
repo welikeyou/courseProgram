@@ -1,0 +1,584 @@
+[MASTER] 12:25:00.541 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 12:25:00.856 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Predicate<T> : Type points to itself
+[MASTER] 12:25:01.109 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Transformer<I, O> : Type points to itself
+[MASTER] 12:26:03.688 [pool-2-thread-1] ERROR JUnitAnalyzer - Compilation failed on compilation units: [RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_0_1556339162018\org\apache\commons\collections4\map\DefaultedMap_0_tmp__ESTest.java], RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_0_1556339162018\org\apache\commons\collections4\map\DefaultedMap_0_tmp__ESTest_scaffolding.java]]
+[MASTER] 12:26:03.688 [pool-2-thread-1] ERROR JUnitAnalyzer - Classpath: D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\evosuite\evosuite-master\1.0.6\evosuite-master-1.0.6.jar;D:\maven\LocalWare\org\evosuite\evosuite-client\1.0.6\evosuite-client-1.0.6-tests.jar;D:\maven\LocalWare\org\evosuite\evosuite-runtime\1.0.6\evosuite-runtime-1.0.6.jar;D:\maven\LocalWare\javax\ejb\javax.ejb-api\3.2\javax.ejb-api-3.2.jar;D:\maven\LocalWare\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;D:\maven\LocalWare\javax\faces\javax.faces-api\2.2\javax.faces-api-2.2.jar;D:\maven\LocalWare\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;D:\maven\LocalWare\org\hsqldb\hsqldb\2.4.0\hsqldb-2.4.0.jar;D:\maven\LocalWare\org\springframework\spring-orm\4.3.14.RELEASE\spring-orm-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-jdbc\4.3.14.RELEASE\spring-jdbc-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-context\4.3.14.RELEASE\spring-context-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-aop\4.3.14.RELEASE\spring-aop-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-expression\4.3.14.RELEASE\spring-expression-4.3.14.RELEASE.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\mockito\mockito-core\2.16.0\mockito-core-2.16.0.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy-agent\1.7.9\byte-buddy-agent-1.7.9.jar;D:\maven\LocalWare\org\objenesis\objenesis\2.6\objenesis-2.6.jar;D:\maven\LocalWare\org\slf4j\slf4j-api\1.7.22\slf4j-api-1.7.22.jar;D:\maven\LocalWare\org\ow2\asm\asm\6.0\asm-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-commons\6.0\asm-commons-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-tree\6.0\asm-tree-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-analysis\6.0\asm-analysis-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-util\6.0\asm-util-6.0.jar;D:\maven\LocalWare\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;D:\maven\LocalWare\com\opencsv\opencsv\4.1\opencsv-4.1.jar;D:\maven\LocalWare\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;D:\maven\LocalWare\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;D:\maven\LocalWare\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\LocalWare\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\maven\LocalWare\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;D:\maven\LocalWare\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;D:\maven\LocalWare\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;D:\maven\LocalWare\com\googlecode\gentyref\gentyref\1.2.0\gentyref-1.2.0.jar;D:\maven\LocalWare\net\sf\jgrapht\jgrapht\0.8.3\jgrapht-0.8.3.jar;D:\maven\LocalWare\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar;D:\maven\LocalWare\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;D:\maven\LocalWare\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;D:\maven\LocalWare\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\maven\LocalWare\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;D:\maven\LocalWare\org\kohsuke\graphviz-api\1.1\graphviz-api-1.1.jar;D:\maven\LocalWare\oro\oro\2.0.8\oro-2.0.8.jar;D:\maven\LocalWare\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\maven\LocalWare\org\jboss\spec\javax\servlet\jboss-servlet-api_3.1_spec\1.0.2.Final\jboss-servlet-api_3.1_spec-1.0.2.Final.jar;D:\maven\LocalWare\javax\inject\javax.inject\1\javax.inject-1.jar;D:\maven\LocalWare\javax\enterprise\cdi-api\1.2\cdi-api-1.2.jar;D:\maven\LocalWare\javax\el\javax.el-api\3.0.0\javax.el-api-3.0.0.jar;D:\maven\LocalWare\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;D:\maven\LocalWare\org\hibernate\hibernate-core\5.2.13.Final\hibernate-core-5.2.13.Final.jar;D:\maven\LocalWare\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;D:\maven\LocalWare\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;D:\maven\LocalWare\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;D:\maven\LocalWare\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\maven\LocalWare\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.1.Final\jboss-transaction-api_1.2_spec-1.0.1.Final.jar;D:\maven\LocalWare\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;D:\maven\LocalWare\com\fasterxml\classmate\1.3.0\classmate-1.3.0.jar;D:\maven\LocalWare\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maven\LocalWare\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;D:\maven\LocalWare\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+[MASTER] 12:26:03.688 [pool-2-thread-1] ERROR JUnitAnalyzer - evosuiteCP: D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\evosuite\evosuite-master\1.0.6\evosuite-master-1.0.6.jar;D:\maven\LocalWare\org\evosuite\evosuite-client\1.0.6\evosuite-client-1.0.6-tests.jar;D:\maven\LocalWare\org\evosuite\evosuite-runtime\1.0.6\evosuite-runtime-1.0.6.jar;D:\maven\LocalWare\javax\ejb\javax.ejb-api\3.2\javax.ejb-api-3.2.jar;D:\maven\LocalWare\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;D:\maven\LocalWare\javax\faces\javax.faces-api\2.2\javax.faces-api-2.2.jar;D:\maven\LocalWare\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;D:\maven\LocalWare\org\hsqldb\hsqldb\2.4.0\hsqldb-2.4.0.jar;D:\maven\LocalWare\org\springframework\spring-orm\4.3.14.RELEASE\spring-orm-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-jdbc\4.3.14.RELEASE\spring-jdbc-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-context\4.3.14.RELEASE\spring-context-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-aop\4.3.14.RELEASE\spring-aop-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-expression\4.3.14.RELEASE\spring-expression-4.3.14.RELEASE.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\mockito\mockito-core\2.16.0\mockito-core-2.16.0.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy-agent\1.7.9\byte-buddy-agent-1.7.9.jar;D:\maven\LocalWare\org\objenesis\objenesis\2.6\objenesis-2.6.jar;D:\maven\LocalWare\org\slf4j\slf4j-api\1.7.22\slf4j-api-1.7.22.jar;D:\maven\LocalWare\org\ow2\asm\asm\6.0\asm-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-commons\6.0\asm-commons-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-tree\6.0\asm-tree-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-analysis\6.0\asm-analysis-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-util\6.0\asm-util-6.0.jar;D:\maven\LocalWare\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;D:\maven\LocalWare\com\opencsv\opencsv\4.1\opencsv-4.1.jar;D:\maven\LocalWare\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;D:\maven\LocalWare\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;D:\maven\LocalWare\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\LocalWare\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\maven\LocalWare\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;D:\maven\LocalWare\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;D:\maven\LocalWare\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;D:\maven\LocalWare\com\googlecode\gentyref\gentyref\1.2.0\gentyref-1.2.0.jar;D:\maven\LocalWare\net\sf\jgrapht\jgrapht\0.8.3\jgrapht-0.8.3.jar;D:\maven\LocalWare\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar;D:\maven\LocalWare\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;D:\maven\LocalWare\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;D:\maven\LocalWare\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\maven\LocalWare\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;D:\maven\LocalWare\org\kohsuke\graphviz-api\1.1\graphviz-api-1.1.jar;D:\maven\LocalWare\oro\oro\2.0.8\oro-2.0.8.jar;D:\maven\LocalWare\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\maven\LocalWare\org\jboss\spec\javax\servlet\jboss-servlet-api_3.1_spec\1.0.2.Final\jboss-servlet-api_3.1_spec-1.0.2.Final.jar;D:\maven\LocalWare\javax\inject\javax.inject\1\javax.inject-1.jar;D:\maven\LocalWare\javax\enterprise\cdi-api\1.2\cdi-api-1.2.jar;D:\maven\LocalWare\javax\el\javax.el-api\3.0.0\javax.el-api-3.0.0.jar;D:\maven\LocalWare\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;D:\maven\LocalWare\org\hibernate\hibernate-core\5.2.13.Final\hibernate-core-5.2.13.Final.jar;D:\maven\LocalWare\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;D:\maven\LocalWare\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;D:\maven\LocalWare\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;D:\maven\LocalWare\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\maven\LocalWare\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.1.Final\jboss-transaction-api_1.2_spec-1.0.1.Final.jar;D:\maven\LocalWare\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;D:\maven\LocalWare\com\fasterxml\classmate\1.3.0\classmate-1.3.0.jar;D:\maven\LocalWare\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maven\LocalWare\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;D:\maven\LocalWare\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+[MASTER] 12:26:03.695 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: reference to defaultedMap is ambiguous
+  both method <K,V>defaultedMap(java.util.Map<K,V>,V) in org.apache.commons.collections4.map.DefaultedMap and method <K,V>defaultedMap(java.util.Map<K,V>,org.apache.commons.collections4.Transformer<? super K,? extends V>) in org.apache.commons.collections4.map.DefaultedMap match: 44
+[MASTER] 12:26:03.696 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: incompatible types: org.apache.commons.collections4.map.DefaultedMap<java.lang.Integer,java.lang.Object> cannot be converted to java.util.Map<java.util.HashMap<java.lang.Object,org.apache.commons.collections4.Predicate>,org.apache.commons.collections4.Transformer<java.lang.Object,java.util.HashMap<java.lang.Integer,java.lang.Object>>>: 61
+[MASTER] 12:26:03.697 [pool-2-thread-1] ERROR JUnitAnalyzer - RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_0_1556339162018\org\apache\commons\collections4\map\DefaultedMap_0_tmp__ESTest.java]
+1: /*
+2:  * This file was automatically generated by EvoSuite
+3:  * Sat Apr 27 04:26:02 GMT 2019
+4:  */
+5: 
+6: package org.apache.commons.collections4.map;
+7: 
+8: import org.junit.Test;
+9: import static org.junit.Assert.*;
+10: import java.util.HashMap;
+11: import java.util.Map;
+12: import org.apache.commons.collections4.Factory;
+13: import org.apache.commons.collections4.Predicate;
+14: import org.apache.commons.collections4.Transformer;
+15: import org.apache.commons.collections4.functors.ConstantFactory;
+16: import org.apache.commons.collections4.functors.ExceptionTransformer;
+17: import org.apache.commons.collections4.functors.FactoryTransformer;
+18: import org.apache.commons.collections4.functors.NotNullPredicate;
+19: import org.apache.commons.collections4.functors.NullIsTruePredicate;
+20: import org.apache.commons.collections4.map.DefaultedMap;
+21: import org.evosuite.runtime.EvoRunner;
+22: import org.evosuite.runtime.EvoRunnerParameters;
+23: import org.junit.runner.RunWith;
+24: 
+25: @RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, useJEE = true) 
+26: public class DefaultedMap_0_tmp__ESTest extends DefaultedMap_0_tmp__ESTest_scaffolding {
+27: 
+28:   @Test(timeout = 4000)
+29:   public void test0()  throws Throwable  {
+30:       HashMap<Predicate<Object>, String> hashMap0 = new HashMap<Predicate<Object>, String>();
+31:       Predicate<Object> predicate0 = NotNullPredicate.notNullPredicate();
+32:       hashMap0.putIfAbsent(predicate0, "");
+33:       hashMap0.put(predicate0, "-tN");
+34:       ConstantFactory<String> constantFactory0 = new ConstantFactory<String>("");
+35:       DefaultedMap<Predicate<Object>, String> defaultedMap0 = DefaultedMap.defaultedMap((Map<Predicate<Object>, String>) hashMap0, (Factory<? extends String>) constantFactory0);
+36:       ConstantFactory.constantFactory((Transformer<Integer, HashMap<String, Object>>) null);
+37:       DefaultedMap<Predicate<Object>, String> defaultedMap1 = DefaultedMap.defaultedMap((Map<Predicate<Object>, String>) defaultedMap0, (Factory<? extends String>) constantFactory0);
+38:       defaultedMap1.remove((Object) null);
+39:       DefaultedMap<Integer, Object> defaultedMap2 = new DefaultedMap<Integer, Object>((Object) null);
+40:       HashMap<Integer, Object> hashMap1 = new HashMap<Integer, Object>();
+41:       DefaultedMap<Integer, Object> defaultedMap3 = DefaultedMap.defaultedMap((Map<Integer, Object>) defaultedMap2, (Object) hashMap1);
+42:       defaultedMap3.clear();
+43:       Transformer<Object, Transformer<Object, HashMap<Integer, Object>>> transformer0 = ExceptionTransformer.exceptionTransformer();
+44:       DefaultedMap.defaultedMap((Map<Integer, Object>) defaultedMap3, (Transformer<? super Integer, ?>) transformer0);
+45:       HashMap<HashMap<Integer, Object>, Predicate<Object>> hashMap2 = new HashMap<HashMap<Integer, Object>, Predicate<Object>>();
+46:       hashMap2.put(hashMap1, predicate0);
+47:       Factory<Predicate<Object>> factory0 = ConstantFactory.constantFactory(predicate0);
+48:       DefaultedMap<HashMap<Integer, Object>, Predicate<Object>> defaultedMap4 = DefaultedMap.defaultedMap((Map<HashMap<Integer, Object>, Predicate<Object>>) hashMap2, (Factory<? extends Predicate<Object>>) factory0);
+49:       Integer integer0 = new Integer(0);
+50:       defaultedMap4.put(hashMap1, predicate0);
+51:       DefaultedMap<Predicate<String>, Integer> defaultedMap5 = new DefaultedMap<Predicate<String>, Integer>(integer0);
+52:       defaultedMap5.get(defaultedMap4);
+53:       HashMap<String, Predicate<String>> hashMap3 = new HashMap<String, Predicate<String>>();
+54:       NullIsTruePredicate<String> nullIsTruePredicate0 = new NullIsTruePredicate<String>(predicate0);
+55:       ConstantFactory<Predicate<String>> constantFactory1 = new ConstantFactory<Predicate<String>>(nullIsTruePredicate0);
+56:       DefaultedMap.defaultedMap((Map<String, Predicate<String>>) hashMap3, (Factory<? extends Predicate<String>>) constantFactory1);
+57:       ConstantFactory<Integer> constantFactory2 = new ConstantFactory<Integer>(integer0);
+58:       FactoryTransformer<Object, Integer> factoryTransformer0 = new FactoryTransformer<Object, Integer>(constantFactory2);
+59:       DefaultedMap<Transformer<Integer, HashMap<HashMap<Integer, Object>, String>>, Integer> defaultedMap6 = new DefaultedMap<Transformer<Integer, HashMap<HashMap<Integer, Object>, String>>, Integer>((Transformer<? super Transformer<Integer, HashMap<HashMap<Integer, Object>, String>>, ? extends Integer>) factoryTransformer0);
+60:       DefaultedMap.defaultedMap((Map<Transformer<Integer, HashMap<HashMap<Integer, Object>, String>>, Integer>) defaultedMap6, (Factory<? extends Integer>) constantFactory2);
+61:       Map<HashMap<Object, Predicate>, Transformer<Object, HashMap<Integer, Object>>> map0 = DefaultedMap.defaultedMap((Map<HashMap<Object, Predicate>, Transformer<Object, HashMap<Integer, Object>>>) defaultedMap3, (Transformer<? super HashMap<Object, Predicate>, ? extends Transformer<Object, HashMap<Integer, Object>>>) transformer0);
+62:       assertTrue(map0.isEmpty());
+63:   }
+64: }
+RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_0_1556339162018\org\apache\commons\collections4\map\DefaultedMap_0_tmp__ESTest.java]
+1: /**
+2:  * Scaffolding file used to store all the setups needed to run 
+3:  * tests automatically generated by EvoSuite
+4:  * Sat Apr 27 04:26:02 GMT 2019
+5:  */
+6: 
+7: package org.apache.commons.collections4.map;
+8: 
+9: import org.evosuite.runtime.annotation.EvoSuiteClassExclude;
+10: import org.junit.BeforeClass;
+11: import org.junit.Before;
+12: import org.junit.After;
+13: import org.junit.AfterClass;
+14: import org.evosuite.runtime.sandbox.Sandbox;
+15: import org.evosuite.runtime.sandbox.Sandbox.SandboxMode;
+16: 
+17: @EvoSuiteClassExclude
+18: public class DefaultedMap_0_tmp__ESTest_scaffolding {
+19: 
+20:   @org.junit.Rule 
+21:   public org.evosuite.runtime.vnet.NonFunctionalRequirementRule nfr = new org.evosuite.runtime.vnet.NonFunctionalRequirementRule();
+22: 
+23:   private static final java.util.Properties defaultProperties = (java.util.Properties) java.lang.System.getProperties().clone(); 
+24: 
+25:   private org.evosuite.runtime.thread.ThreadStopper threadStopper =  new org.evosuite.runtime.thread.ThreadStopper (org.evosuite.runtime.thread.KillSwitchHandler.getInstance(), 3000);
+26: 
+27: 
+28:   @BeforeClass 
+29:   public static void initEvoSuiteFramework() { 
+30:     org.evosuite.runtime.RuntimeSettings.className = "org.apache.commons.collections4.map.DefaultedMap"; 
+31:     org.evosuite.runtime.GuiSupport.initialize(); 
+32:     org.evosuite.runtime.RuntimeSettings.maxNumberOfThreads = 100; 
+33:     org.evosuite.runtime.RuntimeSettings.maxNumberOfIterationsPerLoop = 10000; 
+34:     org.evosuite.runtime.RuntimeSettings.mockSystemIn = true; 
+35:     org.evosuite.runtime.RuntimeSettings.sandboxMode = org.evosuite.runtime.sandbox.Sandbox.SandboxMode.RECOMMENDED; 
+36:     org.evosuite.runtime.sandbox.Sandbox.initializeSecurityManagerForSUT(); 
+37:     org.evosuite.runtime.classhandling.JDKClassResetter.init();
+38:     setSystemProperties();
+39:     initializeClasses();
+40:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+41:   } 
+42: 
+43:   @AfterClass 
+44:   public static void clearEvoSuiteFramework(){ 
+45:     Sandbox.resetDefaultSecurityManager(); 
+46:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+47:   } 
+48: 
+49:   @Before 
+50:   public void initTestCase(){ 
+51:     threadStopper.storeCurrentThreads();
+52:     threadStopper.startRecordingTime();
+53:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().initHandler(); 
+54:     org.evosuite.runtime.sandbox.Sandbox.goingToExecuteSUTCode(); 
+55:     setSystemProperties(); 
+56:     org.evosuite.runtime.GuiSupport.setHeadless(); 
+57:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+58:     org.evosuite.runtime.agent.InstrumentingAgent.activate(); 
+59:   } 
+60: 
+61:   @After 
+62:   public void doneWithTestCase(){ 
+63:     threadStopper.killAndJoinClientThreads();
+64:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().safeExecuteAddedHooks(); 
+65:     org.evosuite.runtime.classhandling.JDKClassResetter.reset(); 
+66:     resetClasses(); 
+67:     org.evosuite.runtime.sandbox.Sandbox.doneWithExecutingSUTCode(); 
+68:     org.evosuite.runtime.agent.InstrumentingAgent.deactivate(); 
+69:     org.evosuite.runtime.GuiSupport.restoreHeadlessMode(); 
+70:   } 
+71: 
+72:   public static void setSystemProperties() {
+73:  
+74:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+75:     java.lang.System.setProperty("file.encoding", "GBK"); 
+76:     java.lang.System.setProperty("java.awt.headless", "true"); 
+77:     java.lang.System.setProperty("java.io.tmpdir", "C:\\Users\\Dell\\AppData\\Local\\Temp\\"); 
+78:     java.lang.System.setProperty("user.country", "CN"); 
+79:     java.lang.System.setProperty("user.dir", "D:\\myProjects\\courseProgram\\commons-collections4-4.3-src"); 
+80:     java.lang.System.setProperty("user.home", "C:\\Users\\Dell"); 
+81:     java.lang.System.setProperty("user.language", "zh"); 
+82:     java.lang.System.setProperty("user.name", "Dell"); 
+83:     java.lang.System.setProperty("user.timezone", "Asia/Shanghai"); 
+84:   }
+85: 
+86:   private static void initializeClasses() {
+87:     org.evosuite.runtime.classhandling.ClassStateSupport.initializeClasses(DefaultedMap_0_tmp__ESTest_scaffolding.class.getClassLoader() ,
+88:       "org.apache.commons.collections4.MapIterator",
+89:       "org.apache.commons.collections4.functors.MapTransformer",
+90:       "org.apache.commons.collections4.functors.UniquePredicate",
+91:       "org.apache.commons.collections4.functors.ExceptionFactory",
+92:       "org.apache.commons.collections4.Predicate",
+93:       "org.apache.commons.collections4.functors.NullIsFalsePredicate",
+94:       "org.apache.commons.collections4.Equator",
+95:       "org.apache.commons.collections4.map.AbstractMapDecorator",
+96:       "org.apache.commons.collections4.functors.EqualPredicate",
+97:       "org.apache.commons.collections4.functors.NullPredicate",
+98:       "org.apache.commons.collections4.Get",
+99:       "org.apache.commons.collections4.functors.OnePredicate",
+100:       "org.apache.commons.collections4.functors.NotNullPredicate",
+101:       "org.apache.commons.collections4.functors.AbstractQuantifierPredicate",
+102:       "org.apache.commons.collections4.functors.DefaultEquator",
+103:       "org.apache.commons.collections4.functors.FalsePredicate",
+104:       "org.apache.commons.collections4.functors.FactoryTransformer",
+105:       "org.apache.commons.collections4.functors.InstantiateFactory",
+106:       "org.apache.commons.collections4.FunctorException",
+107:       "org.apache.commons.collections4.map.AbstractIterableMap",
+108:       "org.apache.commons.collections4.Factory",
+109:       "org.apache.commons.collections4.functors.NotPredicate",
+110:       "org.apache.commons.collections4.functors.FunctorUtils",
+111:       "org.apache.commons.collections4.functors.PredicateDecorator",
+112:       "org.apache.commons.collections4.functors.AnyPredicate",
+113:       "org.apache.commons.collections4.functors.AndPredicate",
+114:       "org.apache.commons.collections4.Transformer",
+115:       "org.apache.commons.collections4.functors.ExceptionTransformer",
+116:       "org.apache.commons.collections4.functors.ConstantTransformer",
+117:       "org.apache.commons.collections4.functors.InvokerTransformer",
+118:       "org.apache.commons.collections4.functors.AllPredicate",
+119:       "org.apache.commons.collections4.functors.PredicateTransformer",
+120:       "org.apache.commons.collections4.functors.ConstantFactory",
+121:       "org.apache.commons.collections4.functors.IfTransformer",
+122:       "org.apache.commons.collections4.Put",
+123:       "org.apache.commons.collections4.IterableMap",
+124:       "org.apache.commons.collections4.functors.NullIsTruePredicate",
+125:       "org.apache.commons.collections4.map.DefaultedMap",
+126:       "org.apache.commons.collections4.IterableGet",
+127:       "org.apache.commons.collections4.functors.NullIsExceptionPredicate"
+128:     );
+129:   } 
+130: 
+131:   private static void resetClasses() {
+132:     org.evosuite.runtime.classhandling.ClassResetter.getInstance().setClassLoader(DefaultedMap_0_tmp__ESTest_scaffolding.class.getClassLoader()); 
+133: 
+134:     org.evosuite.runtime.classhandling.ClassStateSupport.resetClasses(
+135:       "org.apache.commons.collections4.map.AbstractIterableMap",
+136:       "org.apache.commons.collections4.map.AbstractMapDecorator",
+137:       "org.apache.commons.collections4.map.DefaultedMap",
+138:       "org.apache.commons.collections4.functors.ConstantTransformer",
+139:       "org.apache.commons.collections4.functors.ExceptionFactory",
+140:       "org.apache.commons.collections4.functors.FactoryTransformer",
+141:       "org.apache.commons.collections4.functors.ForClosure",
+142:       "org.apache.commons.collections4.functors.NOPClosure",
+143:       "org.apache.commons.collections4.functors.ClosureTransformer",
+144:       "org.apache.commons.collections4.functors.InvokerTransformer",
+145:       "org.apache.commons.collections4.FunctorException",
+146:       "org.apache.commons.collections4.functors.StringValueTransformer",
+147:       "org.apache.commons.collections4.functors.AbstractQuantifierPredicate",
+148:       "org.apache.commons.collections4.functors.NonePredicate",
+149:       "org.apache.commons.collections4.functors.FunctorUtils",
+150:       "org.apache.commons.collections4.functors.NotNullPredicate",
+151:       "org.apache.commons.collections4.functors.ConstantFactory",
+152:       "org.apache.commons.collections4.functors.ExceptionTransformer",
+153:       "org.apache.commons.collections4.functors.NullIsTruePredicate",
+154:       "org.apache.commons.collections4.functors.FalsePredicate",
+155:       "org.apache.commons.collections4.functors.DefaultEquator",
+156:       "org.apache.commons.collections4.functors.EqualPredicate",
+157:       "org.apache.commons.collections4.functors.NullIsExceptionPredicate",
+158:       "org.apache.commons.collections4.functors.AndPredicate",
+159:       "org.apache.commons.collections4.functors.NullPredicate",
+160:       "org.apache.commons.collections4.functors.InstantiateFactory",
+161:       "org.apache.commons.collections4.functors.SwitchTransformer",
+162:       "org.apache.commons.collections4.functors.IdentityPredicate",
+163:       "org.apache.commons.collections4.functors.PredicateTransformer",
+164:       "org.apache.commons.collections4.functors.OnePredicate",
+165:       "org.apache.commons.collections4.functors.AnyPredicate",
+166:       "org.apache.commons.collections4.functors.NullIsFalsePredicate",
+167:       "org.apache.commons.collections4.functors.ComparatorPredicate",
+168:       "org.apache.commons.collections4.functors.IfTransformer",
+169:       "org.apache.commons.collections4.map.EntrySetToMapIteratorAdapter",
+170:       "org.apache.commons.collections4.functors.TransformedPredicate",
+171:       "org.apache.commons.collections4.functors.AllPredicate",
+172:       "org.apache.commons.collections4.functors.TruePredicate",
+173:       "org.apache.commons.collections4.functors.InstanceofPredicate",
+174:       "org.apache.commons.collections4.functors.ExceptionPredicate",
+175:       "org.apache.commons.collections4.functors.NotPredicate",
+176:       "org.apache.commons.collections4.functors.OrPredicate",
+177:       "org.apache.commons.collections4.functors.MapTransformer",
+178:       "org.apache.commons.collections4.functors.ComparatorPredicate$1",
+179:       "org.apache.commons.collections4.functors.UniquePredicate",
+180:       "org.apache.commons.collections4.functors.TransformerPredicate",
+181:       "org.apache.commons.collections4.functors.CloneTransformer",
+182:       "org.apache.commons.collections4.functors.PrototypeFactory"
+183:     );
+184:   }
+185: }
+
+[MASTER] 12:26:03.701 [pool-2-thread-1] ERROR JUnitAnalyzer - Failed to compile test case:
+HashMap<Predicate<Object>, String> hashMap0 = new HashMap<Predicate<Object>, String>();
+Predicate<Object> predicate0 = NotNullPredicate.notNullPredicate();
+hashMap0.putIfAbsent(predicate0, "");
+hashMap0.put(predicate0, "-tN");
+ConstantFactory<String> constantFactory0 = new ConstantFactory<String>("");
+DefaultedMap<Predicate<Object>, String> defaultedMap0 = DefaultedMap.defaultedMap((Map<Predicate<Object>, String>) hashMap0, (Factory<? extends String>) constantFactory0);
+ConstantFactory.constantFactory((Transformer<Integer, HashMap<String, Object>>) null);
+DefaultedMap<Predicate<Object>, String> defaultedMap1 = DefaultedMap.defaultedMap((Map<Predicate<Object>, String>) defaultedMap0, (Factory<? extends String>) constantFactory0);
+defaultedMap1.remove((Object) null);
+DefaultedMap<Integer, Object> defaultedMap2 = new DefaultedMap<Integer, Object>((Object) null);
+HashMap<Integer, Object> hashMap1 = new HashMap<Integer, Object>();
+DefaultedMap<Integer, Object> defaultedMap3 = DefaultedMap.defaultedMap((Map<Integer, Object>) defaultedMap2, (Object) hashMap1);
+defaultedMap3.clear();
+Transformer<Object, Transformer<Object, HashMap<Integer, Object>>> transformer0 = ExceptionTransformer.exceptionTransformer();
+DefaultedMap.defaultedMap((Map<Integer, Object>) defaultedMap3, (Transformer<? super Integer, ?>) transformer0);
+HashMap<HashMap<Integer, Object>, Predicate<Object>> hashMap2 = new HashMap<HashMap<Integer, Object>, Predicate<Object>>();
+hashMap2.put(hashMap1, predicate0);
+Factory<Predicate<Object>> factory0 = ConstantFactory.constantFactory(predicate0);
+DefaultedMap<HashMap<Integer, Object>, Predicate<Object>> defaultedMap4 = DefaultedMap.defaultedMap((Map<HashMap<Integer, Object>, Predicate<Object>>) hashMap2, (Factory<? extends Predicate<Object>>) factory0);
+Integer integer0 = new Integer(0);
+defaultedMap4.put(hashMap1, predicate0);
+DefaultedMap<Predicate<String>, Integer> defaultedMap5 = new DefaultedMap<Predicate<String>, Integer>(integer0);
+defaultedMap5.get(defaultedMap4);
+HashMap<String, Predicate<String>> hashMap3 = new HashMap<String, Predicate<String>>();
+NullIsTruePredicate<String> nullIsTruePredicate0 = new NullIsTruePredicate<String>(predicate0);
+ConstantFactory<Predicate<String>> constantFactory1 = new ConstantFactory<Predicate<String>>(nullIsTruePredicate0);
+DefaultedMap.defaultedMap((Map<String, Predicate<String>>) hashMap3, (Factory<? extends Predicate<String>>) constantFactory1);
+ConstantFactory<Integer> constantFactory2 = new ConstantFactory<Integer>(integer0);
+FactoryTransformer<Object, Integer> factoryTransformer0 = new FactoryTransformer<Object, Integer>(constantFactory2);
+DefaultedMap<Transformer<Integer, HashMap<HashMap<Integer, Object>, String>>, Integer> defaultedMap6 = new DefaultedMap<Transformer<Integer, HashMap<HashMap<Integer, Object>, String>>, Integer>((Transformer<? super Transformer<Integer, HashMap<HashMap<Integer, Object>, String>>, ? extends Integer>) factoryTransformer0);
+DefaultedMap.defaultedMap((Map<Transformer<Integer, HashMap<HashMap<Integer, Object>, String>>, Integer>) defaultedMap6, (Factory<? extends Integer>) constantFactory2);
+Map<HashMap<Object, Predicate>, Transformer<Object, HashMap<Integer, Object>>> map0 = DefaultedMap.defaultedMap((Map<HashMap<Object, Predicate>, Transformer<Object, HashMap<Integer, Object>>>) defaultedMap3, (Transformer<? super HashMap<Object, Predicate>, ? extends Transformer<Object, HashMap<Integer, Object>>>) transformer0);
+assertTrue(map0.isEmpty());
+
+
+[MASTER] 12:26:04.911 [pool-2-thread-1] ERROR JUnitAnalyzer - Compilation failed on compilation units: [RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_3_1556339164632\org\apache\commons\collections4\map\DefaultedMap_3_tmp__ESTest.java], RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_3_1556339164632\org\apache\commons\collections4\map\DefaultedMap_3_tmp__ESTest_scaffolding.java]]
+[MASTER] 12:26:04.911 [pool-2-thread-1] ERROR JUnitAnalyzer - Classpath: D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\evosuite\evosuite-master\1.0.6\evosuite-master-1.0.6.jar;D:\maven\LocalWare\org\evosuite\evosuite-client\1.0.6\evosuite-client-1.0.6-tests.jar;D:\maven\LocalWare\org\evosuite\evosuite-runtime\1.0.6\evosuite-runtime-1.0.6.jar;D:\maven\LocalWare\javax\ejb\javax.ejb-api\3.2\javax.ejb-api-3.2.jar;D:\maven\LocalWare\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;D:\maven\LocalWare\javax\faces\javax.faces-api\2.2\javax.faces-api-2.2.jar;D:\maven\LocalWare\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;D:\maven\LocalWare\org\hsqldb\hsqldb\2.4.0\hsqldb-2.4.0.jar;D:\maven\LocalWare\org\springframework\spring-orm\4.3.14.RELEASE\spring-orm-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-jdbc\4.3.14.RELEASE\spring-jdbc-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-context\4.3.14.RELEASE\spring-context-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-aop\4.3.14.RELEASE\spring-aop-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-expression\4.3.14.RELEASE\spring-expression-4.3.14.RELEASE.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\mockito\mockito-core\2.16.0\mockito-core-2.16.0.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy-agent\1.7.9\byte-buddy-agent-1.7.9.jar;D:\maven\LocalWare\org\objenesis\objenesis\2.6\objenesis-2.6.jar;D:\maven\LocalWare\org\slf4j\slf4j-api\1.7.22\slf4j-api-1.7.22.jar;D:\maven\LocalWare\org\ow2\asm\asm\6.0\asm-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-commons\6.0\asm-commons-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-tree\6.0\asm-tree-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-analysis\6.0\asm-analysis-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-util\6.0\asm-util-6.0.jar;D:\maven\LocalWare\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;D:\maven\LocalWare\com\opencsv\opencsv\4.1\opencsv-4.1.jar;D:\maven\LocalWare\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;D:\maven\LocalWare\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;D:\maven\LocalWare\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\LocalWare\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\maven\LocalWare\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;D:\maven\LocalWare\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;D:\maven\LocalWare\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;D:\maven\LocalWare\com\googlecode\gentyref\gentyref\1.2.0\gentyref-1.2.0.jar;D:\maven\LocalWare\net\sf\jgrapht\jgrapht\0.8.3\jgrapht-0.8.3.jar;D:\maven\LocalWare\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar;D:\maven\LocalWare\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;D:\maven\LocalWare\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;D:\maven\LocalWare\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\maven\LocalWare\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;D:\maven\LocalWare\org\kohsuke\graphviz-api\1.1\graphviz-api-1.1.jar;D:\maven\LocalWare\oro\oro\2.0.8\oro-2.0.8.jar;D:\maven\LocalWare\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\maven\LocalWare\org\jboss\spec\javax\servlet\jboss-servlet-api_3.1_spec\1.0.2.Final\jboss-servlet-api_3.1_spec-1.0.2.Final.jar;D:\maven\LocalWare\javax\inject\javax.inject\1\javax.inject-1.jar;D:\maven\LocalWare\javax\enterprise\cdi-api\1.2\cdi-api-1.2.jar;D:\maven\LocalWare\javax\el\javax.el-api\3.0.0\javax.el-api-3.0.0.jar;D:\maven\LocalWare\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;D:\maven\LocalWare\org\hibernate\hibernate-core\5.2.13.Final\hibernate-core-5.2.13.Final.jar;D:\maven\LocalWare\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;D:\maven\LocalWare\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;D:\maven\LocalWare\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;D:\maven\LocalWare\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\maven\LocalWare\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.1.Final\jboss-transaction-api_1.2_spec-1.0.1.Final.jar;D:\maven\LocalWare\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;D:\maven\LocalWare\com\fasterxml\classmate\1.3.0\classmate-1.3.0.jar;D:\maven\LocalWare\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maven\LocalWare\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;D:\maven\LocalWare\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+[MASTER] 12:26:04.911 [pool-2-thread-1] ERROR JUnitAnalyzer - evosuiteCP: D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\evosuite\evosuite-master\1.0.6\evosuite-master-1.0.6.jar;D:\maven\LocalWare\org\evosuite\evosuite-client\1.0.6\evosuite-client-1.0.6-tests.jar;D:\maven\LocalWare\org\evosuite\evosuite-runtime\1.0.6\evosuite-runtime-1.0.6.jar;D:\maven\LocalWare\javax\ejb\javax.ejb-api\3.2\javax.ejb-api-3.2.jar;D:\maven\LocalWare\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;D:\maven\LocalWare\javax\faces\javax.faces-api\2.2\javax.faces-api-2.2.jar;D:\maven\LocalWare\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;D:\maven\LocalWare\org\hsqldb\hsqldb\2.4.0\hsqldb-2.4.0.jar;D:\maven\LocalWare\org\springframework\spring-orm\4.3.14.RELEASE\spring-orm-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-jdbc\4.3.14.RELEASE\spring-jdbc-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-context\4.3.14.RELEASE\spring-context-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-aop\4.3.14.RELEASE\spring-aop-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-expression\4.3.14.RELEASE\spring-expression-4.3.14.RELEASE.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\mockito\mockito-core\2.16.0\mockito-core-2.16.0.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy-agent\1.7.9\byte-buddy-agent-1.7.9.jar;D:\maven\LocalWare\org\objenesis\objenesis\2.6\objenesis-2.6.jar;D:\maven\LocalWare\org\slf4j\slf4j-api\1.7.22\slf4j-api-1.7.22.jar;D:\maven\LocalWare\org\ow2\asm\asm\6.0\asm-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-commons\6.0\asm-commons-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-tree\6.0\asm-tree-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-analysis\6.0\asm-analysis-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-util\6.0\asm-util-6.0.jar;D:\maven\LocalWare\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;D:\maven\LocalWare\com\opencsv\opencsv\4.1\opencsv-4.1.jar;D:\maven\LocalWare\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;D:\maven\LocalWare\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;D:\maven\LocalWare\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\LocalWare\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\maven\LocalWare\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;D:\maven\LocalWare\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;D:\maven\LocalWare\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;D:\maven\LocalWare\com\googlecode\gentyref\gentyref\1.2.0\gentyref-1.2.0.jar;D:\maven\LocalWare\net\sf\jgrapht\jgrapht\0.8.3\jgrapht-0.8.3.jar;D:\maven\LocalWare\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar;D:\maven\LocalWare\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;D:\maven\LocalWare\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;D:\maven\LocalWare\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\maven\LocalWare\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;D:\maven\LocalWare\org\kohsuke\graphviz-api\1.1\graphviz-api-1.1.jar;D:\maven\LocalWare\oro\oro\2.0.8\oro-2.0.8.jar;D:\maven\LocalWare\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\maven\LocalWare\org\jboss\spec\javax\servlet\jboss-servlet-api_3.1_spec\1.0.2.Final\jboss-servlet-api_3.1_spec-1.0.2.Final.jar;D:\maven\LocalWare\javax\inject\javax.inject\1\javax.inject-1.jar;D:\maven\LocalWare\javax\enterprise\cdi-api\1.2\cdi-api-1.2.jar;D:\maven\LocalWare\javax\el\javax.el-api\3.0.0\javax.el-api-3.0.0.jar;D:\maven\LocalWare\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;D:\maven\LocalWare\org\hibernate\hibernate-core\5.2.13.Final\hibernate-core-5.2.13.Final.jar;D:\maven\LocalWare\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;D:\maven\LocalWare\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;D:\maven\LocalWare\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;D:\maven\LocalWare\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\maven\LocalWare\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.1.Final\jboss-transaction-api_1.2_spec-1.0.1.Final.jar;D:\maven\LocalWare\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;D:\maven\LocalWare\com\fasterxml\classmate\1.3.0\classmate-1.3.0.jar;D:\maven\LocalWare\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maven\LocalWare\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;D:\maven\LocalWare\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+[MASTER] 12:26:04.913 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: reference to defaultedMap is ambiguous
+  both method <K,V>defaultedMap(java.util.Map<K,V>,V) in org.apache.commons.collections4.map.DefaultedMap and method <K,V>defaultedMap(java.util.Map<K,V>,org.apache.commons.collections4.Transformer<? super K,? extends V>) in org.apache.commons.collections4.map.DefaultedMap match: 55
+[MASTER] 12:26:04.913 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: C:\Users\Dell\AppData\Local\Temp\EvoSuite_3_1556339164632\org\apache\commons\collections4\map\DefaultedMap_3_tmp__ESTest.java uses unchecked or unsafe operations.: -1
+[MASTER] 12:26:04.913 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: Recompile with -Xlint:unchecked for details.: -1
+[MASTER] 12:26:04.914 [pool-2-thread-1] ERROR JUnitAnalyzer - RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_3_1556339164632\org\apache\commons\collections4\map\DefaultedMap_3_tmp__ESTest.java]
+1: /*
+2:  * This file was automatically generated by EvoSuite
+3:  * Sat Apr 27 04:26:04 GMT 2019
+4:  */
+5: 
+6: package org.apache.commons.collections4.map;
+7: 
+8: import org.junit.Test;
+9: import static org.junit.Assert.*;
+10: import static org.evosuite.shaded.org.mockito.Mockito.*;
+11: import static org.evosuite.runtime.EvoAssertions.*;
+12: import java.lang.reflect.Array;
+13: import java.util.HashMap;
+14: import java.util.Map;
+15: import java.util.function.BiFunction;
+16: import org.apache.commons.collections4.Factory;
+17: import org.apache.commons.collections4.Predicate;
+18: import org.apache.commons.collections4.Transformer;
+19: import org.apache.commons.collections4.functors.ConstantTransformer;
+20: import org.apache.commons.collections4.functors.InstantiateFactory;
+21: import org.apache.commons.collections4.functors.InvokerTransformer;
+22: import org.apache.commons.collections4.functors.MapTransformer;
+23: import org.apache.commons.collections4.map.DefaultedMap;
+24: import org.evosuite.runtime.EvoRunner;
+25: import org.evosuite.runtime.EvoRunnerParameters;
+26: import org.evosuite.runtime.ViolatedAssumptionAnswer;
+27: import org.junit.runner.RunWith;
+28: 
+29: @RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, useJEE = true) 
+30: public class DefaultedMap_3_tmp__ESTest extends DefaultedMap_3_tmp__ESTest_scaffolding {
+31: 
+32:   @Test(timeout = 4000)
+33:   public void test0()  throws Throwable  {
+34:       Integer integer0 = new Integer(572);
+35:       DefaultedMap<Object, Integer> defaultedMap0 = new DefaultedMap<Object, Integer>(integer0);
+36:       DefaultedMap<String, String> defaultedMap1 = new DefaultedMap<String, String>("");
+37:       BiFunction<Object, String, String> biFunction0 = (BiFunction<Object, String, String>) mock(BiFunction.class, new ViolatedAssumptionAnswer());
+38:       doReturn((Object) null).when(biFunction0).apply(any() , anyString());
+39:       defaultedMap1.compute("", biFunction0);
+40:       ConstantTransformer<Object, String> constantTransformer0 = new ConstantTransformer<Object, String>("");
+41:       DefaultedMap.defaultedMap((Map<String, String>) defaultedMap1, (Transformer<? super String, ? extends String>) constantTransformer0);
+42:       DefaultedMap<HashMap<Object, String>, String> defaultedMap2 = new DefaultedMap<HashMap<Object, String>, String>((Transformer<? super HashMap<Object, String>, ? extends String>) constantTransformer0);
+43:       DefaultedMap<HashMap<Object, String>, String> defaultedMap3 = DefaultedMap.defaultedMap((Map<HashMap<Object, String>, String>) defaultedMap2, "");
+44:       DefaultedMap<HashMap<Object, String>, String> defaultedMap4 = new DefaultedMap<HashMap<Object, String>, String>(defaultedMap3, constantTransformer0);
+45:       String string0 = "{.b,@R)c+*Hn#\\|=g(r";
+46:       DefaultedMap<HashMap<Object, String>, String> defaultedMap5 = DefaultedMap.defaultedMap((Map<HashMap<Object, String>, String>) defaultedMap4, "{.b,@R)c+*Hn#|=g(r");
+47:       defaultedMap5.get(defaultedMap2);
+48:       DefaultedMap<Predicate<String>, String> defaultedMap6 = new DefaultedMap<Predicate<String>, String>((Transformer<? super Predicate<String>, ? extends String>) constantTransformer0);
+49:       DefaultedMap.defaultedMap((Map<Predicate<String>, String>) defaultedMap6, (Transformer<? super Predicate<String>, ? extends String>) constantTransformer0);
+50:       HashMap<String, Boolean> hashMap0 = new HashMap<String, Boolean>(572, 1428.8527F);
+51:       Transformer<String, Boolean> transformer0 = MapTransformer.mapTransformer((Map<? super String, ? extends Boolean>) hashMap0);
+52:       DefaultedMap.defaultedMap((Map<String, Boolean>) hashMap0, (Transformer<? super String, ? extends Boolean>) transformer0);
+53:       // Undeclared exception!
+54:       try { 
+55:         DefaultedMap.defaultedMap((Map<Object, Object>) null, (Transformer<? super Object, ?>) constantTransformer0);
+56:         fail("Expecting exception: NullPointerException");
+57:       
+58:       } catch(NullPointerException e) {
+59:          //
+60:          // Map must not be null.
+61:          //
+62:          verifyException("org.apache.commons.collections4.map.AbstractMapDecorator", e);
+63:       }
+64:   }
+65: }
+RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_3_1556339164632\org\apache\commons\collections4\map\DefaultedMap_3_tmp__ESTest.java]
+1: /**
+2:  * Scaffolding file used to store all the setups needed to run 
+3:  * tests automatically generated by EvoSuite
+4:  * Sat Apr 27 04:26:04 GMT 2019
+5:  */
+6: 
+7: package org.apache.commons.collections4.map;
+8: 
+9: import org.evosuite.runtime.annotation.EvoSuiteClassExclude;
+10: import org.junit.BeforeClass;
+11: import org.junit.Before;
+12: import org.junit.After;
+13: import org.junit.AfterClass;
+14: import org.evosuite.runtime.sandbox.Sandbox;
+15: import org.evosuite.runtime.sandbox.Sandbox.SandboxMode;
+16: 
+17: import static org.evosuite.shaded.org.mockito.Mockito.*;
+18: @EvoSuiteClassExclude
+19: public class DefaultedMap_3_tmp__ESTest_scaffolding {
+20: 
+21:   @org.junit.Rule 
+22:   public org.evosuite.runtime.vnet.NonFunctionalRequirementRule nfr = new org.evosuite.runtime.vnet.NonFunctionalRequirementRule();
+23: 
+24:   private static final java.util.Properties defaultProperties = (java.util.Properties) java.lang.System.getProperties().clone(); 
+25: 
+26:   private org.evosuite.runtime.thread.ThreadStopper threadStopper =  new org.evosuite.runtime.thread.ThreadStopper (org.evosuite.runtime.thread.KillSwitchHandler.getInstance(), 3000);
+27: 
+28: 
+29:   @BeforeClass 
+30:   public static void initEvoSuiteFramework() { 
+31:     org.evosuite.runtime.RuntimeSettings.className = "org.apache.commons.collections4.map.DefaultedMap"; 
+32:     org.evosuite.runtime.GuiSupport.initialize(); 
+33:     org.evosuite.runtime.RuntimeSettings.maxNumberOfThreads = 100; 
+34:     org.evosuite.runtime.RuntimeSettings.maxNumberOfIterationsPerLoop = 10000; 
+35:     org.evosuite.runtime.RuntimeSettings.mockSystemIn = true; 
+36:     org.evosuite.runtime.RuntimeSettings.sandboxMode = org.evosuite.runtime.sandbox.Sandbox.SandboxMode.RECOMMENDED; 
+37:     org.evosuite.runtime.sandbox.Sandbox.initializeSecurityManagerForSUT(); 
+38:     org.evosuite.runtime.classhandling.JDKClassResetter.init();
+39:     setSystemProperties();
+40:     initializeClasses();
+41:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+42:     try { initMocksToAvoidTimeoutsInTheTests(); } catch(ClassNotFoundException e) {} 
+43:   } 
+44: 
+45:   @AfterClass 
+46:   public static void clearEvoSuiteFramework(){ 
+47:     Sandbox.resetDefaultSecurityManager(); 
+48:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+49:   } 
+50: 
+51:   @Before 
+52:   public void initTestCase(){ 
+53:     threadStopper.storeCurrentThreads();
+54:     threadStopper.startRecordingTime();
+55:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().initHandler(); 
+56:     org.evosuite.runtime.sandbox.Sandbox.goingToExecuteSUTCode(); 
+57:     setSystemProperties(); 
+58:     org.evosuite.runtime.GuiSupport.setHeadless(); 
+59:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+60:     org.evosuite.runtime.agent.InstrumentingAgent.activate(); 
+61:   } 
+62: 
+63:   @After 
+64:   public void doneWithTestCase(){ 
+65:     threadStopper.killAndJoinClientThreads();
+66:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().safeExecuteAddedHooks(); 
+67:     org.evosuite.runtime.classhandling.JDKClassResetter.reset(); 
+68:     resetClasses(); 
+69:     org.evosuite.runtime.sandbox.Sandbox.doneWithExecutingSUTCode(); 
+70:     org.evosuite.runtime.agent.InstrumentingAgent.deactivate(); 
+71:     org.evosuite.runtime.GuiSupport.restoreHeadlessMode(); 
+72:   } 
+73: 
+74:   public static void setSystemProperties() {
+75:  
+76:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+77:     java.lang.System.setProperty("file.encoding", "GBK"); 
+78:     java.lang.System.setProperty("java.awt.headless", "true"); 
+79:     java.lang.System.setProperty("java.io.tmpdir", "C:\\Users\\Dell\\AppData\\Local\\Temp\\"); 
+80:     java.lang.System.setProperty("user.country", "CN"); 
+81:     java.lang.System.setProperty("user.dir", "D:\\myProjects\\courseProgram\\commons-collections4-4.3-src"); 
+82:     java.lang.System.setProperty("user.home", "C:\\Users\\Dell"); 
+83:     java.lang.System.setProperty("user.language", "zh"); 
+84:     java.lang.System.setProperty("user.name", "Dell"); 
+85:     java.lang.System.setProperty("user.timezone", "Asia/Shanghai"); 
+86:   }
+87: 
+88:   private static void initializeClasses() {
+89:     org.evosuite.runtime.classhandling.ClassStateSupport.initializeClasses(DefaultedMap_3_tmp__ESTest_scaffolding.class.getClassLoader() ,
+90:       "org.apache.commons.collections4.MapIterator",
+91:       "org.apache.commons.collections4.functors.MapTransformer",
+92:       "org.apache.commons.collections4.functors.UniquePredicate",
+93:       "org.apache.commons.collections4.functors.ExceptionFactory",
+94:       "org.apache.commons.collections4.Predicate",
+95:       "org.apache.commons.collections4.functors.NullIsFalsePredicate",
+96:       "org.apache.commons.collections4.Equator",
+97:       "org.apache.commons.collections4.map.AbstractMapDecorator",
+98:       "org.apache.commons.collections4.functors.EqualPredicate",
+99:       "org.apache.commons.collections4.functors.NullPredicate",
+100:       "org.apache.commons.collections4.Get",
+101:       "org.apache.commons.collections4.functors.OnePredicate",
+102:       "org.apache.commons.collections4.functors.NotNullPredicate",
+103:       "org.apache.commons.collections4.functors.AbstractQuantifierPredicate",
+104:       "org.apache.commons.collections4.functors.DefaultEquator",
+105:       "org.apache.commons.collections4.functors.FalsePredicate",
+106:       "org.apache.commons.collections4.functors.FactoryTransformer",
+107:       "org.apache.commons.collections4.functors.InstantiateFactory",
+108:       "org.apache.commons.collections4.FunctorException",
+109:       "org.apache.commons.collections4.map.AbstractIterableMap",
+110:       "org.apache.commons.collections4.Factory",
+111:       "org.apache.commons.collections4.functors.NotPredicate",
+112:       "org.apache.commons.collections4.functors.FunctorUtils",
+113:       "org.apache.commons.collections4.functors.PredicateDecorator",
+114:       "org.apache.commons.collections4.functors.AnyPredicate",
+115:       "org.apache.commons.collections4.functors.AndPredicate",
+116:       "org.apache.commons.collections4.Transformer",
+117:       "org.apache.commons.collections4.functors.ExceptionTransformer",
+118:       "org.apache.commons.collections4.functors.ConstantTransformer",
+119:       "org.apache.commons.collections4.functors.InvokerTransformer",
+120:       "org.apache.commons.collections4.functors.AllPredicate",
+121:       "org.apache.commons.collections4.functors.PredicateTransformer",
+122:       "org.apache.commons.collections4.functors.ConstantFactory",
+123:       "org.apache.commons.collections4.functors.IfTransformer",
+124:       "org.apache.commons.collections4.Put",
+125:       "org.apache.commons.collections4.IterableMap",
+126:       "org.apache.commons.collections4.functors.NullIsTruePredicate",
+127:       "org.apache.commons.collections4.map.DefaultedMap",
+128:       "org.apache.commons.collections4.IterableGet",
+129:       "org.apache.commons.collections4.functors.NullIsExceptionPredicate"
+130:     );
+131:   } 
+132:   private static void initMocksToAvoidTimeoutsInTheTests() throws ClassNotFoundException { 
+133:     mock(Class.forName("java.util.function.BiFunction", false, DefaultedMap_3_tmp__ESTest_scaffolding.class.getClassLoader()));
+134:   }
+135: 
+136:   private static void resetClasses() {
+137:     org.evosuite.runtime.classhandling.ClassResetter.getInstance().setClassLoader(DefaultedMap_3_tmp__ESTest_scaffolding.class.getClassLoader()); 
+138: 
+139:     org.evosuite.runtime.classhandling.ClassStateSupport.resetClasses(
+140:       "org.apache.commons.collections4.map.AbstractIterableMap",
+141:       "org.apache.commons.collections4.map.AbstractMapDecorator",
+142:       "org.apache.commons.collections4.map.DefaultedMap",
+143:       "org.apache.commons.collections4.functors.ConstantTransformer",
+144:       "org.apache.commons.collections4.functors.ExceptionFactory",
+145:       "org.apache.commons.collections4.functors.FactoryTransformer",
+146:       "org.apache.commons.collections4.functors.ForClosure",
+147:       "org.apache.commons.collections4.functors.NOPClosure",
+148:       "org.apache.commons.collections4.functors.ClosureTransformer",
+149:       "org.apache.commons.collections4.functors.InvokerTransformer",
+150:       "org.apache.commons.collections4.FunctorException",
+151:       "org.apache.commons.collections4.functors.StringValueTransformer",
+152:       "org.apache.commons.collections4.functors.AbstractQuantifierPredicate",
+153:       "org.apache.commons.collections4.functors.NonePredicate",
+154:       "org.apache.commons.collections4.functors.FunctorUtils",
+155:       "org.apache.commons.collections4.functors.NotNullPredicate",
+156:       "org.apache.commons.collections4.functors.ConstantFactory",
+157:       "org.apache.commons.collections4.functors.ExceptionTransformer",
+158:       "org.apache.commons.collections4.functors.NullIsTruePredicate",
+159:       "org.apache.commons.collections4.functors.FalsePredicate",
+160:       "org.apache.commons.collections4.functors.DefaultEquator",
+161:       "org.apache.commons.collections4.functors.EqualPredicate",
+162:       "org.apache.commons.collections4.functors.NullIsExceptionPredicate",
+163:       "org.apache.commons.collections4.functors.AndPredicate",
+164:       "org.apache.commons.collections4.functors.NullPredicate",
+165:       "org.apache.commons.collections4.functors.InstantiateFactory",
+166:       "org.apache.commons.collections4.functors.SwitchTransformer",
+167:       "org.apache.commons.collections4.functors.IdentityPredicate",
+168:       "org.apache.commons.collections4.functors.PredicateTransformer",
+169:       "org.apache.commons.collections4.functors.OnePredicate",
+170:       "org.apache.commons.collections4.functors.AnyPredicate",
+171:       "org.apache.commons.collections4.functors.NullIsFalsePredicate",
+172:       "org.apache.commons.collections4.functors.ComparatorPredicate",
+173:       "org.apache.commons.collections4.functors.IfTransformer",
+174:       "org.apache.commons.collections4.map.EntrySetToMapIteratorAdapter",
+175:       "org.apache.commons.collections4.functors.TransformedPredicate",
+176:       "org.apache.commons.collections4.functors.AllPredicate",
+177:       "org.apache.commons.collections4.functors.TruePredicate",
+178:       "org.apache.commons.collections4.functors.InstanceofPredicate",
+179:       "org.apache.commons.collections4.functors.ExceptionPredicate",
+180:       "org.apache.commons.collections4.functors.NotPredicate",
+181:       "org.apache.commons.collections4.functors.OrPredicate",
+182:       "org.apache.commons.collections4.functors.MapTransformer",
+183:       "org.apache.commons.collections4.functors.ComparatorPredicate$1",
+184:       "org.apache.commons.collections4.functors.UniquePredicate",
+185:       "org.apache.commons.collections4.functors.TransformerPredicate",
+186:       "org.apache.commons.collections4.functors.CloneTransformer",
+187:       "org.apache.commons.collections4.functors.PrototypeFactory"
+188:     );
+189:   }
+190: }
+
+[MASTER] 12:26:04.915 [pool-2-thread-1] ERROR JUnitAnalyzer - Failed to compile test case:
+Integer integer0 = new Integer(572);
+DefaultedMap<Object, Integer> defaultedMap0 = new DefaultedMap<Object, Integer>(integer0);
+DefaultedMap<String, String> defaultedMap1 = new DefaultedMap<String, String>("");
+BiFunction<Object, String, String> biFunction0 = (BiFunction<Object, String, String>) mock(BiFunction.class, new ViolatedAssumptionAnswer());
+doReturn((Object) null).when(biFunction0).apply(any() , anyString());
+defaultedMap1.compute("", biFunction0);
+ConstantTransformer<Object, String> constantTransformer0 = new ConstantTransformer<Object, String>("");
+DefaultedMap.defaultedMap((Map<String, String>) defaultedMap1, (Transformer<? super String, ? extends String>) constantTransformer0);
+DefaultedMap<HashMap<Object, String>, String> defaultedMap2 = new DefaultedMap<HashMap<Object, String>, String>((Transformer<? super HashMap<Object, String>, ? extends String>) constantTransformer0);
+DefaultedMap<HashMap<Object, String>, String> defaultedMap3 = DefaultedMap.defaultedMap((Map<HashMap<Object, String>, String>) defaultedMap2, "");
+DefaultedMap<HashMap<Object, String>, String> defaultedMap4 = new DefaultedMap<HashMap<Object, String>, String>(defaultedMap3, constantTransformer0);
+String string0 = "{.b,@R)c+*Hn#\\|=g(r";
+DefaultedMap<HashMap<Object, String>, String> defaultedMap5 = DefaultedMap.defaultedMap((Map<HashMap<Object, String>, String>) defaultedMap4, "{.b,@R)c+*Hn#|=g(r");
+defaultedMap5.get(defaultedMap2);
+DefaultedMap<Predicate<String>, String> defaultedMap6 = new DefaultedMap<Predicate<String>, String>((Transformer<? super Predicate<String>, ? extends String>) constantTransformer0);
+DefaultedMap.defaultedMap((Map<Predicate<String>, String>) defaultedMap6, (Transformer<? super Predicate<String>, ? extends String>) constantTransformer0);
+HashMap<String, Boolean> hashMap0 = new HashMap<String, Boolean>(572, 1428.8527F);
+Transformer<String, Boolean> transformer0 = MapTransformer.mapTransformer((Map<? super String, ? extends Boolean>) hashMap0);
+DefaultedMap.defaultedMap((Map<String, Boolean>) hashMap0, (Transformer<? super String, ? extends Boolean>) transformer0);
+DefaultedMap.defaultedMap((Map<Object, Object>) null, (Transformer<? super Object, ?>) constantTransformer0);
+

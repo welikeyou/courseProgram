@@ -1,0 +1,4 @@
+[MASTER] 12:30:54.476 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 12:30:54.477 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 12:30:58.274 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.keyvalue.MultiKey<K> : Type points to itself
+[MASTER] 12:31:04.172 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Transformer<I, O> : Type points to itself

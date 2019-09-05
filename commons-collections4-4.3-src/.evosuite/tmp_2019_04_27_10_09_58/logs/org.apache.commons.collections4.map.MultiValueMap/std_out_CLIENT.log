@@ -1,0 +1,83 @@
+* Starting client
+* Connecting to master process on port 19875
+* Analyzing classpath: 
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes
+  - D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar
+  - D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar
+  - D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar
+  - D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.collections4.map.MultiValueMap
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 11:12:00.021 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.map.MultiValueMap.seed
+* Loaded 0 tests from D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.map.MultiValueMap.seed
+* Total number of test goals: 
+  - Line 127
+  - Branch 87
+  - Exception 0
+  - MutationFactory 107
+  - Output 50
+  - Method 27
+  - MethodNoException 27
+  - CBranchFitnessFactory 87
+* Using seed 1556334716456
+* Starting evolution
+[MASTER] 11:13:06.848 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.apache.commons.collections4.map.MultiValueMap due to org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 18, type java.lang.Class<java.util.LinkedList> is not assignable to java.lang.Class<java.util.LinkedList<java.lang.Integer>>
+[MASTER] 11:13:08.368 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Unable to instantiate C
+[MASTER] 11:13:18.205 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 8, type java.lang.Class<java.util.LinkedList> is not assignable to java.lang.Class<java.util.LinkedList<java.util.LinkedList<java.lang.Integer>>>
+[MASTER] 11:13:49.759 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.apache.commons.collections4.map.MultiValueMap due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.apache.commons.collections4.functors.InstantiateFactory due to org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 21, type java.lang.Class<java.util.LinkedList> is not assignable to java.lang.Class<java.util.LinkedList<java.lang.Object>>
+* Search finished after 110s and 19 generations, 12497 statements, best individual has fitness: 205.51636904761904
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 75%
+* Total number of goals: 127
+* Number of covered goals: 95
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 64%
+* Total number of goals: 87
+* Number of covered goals: 56
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 20
+* Number of covered goals: 20
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 70%
+* Total number of goals: 107
+* Number of covered goals: 75
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 60%
+* Total number of goals: 50
+* Number of covered goals: 30
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 74%
+* Total number of goals: 27
+* Number of covered goals: 20
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 74%
+* Total number of goals: 27
+* Number of covered goals: 20
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 61%
+* Total number of goals: 87
+* Number of covered goals: 53
+* Generated 48 tests with total length 245
+* Resulting test suite's coverage: 72% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 55%
+* Compiling and checking tests
+* Writing JUnit test case 'MultiValueMap_ESTest' to D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\tmp_2019_04_27_10_09_58\tests
+* Done!
+

@@ -1,0 +1,10 @@
+[MASTER] 11:09:23.671 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 11:09:23.672 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 11:09:23.672 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.multiset.AbstractMapMultiSet<E>.MultiSetEntry<E> : Type points to itself
+[MASTER] 11:09:23.672 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.multiset.HashMultiSet<E> : Type points to itself
+[MASTER] 11:09:23.673 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.multiset.PredicatedMultiSet<E> : Type points to itself
+[MASTER] 11:09:23.673 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.multiset.SynchronizedMultiSet<E> : Type points to itself
+[MASTER] 11:09:25.059 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Predicate<T> : Type points to itself
+[MASTER] 11:09:36.681 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Transformer<I, O> : Type points to itself
+[MASTER] 11:10:24.494 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+[MASTER] 11:10:28.381 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself

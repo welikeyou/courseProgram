@@ -1,0 +1,6 @@
+[MASTER] 12:17:11.710 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.keyvalue.UnmodifiableMapEntry<K, V> : Type points to itself
+[MASTER] 12:17:11.711 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.list.UnmodifiableList<E> : Type points to itself
+[MASTER] 12:17:11.711 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMap<K, V> : Type points to itself
+[MASTER] 12:17:11.712 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.trie.UnmodifiableTrie<K, V> : Type points to itself
+[MASTER] 12:17:11.716 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 12:17:11.716 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself

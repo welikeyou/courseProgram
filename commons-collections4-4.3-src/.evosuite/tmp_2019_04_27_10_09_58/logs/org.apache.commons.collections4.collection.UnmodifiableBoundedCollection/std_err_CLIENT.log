@@ -1,0 +1,10 @@
+[MASTER] 12:08:23.715 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.keyvalue.UnmodifiableMapEntry<K, V> : Type points to itself
+[MASTER] 12:08:23.715 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.list.UnmodifiableList<E> : Type points to itself
+[MASTER] 12:08:23.716 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMap<K, V> : Type points to itself
+[MASTER] 12:08:23.717 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.trie.UnmodifiableTrie<K, V> : Type points to itself
+[MASTER] 12:08:23.718 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.collection.IndexedCollection<K, C> : Type points to itself
+[MASTER] 12:08:23.719 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.collection.PredicatedCollection<E> : Type points to itself
+[MASTER] 12:08:23.719 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.collection.TransformedCollection<E> : Type points to itself
+[MASTER] 12:08:23.719 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.list.FixedSizeList<E> : Type points to itself
+[MASTER] 12:08:23.719 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.queue.CircularFifoQueue<E> : Type points to itself
+[MASTER] 12:08:23.825 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.ComparatorPredicate<T>.Criterion : Type points to itself

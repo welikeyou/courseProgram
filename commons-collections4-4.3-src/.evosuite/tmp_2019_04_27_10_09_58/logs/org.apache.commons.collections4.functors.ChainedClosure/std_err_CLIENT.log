@@ -1,0 +1,11 @@
+[MASTER] 12:20:41.628 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.ChainedClosure<E> : Type points to itself
+[MASTER] 12:20:41.628 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.ForClosure<E> : Type points to itself
+[MASTER] 12:20:41.628 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.IfClosure<E> : Type points to itself
+[MASTER] 12:20:41.628 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.SwitchClosure<E> : Type points to itself
+[MASTER] 12:20:41.630 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.TransformerClosure<E> : Type points to itself
+[MASTER] 12:20:41.630 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.WhileClosure<E> : Type points to itself
+[MASTER] 12:20:42.206 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Predicate<T> : Type points to itself
+[MASTER] 12:20:42.207 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Closure<T> : Type points to itself
+[MASTER] 12:20:42.210 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Transformer<I, O> : Type points to itself
+[MASTER] 12:20:56.736 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 12:21:38.893 [pool-2-thread-1] ERROR JUnitAnalyzer - Ran out of time while checking tests

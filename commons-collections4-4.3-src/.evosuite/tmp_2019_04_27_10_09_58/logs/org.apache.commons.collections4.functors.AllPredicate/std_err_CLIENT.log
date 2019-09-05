@@ -1,0 +1,18 @@
+[MASTER] 12:21:47.607 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.AllPredicate<T> : Type points to itself
+[MASTER] 12:21:47.608 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.AndPredicate<T> : Type points to itself
+[MASTER] 12:21:47.609 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.AnyPredicate<T> : Type points to itself
+[MASTER] 12:21:47.609 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.ComparatorPredicate<T> : Type points to itself
+[MASTER] 12:21:47.611 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.EqualPredicate<T> : Type points to itself
+[MASTER] 12:21:47.611 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.IdentityPredicate<T> : Type points to itself
+[MASTER] 12:21:47.611 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.NonePredicate<T> : Type points to itself
+[MASTER] 12:21:47.611 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.NotPredicate<T> : Type points to itself
+[MASTER] 12:21:47.611 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.NullIsExceptionPredicate<T> : Type points to itself
+[MASTER] 12:21:47.611 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.NullIsFalsePredicate<T> : Type points to itself
+[MASTER] 12:21:47.611 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.NullIsTruePredicate<T> : Type points to itself
+[MASTER] 12:21:47.611 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.OnePredicate<T> : Type points to itself
+[MASTER] 12:21:47.612 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.OrPredicate<T> : Type points to itself
+[MASTER] 12:21:47.612 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.TransformedPredicate<T> : Type points to itself
+[MASTER] 12:21:47.612 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.TransformerPredicate<T> : Type points to itself
+[MASTER] 12:21:47.612 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.functors.UniquePredicate<T> : Type points to itself
+[MASTER] 12:21:48.883 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Transformer<I, O> : Type points to itself
+[MASTER] 12:22:02.142 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself

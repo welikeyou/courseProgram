@@ -1,0 +1,84 @@
+* Starting client
+* Connecting to master process on port 16569
+* Analyzing classpath: 
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes
+  - D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar
+  - D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar
+  - D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar
+  - D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.collections4.iterators.IteratorChain
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 11:45:48.678 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.iterators.IteratorChain.seed
+* Loaded 0 tests from D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.iterators.IteratorChain.seed
+* Total number of test goals: 
+  - Line 72
+  - Branch 31
+  - Exception 0
+  - MutationFactory 25
+  - Output 9
+  - Method 12
+  - MethodNoException 12
+  - CBranchFitnessFactory 31
+* Using seed 1556336746055
+* Starting evolution
+* Search finished after 509s and 1 generations, 1239 statements, best individual has fitness: 20.934065934065934
+* Writing sequences to pool
+[MASTER] 11:54:17.724 [pool-2-thread-1] WARN  TimeController - Phase SEARCH lasted too long, 439 seconds more than allowed.
+[MASTER] 11:54:17.824 [pool-2-thread-1] WARN  TimeController - Current phase MINIMIZATION could run up to 11s, but only -376s are left
+* Skipping minimization because not enough time is left
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 92%
+* Total number of goals: 72
+* Number of covered goals: 66
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 31
+* Number of covered goals: 29
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 12
+* Number of covered goals: 12
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 92%
+* Total number of goals: 25
+* Number of covered goals: 23
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 67%
+* Total number of goals: 9
+* Number of covered goals: 6
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 92%
+* Total number of goals: 12
+* Number of covered goals: 11
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 92%
+* Total number of goals: 12
+* Number of covered goals: 11
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 94%
+* Total number of goals: 31
+* Number of covered goals: 29
+* Generated 22 tests with total length 423
+* Resulting test suite's coverage: 88% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 11:54:17.974 [pool-2-thread-1] WARN  TimeController - Current phase ASSERTION_GENERATION could run up to 11s, but only -376s are left
+* Skipping assertion generation because not enough time is left
+* Compiling and checking tests
+[MASTER] 11:54:18.004 [pool-2-thread-1] WARN  TimeController - Current phase JUNIT_CHECK could run up to 11s, but only -376s are left
+[MASTER] 11:54:18.014 [pool-2-thread-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 11s, but only -376s are left
+* Writing JUnit test case 'IteratorChain_ESTest' to D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\tmp_2019_04_27_10_09_58\tests
+* Done!
+

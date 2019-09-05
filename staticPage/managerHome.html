@@ -1,0 +1,120 @@
+<!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
+    .addGoodsDiv{
+        margin-left: 30%;
+        margin-top:10%;
+        width: 50%;
+        padding: 20px;
+    }
+    .addGoodsBg{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: #a9c6c9;
+        z-index: 999;
+    }
+    .addGoodsDiv span{
+        width: 100px;
+        margin-top:40px;
+    }
+    .addGoodsDiv input{
+        width: 40%;
+        margin-left: 20px;
+    }
+    #sureBtn{
+        width: 20%;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+     #cancelBtn{
+         width: 20%;
+         margin-top: 10px;
+         margin-left: 6%;
+      }
+    table.hovertable {
+        font-family: verdana,arial,sans-serif;
+        font-size:11px;
+        color:#333333;
+        border-width: 1px;
+        border-color: #999999;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    table.hovertable th {
+        background-color:#c3dde0;
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #a9c6c9;
+    }
+    table.hovertable tr {
+        background-color:#d4e3e5;
+    }
+    table.hovertable td {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #a9c6c9;
+    }
+
+    .addGoods{
+        width: 20%;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+</style>
+
+<script>
+    function change() {
+
+    }
+</script>
+<!-- Table goes in the document BODY -->
+<body>
+
+<table class="hovertable">
+    <tr>
+        <th>商品名称</th><th>单价</th><th>类型</th> <th>库存</th><th>图片</th><th>描述</th><th>操作</th>
+    </tr>
+    <tr contenteditable="true" onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+        <td >假如给我三天光明</td><td>39元</td><td>经典文学</td><td>1780</td><td>img/threeLight.jpg</td><td>海伦接受了生命的挑战，用爱心去拥抱世界，以惊人的毅力面对困境，终于在黑暗中找到了人生的光明面，最后又把慈爱的双手伸向全世界。</td><td><input type="button" value="修改"> <input type="button" value="删除"></td>
+    </tr>
+    <!--<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">-->
+        <!--<td>飘</td><td>45元</td><td>经典文学</td><td>1380</td><td>img/theWind.jpg</td><td>经典的一本书籍</td><td><input type="button" value="修改" onclick="change()"> <input type="button" value="删除"></td>-->
+    <!--</tr>-->
+    <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+        <td>五年高考三年模拟</td><td>250元</td><td>教辅资料</td><td>3780</td><td>img/五年高考三年模拟.jpg</td><td>高考必备</td><td><input type="button" value="修改"> <input type="button" value="删除"></td>
+    </tr>
+    <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+        <td>三体</td><td>32元</td><td>网络文学</td><td>689</td><td>img/三体.jpg</td><td>科幻巨著</td><td><input type="button" value="修改"> <input type="button" value="删除"></td>
+    </tr>
+    <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+        <td>知识清单</td><td>39.8元</td><td>教辅资料</td><td>3459</td><td>img/知识清单.jpg</td><td>化学教辅资料</td><td><input type="button" value="修改"> <input type="button" value="删除"></td>
+    </tr>
+    <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+        <td>倍速学习法</td><td>29.44元</td><td>教辅资料</td><td>3459</td><td>img/倍速学习法.jpg</td><td>小学课程资料</td><td><input type="button" value="修改"> <input type="button" value="删除"></td>
+    </tr>
+    <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+        <td>斗破苍穹</td><td>29.44元</td><td>网络文学</td><td>3459</td><td>img/斗破苍穹.jpg</td><td>玄幻</td><td><input type="button" value="修改"> <input type="button" value="删除"></td>
+    </tr>
+    <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+        <td>阿衰</td><td>8元</td><td></td><td>3459</td><td>img/阿衰.jpg</td><td>爆笑经典</td><td><input type="button" value="修改"> <input type="button" value="删除"></td>
+    </tr>
+</table>
+<input type="button" value="添加" class="addGoods">
+<div class="addGoodsBg">
+    <div class="addGoodsDiv" id="addGoodsDiv" >
+        <span>名称</span><input type="text"><br/>
+        <span>单价</span><input type="text"><br/>
+        <span>类型</span><input type="text"><br/>
+        <span>库存</span><input type="text"><br/>
+        <span>图片</span><input type="text"><br/>
+        <span>描述</span><input type="text"><br/>
+        <input type="button" value="确定" class="addBtn" id="sureBtn"> <input type="button" value="取消" class="addBtn" id="cancelBtn">
+    </div>
+</div>
+
+</body>

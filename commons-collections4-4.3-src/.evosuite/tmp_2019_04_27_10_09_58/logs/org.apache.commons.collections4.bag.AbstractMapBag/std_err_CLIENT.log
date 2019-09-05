@@ -1,0 +1,14 @@
+[MASTER] 10:53:44.231 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 10:53:44.231 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 10:53:44.231 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.bag.CollectionBag<E> : Type points to itself
+[MASTER] 10:53:44.231 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.bag.CollectionSortedBag<E> : Type points to itself
+[MASTER] 10:53:44.233 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.bag.HashBag<E> : Type points to itself
+[MASTER] 10:53:44.233 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.bag.PredicatedBag<E> : Type points to itself
+[MASTER] 10:53:44.233 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.bag.PredicatedSortedBag<E> : Type points to itself
+[MASTER] 10:53:44.233 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.bag.SynchronizedBag<E> : Type points to itself
+[MASTER] 10:53:44.233 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.bag.SynchronizedSortedBag<E> : Type points to itself
+[MASTER] 10:53:44.233 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.bag.TransformedBag<E> : Type points to itself
+[MASTER] 10:53:44.233 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.bag.TransformedSortedBag<E> : Type points to itself
+[MASTER] 10:53:44.233 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.bag.TreeBag<E> : Type points to itself
+[MASTER] 10:53:51.723 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.Transformer<I, O> : Type points to itself
+[MASTER] 10:55:22.769 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself

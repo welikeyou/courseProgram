@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/homePage.css">
+    <script src="js/homePage.js"></script>
+</head>
+<body>
+
+<img src="img/head.jpg" class="upImg">
+<div class="bottomBox">
+
+    <div class="leftBox">
+        <div class="leftUpBox" id="loginBox">
+            <form action="LoginServlet.do" method="post" id="loginForm">
+              <span style="display: inline">
+                  账号：
+              </span>
+                <input type="text" name="account" id="account" ><br/>
+                <span style="display: inline">
+                   密码：
+               </span>
+                <input type="password" name="password" id="password"><br/>
+
+                <input type="button" id="loginBtn" value="提交" onclick="login()">
+                <input type="button" id="registerBtn" value="注册" onclick="toRegister()">
+            </form>
+        </div>
+
+        <div class="leftUpBox" id="messageBox" style="display:none">
+            <div>欢迎您李兰</div>
+        </div>
+
+        <div id="bookType" class="bookType">
+            <div>书籍分类</div>
+            <ul>
+                <li>
+                    文学经典
+                </li>
+                <li>
+                    网络文学
+                </li>
+                <li>
+                    自然科学
+                </li>
+                <li style="background-color: deepskyblue">
+                    教辅资料
+                </li>
+                <li>
+                    其他
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="rightBox">
+        <div id="searchBox">
+            <input type="search" placeholder="搜索">
+        </div>
+        <div class="showBordRow">
+            <div  class="showBox" >
+                <img src="img/五年高考三年模拟.jpg"/>
+                <div>书名：五年高考三年模拟</div>
+                <div>价格：250元</div>
+                <span type="button"  id="detailBtn" onclick="toDetail()">详情</span>
+                <span type="button" id="addToCarBtn" onclick="toAddToCarIndex()">加入购物车</span>
+            </div>
+
+            <div  class="showBox" >
+                <img src="img/知识清单.jpg"/>
+                <div>书名：知识清单</div>
+                <div>价格：39.8元</div>
+                <span type="button"  id="detailBtn" onclick="toDetail()">详情</span>
+                <span type="button" id="addToCarBtn" onclick="toAddToCarIndex()">加入购物车</span>
+            </div>
+
+            <div  class="showBox" >
+                <img src="img/倍速学习法.jpg"/>
+                <div>书名：倍速学习法</div>
+                <div>价格：29.44元</div>
+                <span type="button"  id="detailBtn" onclick="toDetail()">详情</span>
+                <span type="button" id="addToCarBtn" onclick="toAddToCarIndex()">加入购物车</span>
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="regiserDiv" style="display: none">
+    <form action="Register.do" method="post" id="regiserForm" >
+        <input type="tel" id="accountReg" placeholder="请输入账号">
+        <input type="text" id="name" placeholder="请输入用户名">
+        <input type="password" id="password1" placeholder="请输入密码">
+        <input type="password" id="password2" placeholder="确认密码">
+        <input type="radio" checked="checked" name="role">我是消费者
+        <input type="radio" name="role" >我是管理员
+        <input type="button" id="registerSubBtn" value="提交" onclick="register()">
+        <span id="toLogin" onclick="toLogin()">去登陆</span>
+    </form>
+</div>
+</body>
+</html>

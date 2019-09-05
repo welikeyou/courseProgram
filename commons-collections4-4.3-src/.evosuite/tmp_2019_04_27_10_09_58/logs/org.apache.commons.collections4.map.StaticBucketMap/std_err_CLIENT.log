@@ -1,0 +1,436 @@
+[MASTER] 10:58:26.731 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 10:58:26.732 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 10:58:26.732 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 10:58:48.300 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 10:59:24.551 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 11:01:56.368 [pool-2-thread-1] ERROR JUnitAnalyzer - Compilation failed on compilation units: [RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_6_1556334115658\org\apache\commons\collections4\map\StaticBucketMap_6_tmp__ESTest.java], RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_6_1556334115658\org\apache\commons\collections4\map\StaticBucketMap_6_tmp__ESTest_scaffolding.java]]
+[MASTER] 11:01:56.368 [pool-2-thread-1] ERROR JUnitAnalyzer - Classpath: D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\evosuite\evosuite-master\1.0.6\evosuite-master-1.0.6.jar;D:\maven\LocalWare\org\evosuite\evosuite-client\1.0.6\evosuite-client-1.0.6-tests.jar;D:\maven\LocalWare\org\evosuite\evosuite-runtime\1.0.6\evosuite-runtime-1.0.6.jar;D:\maven\LocalWare\javax\ejb\javax.ejb-api\3.2\javax.ejb-api-3.2.jar;D:\maven\LocalWare\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;D:\maven\LocalWare\javax\faces\javax.faces-api\2.2\javax.faces-api-2.2.jar;D:\maven\LocalWare\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;D:\maven\LocalWare\org\hsqldb\hsqldb\2.4.0\hsqldb-2.4.0.jar;D:\maven\LocalWare\org\springframework\spring-orm\4.3.14.RELEASE\spring-orm-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-jdbc\4.3.14.RELEASE\spring-jdbc-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-context\4.3.14.RELEASE\spring-context-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-aop\4.3.14.RELEASE\spring-aop-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-expression\4.3.14.RELEASE\spring-expression-4.3.14.RELEASE.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\mockito\mockito-core\2.16.0\mockito-core-2.16.0.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy-agent\1.7.9\byte-buddy-agent-1.7.9.jar;D:\maven\LocalWare\org\objenesis\objenesis\2.6\objenesis-2.6.jar;D:\maven\LocalWare\org\slf4j\slf4j-api\1.7.22\slf4j-api-1.7.22.jar;D:\maven\LocalWare\org\ow2\asm\asm\6.0\asm-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-commons\6.0\asm-commons-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-tree\6.0\asm-tree-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-analysis\6.0\asm-analysis-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-util\6.0\asm-util-6.0.jar;D:\maven\LocalWare\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;D:\maven\LocalWare\com\opencsv\opencsv\4.1\opencsv-4.1.jar;D:\maven\LocalWare\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;D:\maven\LocalWare\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;D:\maven\LocalWare\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\LocalWare\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\maven\LocalWare\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;D:\maven\LocalWare\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;D:\maven\LocalWare\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;D:\maven\LocalWare\com\googlecode\gentyref\gentyref\1.2.0\gentyref-1.2.0.jar;D:\maven\LocalWare\net\sf\jgrapht\jgrapht\0.8.3\jgrapht-0.8.3.jar;D:\maven\LocalWare\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar;D:\maven\LocalWare\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;D:\maven\LocalWare\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;D:\maven\LocalWare\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\maven\LocalWare\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;D:\maven\LocalWare\org\kohsuke\graphviz-api\1.1\graphviz-api-1.1.jar;D:\maven\LocalWare\oro\oro\2.0.8\oro-2.0.8.jar;D:\maven\LocalWare\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\maven\LocalWare\org\jboss\spec\javax\servlet\jboss-servlet-api_3.1_spec\1.0.2.Final\jboss-servlet-api_3.1_spec-1.0.2.Final.jar;D:\maven\LocalWare\javax\inject\javax.inject\1\javax.inject-1.jar;D:\maven\LocalWare\javax\enterprise\cdi-api\1.2\cdi-api-1.2.jar;D:\maven\LocalWare\javax\el\javax.el-api\3.0.0\javax.el-api-3.0.0.jar;D:\maven\LocalWare\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;D:\maven\LocalWare\org\hibernate\hibernate-core\5.2.13.Final\hibernate-core-5.2.13.Final.jar;D:\maven\LocalWare\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;D:\maven\LocalWare\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;D:\maven\LocalWare\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;D:\maven\LocalWare\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\maven\LocalWare\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.1.Final\jboss-transaction-api_1.2_spec-1.0.1.Final.jar;D:\maven\LocalWare\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;D:\maven\LocalWare\com\fasterxml\classmate\1.3.0\classmate-1.3.0.jar;D:\maven\LocalWare\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maven\LocalWare\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;D:\maven\LocalWare\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+[MASTER] 11:01:56.368 [pool-2-thread-1] ERROR JUnitAnalyzer - evosuiteCP: D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\evosuite\evosuite-master\1.0.6\evosuite-master-1.0.6.jar;D:\maven\LocalWare\org\evosuite\evosuite-client\1.0.6\evosuite-client-1.0.6-tests.jar;D:\maven\LocalWare\org\evosuite\evosuite-runtime\1.0.6\evosuite-runtime-1.0.6.jar;D:\maven\LocalWare\javax\ejb\javax.ejb-api\3.2\javax.ejb-api-3.2.jar;D:\maven\LocalWare\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;D:\maven\LocalWare\javax\faces\javax.faces-api\2.2\javax.faces-api-2.2.jar;D:\maven\LocalWare\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;D:\maven\LocalWare\org\hsqldb\hsqldb\2.4.0\hsqldb-2.4.0.jar;D:\maven\LocalWare\org\springframework\spring-orm\4.3.14.RELEASE\spring-orm-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-jdbc\4.3.14.RELEASE\spring-jdbc-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-context\4.3.14.RELEASE\spring-context-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-aop\4.3.14.RELEASE\spring-aop-4.3.14.RELEASE.jar;D:\maven\LocalWare\org\springframework\spring-expression\4.3.14.RELEASE\spring-expression-4.3.14.RELEASE.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\mockito\mockito-core\2.16.0\mockito-core-2.16.0.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;D:\maven\LocalWare\net\bytebuddy\byte-buddy-agent\1.7.9\byte-buddy-agent-1.7.9.jar;D:\maven\LocalWare\org\objenesis\objenesis\2.6\objenesis-2.6.jar;D:\maven\LocalWare\org\slf4j\slf4j-api\1.7.22\slf4j-api-1.7.22.jar;D:\maven\LocalWare\org\ow2\asm\asm\6.0\asm-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-commons\6.0\asm-commons-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-tree\6.0\asm-tree-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-analysis\6.0\asm-analysis-6.0.jar;D:\maven\LocalWare\org\ow2\asm\asm-util\6.0\asm-util-6.0.jar;D:\maven\LocalWare\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;D:\maven\LocalWare\com\opencsv\opencsv\4.1\opencsv-4.1.jar;D:\maven\LocalWare\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;D:\maven\LocalWare\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;D:\maven\LocalWare\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\LocalWare\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\maven\LocalWare\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;D:\maven\LocalWare\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;D:\maven\LocalWare\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;D:\maven\LocalWare\com\googlecode\gentyref\gentyref\1.2.0\gentyref-1.2.0.jar;D:\maven\LocalWare\net\sf\jgrapht\jgrapht\0.8.3\jgrapht-0.8.3.jar;D:\maven\LocalWare\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar;D:\maven\LocalWare\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;D:\maven\LocalWare\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;D:\maven\LocalWare\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\maven\LocalWare\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;D:\maven\LocalWare\org\kohsuke\graphviz-api\1.1\graphviz-api-1.1.jar;D:\maven\LocalWare\oro\oro\2.0.8\oro-2.0.8.jar;D:\maven\LocalWare\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\maven\LocalWare\org\jboss\spec\javax\servlet\jboss-servlet-api_3.1_spec\1.0.2.Final\jboss-servlet-api_3.1_spec-1.0.2.Final.jar;D:\maven\LocalWare\javax\inject\javax.inject\1\javax.inject-1.jar;D:\maven\LocalWare\javax\enterprise\cdi-api\1.2\cdi-api-1.2.jar;D:\maven\LocalWare\javax\el\javax.el-api\3.0.0\javax.el-api-3.0.0.jar;D:\maven\LocalWare\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;D:\maven\LocalWare\org\hibernate\hibernate-core\5.2.13.Final\hibernate-core-5.2.13.Final.jar;D:\maven\LocalWare\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;D:\maven\LocalWare\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;D:\maven\LocalWare\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;D:\maven\LocalWare\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\maven\LocalWare\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.1.Final\jboss-transaction-api_1.2_spec-1.0.1.Final.jar;D:\maven\LocalWare\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;D:\maven\LocalWare\com\fasterxml\classmate\1.3.0\classmate-1.3.0.jar;D:\maven\LocalWare\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maven\LocalWare\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;D:\maven\LocalWare\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes;D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes;D:\maven\LocalWare\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar;D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+[MASTER] 11:01:56.377 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: incompatible types: java.util.Comparator<java.util.Map.Entry<java.lang.Object,java.util.AbstractMap.SimpleEntry<java.lang.Object,java.lang.Object>>> cannot be converted to java.util.Comparator<java.util.Map.Entry<java.util.HashMap<java.util.HashMap<java.util.HashMap,java.lang.String>,java.lang.String>,java.util.AbstractMap.SimpleEntry<java.lang.Object,java.lang.Object>>>: 58
+[MASTER] 11:01:56.377 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: C:\Users\Dell\AppData\Local\Temp\EvoSuite_6_1556334115658\org\apache\commons\collections4\map\StaticBucketMap_6_tmp__ESTest.java uses unchecked or unsafe operations.: -1
+[MASTER] 11:01:56.377 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: Recompile with -Xlint:unchecked for details.: -1
+[MASTER] 11:01:56.378 [pool-2-thread-1] ERROR JUnitAnalyzer - RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_6_1556334115658\org\apache\commons\collections4\map\StaticBucketMap_6_tmp__ESTest.java]
+1: /*
+2:  * This file was automatically generated by EvoSuite
+3:  * Sat Apr 27 03:01:55 GMT 2019
+4:  */
+5: 
+6: package org.apache.commons.collections4.map;
+7: 
+8: import org.junit.Test;
+9: import static org.junit.Assert.*;
+10: import static org.evosuite.shaded.org.mockito.Mockito.*;
+11: import java.util.AbstractMap;
+12: import java.util.Comparator;
+13: import java.util.HashMap;
+14: import java.util.Map;
+15: import java.util.Set;
+16: import java.util.function.BiFunction;
+17: import org.apache.commons.collections4.map.StaticBucketMap;
+18: import org.evosuite.runtime.EvoRunner;
+19: import org.evosuite.runtime.EvoRunnerParameters;
+20: import org.evosuite.runtime.ViolatedAssumptionAnswer;
+21: import org.junit.runner.RunWith;
+22: 
+23: @RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, useJEE = true) 
+24: public class StaticBucketMap_6_tmp__ESTest extends StaticBucketMap_6_tmp__ESTest_scaffolding {
+25: 
+26:   @Test(timeout = 4000)
+27:   public void test0()  throws Throwable  {
+28:       StaticBucketMap<AbstractMap.SimpleImmutableEntry<Object, Object>, Integer> staticBucketMap0 = new StaticBucketMap<AbstractMap.SimpleImmutableEntry<Object, Object>, Integer>(219);
+29:       assertEquals(0, staticBucketMap0.size());
+30:       assertTrue(staticBucketMap0.isEmpty());
+31:       assertNotNull(staticBucketMap0);
+32:       
+33:       Set<AbstractMap.SimpleImmutableEntry<Object, Object>> set0 = staticBucketMap0.keySet();
+34:       assertEquals(0, staticBucketMap0.size());
+35:       assertTrue(staticBucketMap0.isEmpty());
+36:       assertTrue(set0.isEmpty());
+37:       assertEquals(0, set0.size());
+38:       assertNotNull(set0);
+39:       
+40:       StaticBucketMap<AbstractMap.SimpleEntry<Object, Object>, Object> staticBucketMap1 = new StaticBucketMap<AbstractMap.SimpleEntry<Object, Object>, Object>((-1));
+41:       assertTrue(staticBucketMap1.isEmpty());
+42:       assertEquals(0, staticBucketMap1.size());
+43:       assertNotNull(staticBucketMap1);
+44:       
+45:       AbstractMap.SimpleEntry<String, String> abstractMap_SimpleEntry0 = new AbstractMap.SimpleEntry<String, String>("F$", "F$");
+46:       assertNotNull(abstractMap_SimpleEntry0);
+47:       
+48:       AbstractMap.SimpleImmutableEntry<Object, String> abstractMap_SimpleImmutableEntry0 = new AbstractMap.SimpleImmutableEntry<Object, String>(abstractMap_SimpleEntry0);
+49:       assertNotNull(abstractMap_SimpleImmutableEntry0);
+50:       
+51:       Comparator<Map.Entry<String, String>> comparator0 = Map.Entry.comparingByValue();
+52:       assertNotNull(comparator0);
+53:       
+54:       AbstractMap.SimpleEntry<Object, Object> abstractMap_SimpleEntry1 = new AbstractMap.SimpleEntry<Object, Object>(abstractMap_SimpleImmutableEntry0);
+55:       assertNotNull(abstractMap_SimpleEntry1);
+56:       
+57:       Comparator<Object> comparator1 = (Comparator<Object>) mock(Comparator.class, new ViolatedAssumptionAnswer());
+58:       Comparator<Map.Entry<HashMap<HashMap<HashMap, String>, String>, AbstractMap.SimpleEntry<Object, Object>>> comparator2 = (Comparator<Map.Entry<HashMap<HashMap<HashMap, String>, String>, AbstractMap.SimpleEntry<Object, Object>>>)Map.Entry.comparingByValue((Comparator<? super AbstractMap.SimpleEntry<Object, Object>>) comparator1);
+59:       assertNotNull(comparator2);
+60:       
+61:       Integer integer0 = new Integer(219);
+62:       assertEquals(219, (int)integer0);
+63:       assertNotNull(integer0);
+64:       
+65:       BiFunction<Object, Object, Object> biFunction0 = (BiFunction<Object, Object, Object>) mock(BiFunction.class, new ViolatedAssumptionAnswer());
+66:       Object object0 = staticBucketMap1.merge(abstractMap_SimpleEntry1, integer0, biFunction0);
+67:       assertFalse(staticBucketMap1.isEmpty());
+68:       assertEquals(1, staticBucketMap1.size());
+69:       assertEquals(219, object0);
+70:       assertNotNull(object0);
+71:       
+72:       boolean boolean0 = staticBucketMap1.equals(staticBucketMap0);
+73:       assertEquals(0, staticBucketMap0.size());
+74:       assertTrue(staticBucketMap0.isEmpty());
+75:       assertFalse(staticBucketMap1.isEmpty());
+76:       assertEquals(1, staticBucketMap1.size());
+77:       assertFalse(boolean0);
+78:       
+79:       StaticBucketMap<String, String> staticBucketMap2 = new StaticBucketMap<String, String>(205);
+80:       assertTrue(staticBucketMap2.isEmpty());
+81:       assertEquals(0, staticBucketMap2.size());
+82:       assertNotNull(staticBucketMap2);
+83:       
+84:       StaticBucketMap<String, Object> staticBucketMap3 = new StaticBucketMap<String, Object>((-3362));
+85:       assertTrue(staticBucketMap3.isEmpty());
+86:       assertEquals(0, staticBucketMap3.size());
+87:       assertNotNull(staticBucketMap3);
+88:       
+89:       staticBucketMap3.hashCode();
+90:       assertTrue(staticBucketMap3.isEmpty());
+91:       assertEquals(0, staticBucketMap3.size());
+92:       
+93:       staticBucketMap2.clear();
+94:       assertTrue(staticBucketMap2.isEmpty());
+95:       assertEquals(0, staticBucketMap2.size());
+96:       
+97:       StaticBucketMap<AbstractMap.SimpleImmutableEntry<String, Object>, Object> staticBucketMap4 = new StaticBucketMap<AbstractMap.SimpleImmutableEntry<String, Object>, Object>();
+98:       assertEquals(0, staticBucketMap4.size());
+99:       assertTrue(staticBucketMap4.isEmpty());
+100:       assertNotNull(staticBucketMap4);
+101:       
+102:       AbstractMap.SimpleImmutableEntry<String, Object> abstractMap_SimpleImmutableEntry1 = new AbstractMap.SimpleImmutableEntry<String, Object>(abstractMap_SimpleEntry0);
+103:       assertNotNull(abstractMap_SimpleImmutableEntry1);
+104:       
+105:       Object object1 = staticBucketMap4.put(abstractMap_SimpleImmutableEntry1, abstractMap_SimpleEntry0);
+106:       assertFalse(staticBucketMap4.isEmpty());
+107:       assertEquals(1, staticBucketMap4.size());
+108:       assertNull(object1);
+109:       
+110:       boolean boolean1 = staticBucketMap4.isEmpty();
+111:       assertTrue(boolean1 == boolean0);
+112:       assertFalse(staticBucketMap4.isEmpty());
+113:       assertEquals(1, staticBucketMap4.size());
+114:       assertFalse(boolean1);
+115:       
+116:       StaticBucketMap<AbstractMap.SimpleEntry<String, Object>, AbstractMap.SimpleEntry<Integer, String>> staticBucketMap5 = new StaticBucketMap<AbstractMap.SimpleEntry<String, Object>, AbstractMap.SimpleEntry<Integer, String>>();
+117:       assertEquals(0, staticBucketMap5.size());
+118:       assertNotNull(staticBucketMap5);
+119:       
+120:       AbstractMap.SimpleImmutableEntry<String, Object> abstractMap_SimpleImmutableEntry2 = new AbstractMap.SimpleImmutableEntry<String, Object>("F$", "");
+121:       assertNotNull(abstractMap_SimpleImmutableEntry2);
+122:       
+123:       AbstractMap.SimpleEntry<String, Object> abstractMap_SimpleEntry2 = new AbstractMap.SimpleEntry<String, Object>(abstractMap_SimpleImmutableEntry2);
+124:       assertNotNull(abstractMap_SimpleEntry2);
+125:       
+126:       Integer integer1 = new Integer((-1));
+127:       assertFalse(integer1.equals((Object)object0));
+128:       assertFalse(integer1.equals((Object)integer0));
+129:       assertEquals((-1), (int)integer1);
+130:       assertNotNull(integer1);
+131:       
+132:       AbstractMap.SimpleEntry<Integer, String> abstractMap_SimpleEntry3 = new AbstractMap.SimpleEntry<Integer, String>(integer1, "");
+133:       assertFalse(integer1.equals((Object)object0));
+134:       assertFalse(integer1.equals((Object)integer0));
+135:       assertNotNull(abstractMap_SimpleEntry3);
+136:       
+137:       AbstractMap.SimpleEntry<Integer, String> abstractMap_SimpleEntry4 = staticBucketMap5.put(abstractMap_SimpleEntry2, abstractMap_SimpleEntry3);
+138:       assertFalse(integer1.equals((Object)object0));
+139:       assertFalse(integer1.equals((Object)integer0));
+140:       assertFalse(staticBucketMap5.isEmpty());
+141:       assertEquals(1, staticBucketMap5.size());
+142:       assertNull(abstractMap_SimpleEntry4);
+143:       
+144:       StaticBucketMap<Integer, String> staticBucketMap6 = new StaticBucketMap<Integer, String>((-1));
+145:       assertEquals(0, staticBucketMap6.size());
+146:       assertTrue(staticBucketMap6.isEmpty());
+147:       assertNotNull(staticBucketMap6);
+148:       
+149:       boolean boolean2 = staticBucketMap6.containsKey((Object) null);
+150:       assertTrue(boolean2 == boolean0);
+151:       assertTrue(boolean2 == boolean1);
+152:       assertEquals(0, staticBucketMap6.size());
+153:       assertTrue(staticBucketMap6.isEmpty());
+154:       assertFalse(boolean2);
+155:   }
+156: }
+RegularFileObject[C:\Users\Dell\AppData\Local\Temp\EvoSuite_6_1556334115658\org\apache\commons\collections4\map\StaticBucketMap_6_tmp__ESTest.java]
+1: /**
+2:  * Scaffolding file used to store all the setups needed to run 
+3:  * tests automatically generated by EvoSuite
+4:  * Sat Apr 27 03:01:55 GMT 2019
+5:  */
+6: 
+7: package org.apache.commons.collections4.map;
+8: 
+9: import org.evosuite.runtime.annotation.EvoSuiteClassExclude;
+10: import org.junit.BeforeClass;
+11: import org.junit.Before;
+12: import org.junit.After;
+13: import org.junit.AfterClass;
+14: import org.evosuite.runtime.sandbox.Sandbox;
+15: import org.evosuite.runtime.sandbox.Sandbox.SandboxMode;
+16: 
+17: import static org.evosuite.shaded.org.mockito.Mockito.*;
+18: @EvoSuiteClassExclude
+19: public class StaticBucketMap_6_tmp__ESTest_scaffolding {
+20: 
+21:   @org.junit.Rule 
+22:   public org.evosuite.runtime.vnet.NonFunctionalRequirementRule nfr = new org.evosuite.runtime.vnet.NonFunctionalRequirementRule();
+23: 
+24:   private static final java.util.Properties defaultProperties = (java.util.Properties) java.lang.System.getProperties().clone(); 
+25: 
+26:   private org.evosuite.runtime.thread.ThreadStopper threadStopper =  new org.evosuite.runtime.thread.ThreadStopper (org.evosuite.runtime.thread.KillSwitchHandler.getInstance(), 3000);
+27: 
+28: 
+29:   @BeforeClass 
+30:   public static void initEvoSuiteFramework() { 
+31:     org.evosuite.runtime.RuntimeSettings.className = "org.apache.commons.collections4.map.StaticBucketMap"; 
+32:     org.evosuite.runtime.GuiSupport.initialize(); 
+33:     org.evosuite.runtime.RuntimeSettings.maxNumberOfThreads = 100; 
+34:     org.evosuite.runtime.RuntimeSettings.maxNumberOfIterationsPerLoop = 10000; 
+35:     org.evosuite.runtime.RuntimeSettings.mockSystemIn = true; 
+36:     org.evosuite.runtime.RuntimeSettings.sandboxMode = org.evosuite.runtime.sandbox.Sandbox.SandboxMode.RECOMMENDED; 
+37:     org.evosuite.runtime.sandbox.Sandbox.initializeSecurityManagerForSUT(); 
+38:     org.evosuite.runtime.classhandling.JDKClassResetter.init();
+39:     setSystemProperties();
+40:     initializeClasses();
+41:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+42:     try { initMocksToAvoidTimeoutsInTheTests(); } catch(ClassNotFoundException e) {} 
+43:   } 
+44: 
+45:   @AfterClass 
+46:   public static void clearEvoSuiteFramework(){ 
+47:     Sandbox.resetDefaultSecurityManager(); 
+48:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+49:   } 
+50: 
+51:   @Before 
+52:   public void initTestCase(){ 
+53:     threadStopper.storeCurrentThreads();
+54:     threadStopper.startRecordingTime();
+55:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().initHandler(); 
+56:     org.evosuite.runtime.sandbox.Sandbox.goingToExecuteSUTCode(); 
+57:     setSystemProperties(); 
+58:     org.evosuite.runtime.GuiSupport.setHeadless(); 
+59:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+60:     org.evosuite.runtime.agent.InstrumentingAgent.activate(); 
+61:   } 
+62: 
+63:   @After 
+64:   public void doneWithTestCase(){ 
+65:     threadStopper.killAndJoinClientThreads();
+66:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().safeExecuteAddedHooks(); 
+67:     org.evosuite.runtime.classhandling.JDKClassResetter.reset(); 
+68:     resetClasses(); 
+69:     org.evosuite.runtime.sandbox.Sandbox.doneWithExecutingSUTCode(); 
+70:     org.evosuite.runtime.agent.InstrumentingAgent.deactivate(); 
+71:     org.evosuite.runtime.GuiSupport.restoreHeadlessMode(); 
+72:   } 
+73: 
+74:   public static void setSystemProperties() {
+75:  
+76:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+77:     java.lang.System.setProperty("file.encoding", "GBK"); 
+78:     java.lang.System.setProperty("java.awt.headless", "true"); 
+79:     java.lang.System.setProperty("java.io.tmpdir", "C:\\Users\\Dell\\AppData\\Local\\Temp\\"); 
+80:     java.lang.System.setProperty("user.country", "CN"); 
+81:     java.lang.System.setProperty("user.dir", "D:\\myProjects\\courseProgram\\commons-collections4-4.3-src"); 
+82:     java.lang.System.setProperty("user.home", "C:\\Users\\Dell"); 
+83:     java.lang.System.setProperty("user.language", "zh"); 
+84:     java.lang.System.setProperty("user.name", "Dell"); 
+85:     java.lang.System.setProperty("user.timezone", "Asia/Shanghai"); 
+86:   }
+87: 
+88:   private static void initializeClasses() {
+89:     org.evosuite.runtime.classhandling.ClassStateSupport.initializeClasses(StaticBucketMap_6_tmp__ESTest_scaffolding.class.getClassLoader() ,
+90:       "org.apache.commons.collections4.MapIterator",
+91:       "org.apache.commons.collections4.map.StaticBucketMap$ValueIterator",
+92:       "org.apache.commons.collections4.map.EntrySetToMapIteratorAdapter",
+93:       "org.apache.commons.collections4.KeyValue",
+94:       "org.apache.commons.collections4.map.StaticBucketMap$Node",
+95:       "org.apache.commons.collections4.Get",
+96:       "org.apache.commons.collections4.ResettableIterator",
+97:       "org.apache.commons.collections4.map.StaticBucketMap$EntrySet",
+98:       "org.apache.commons.collections4.map.StaticBucketMap$Lock",
+99:       "org.apache.commons.collections4.Put",
+100:       "org.apache.commons.collections4.map.StaticBucketMap",
+101:       "org.apache.commons.collections4.map.StaticBucketMap$EntryIterator",
+102:       "org.apache.commons.collections4.IterableMap",
+103:       "org.apache.commons.collections4.map.StaticBucketMap$BaseIterator",
+104:       "org.apache.commons.collections4.map.StaticBucketMap$KeySet",
+105:       "org.apache.commons.collections4.map.StaticBucketMap$KeyIterator",
+106:       "org.apache.commons.collections4.map.AbstractIterableMap",
+107:       "org.apache.commons.collections4.map.StaticBucketMap$1",
+108:       "org.apache.commons.collections4.IterableGet",
+109:       "org.apache.commons.collections4.map.StaticBucketMap$Values"
+110:     );
+111:   } 
+112:   private static void initMocksToAvoidTimeoutsInTheTests() throws ClassNotFoundException { 
+113:     mock(Class.forName("java.util.Comparator", false, StaticBucketMap_6_tmp__ESTest_scaffolding.class.getClassLoader()));
+114:     mock(Class.forName("java.util.function.BiFunction", false, StaticBucketMap_6_tmp__ESTest_scaffolding.class.getClassLoader()));
+115:   }
+116: 
+117:   private static void resetClasses() {
+118:     org.evosuite.runtime.classhandling.ClassResetter.getInstance().setClassLoader(StaticBucketMap_6_tmp__ESTest_scaffolding.class.getClassLoader()); 
+119: 
+120:     org.evosuite.runtime.classhandling.ClassStateSupport.resetClasses(
+121:       "org.apache.commons.collections4.map.AbstractIterableMap",
+122:       "org.apache.commons.collections4.map.StaticBucketMap",
+123:       "org.apache.commons.collections4.map.StaticBucketMap$Lock",
+124:       "org.apache.commons.collections4.map.StaticBucketMap$Node",
+125:       "org.apache.commons.collections4.map.StaticBucketMap$KeySet",
+126:       "org.apache.commons.collections4.map.StaticBucketMap$Values",
+127:       "org.apache.commons.collections4.map.StaticBucketMap$EntrySet",
+128:       "org.apache.commons.collections4.map.StaticBucketMap$BaseIterator",
+129:       "org.apache.commons.collections4.map.StaticBucketMap$ValueIterator",
+130:       "org.apache.commons.collections4.map.StaticBucketMap$KeyIterator",
+131:       "org.apache.commons.collections4.map.EntrySetToMapIteratorAdapter",
+132:       "org.apache.commons.collections4.map.StaticBucketMap$EntryIterator"
+133:     );
+134:   }
+135: }
+
+[MASTER] 11:01:56.381 [pool-2-thread-1] ERROR JUnitAnalyzer - Failed to compile test case:
+StaticBucketMap<AbstractMap.SimpleImmutableEntry<Object, Object>, Integer> staticBucketMap0 = new StaticBucketMap<AbstractMap.SimpleImmutableEntry<Object, Object>, Integer>(219);
+assertEquals(0, staticBucketMap0.size());
+assertTrue(staticBucketMap0.isEmpty());
+assertNotNull(staticBucketMap0);
+
+Set<AbstractMap.SimpleImmutableEntry<Object, Object>> set0 = staticBucketMap0.keySet();
+assertEquals(0, staticBucketMap0.size());
+assertTrue(staticBucketMap0.isEmpty());
+assertTrue(set0.isEmpty());
+assertEquals(0, set0.size());
+assertNotNull(set0);
+
+StaticBucketMap<AbstractMap.SimpleEntry<Object, Object>, Object> staticBucketMap1 = new StaticBucketMap<AbstractMap.SimpleEntry<Object, Object>, Object>((-1));
+assertTrue(staticBucketMap1.isEmpty());
+assertEquals(0, staticBucketMap1.size());
+assertNotNull(staticBucketMap1);
+
+AbstractMap.SimpleEntry<String, String> abstractMap_SimpleEntry0 = new AbstractMap.SimpleEntry<String, String>("F$", "F$");
+assertNotNull(abstractMap_SimpleEntry0);
+
+AbstractMap.SimpleImmutableEntry<Object, String> abstractMap_SimpleImmutableEntry0 = new AbstractMap.SimpleImmutableEntry<Object, String>(abstractMap_SimpleEntry0);
+assertNotNull(abstractMap_SimpleImmutableEntry0);
+
+Comparator<Map.Entry<String, String>> comparator0 = Map.Entry.comparingByValue();
+assertNotNull(comparator0);
+
+AbstractMap.SimpleEntry<Object, Object> abstractMap_SimpleEntry1 = new AbstractMap.SimpleEntry<Object, Object>(abstractMap_SimpleImmutableEntry0);
+assertNotNull(abstractMap_SimpleEntry1);
+
+Comparator<Object> comparator1 = (Comparator<Object>) mock(Comparator.class, new ViolatedAssumptionAnswer());
+Comparator<Map.Entry<HashMap<HashMap<HashMap, String>, String>, AbstractMap.SimpleEntry<Object, Object>>> comparator2 = (Comparator<Map.Entry<HashMap<HashMap<HashMap, String>, String>, AbstractMap.SimpleEntry<Object, Object>>>)Map.Entry.comparingByValue((Comparator<? super AbstractMap.SimpleEntry<Object, Object>>) comparator1);
+assertNotNull(comparator2);
+
+Integer integer0 = new Integer(219);
+assertEquals(219, (int)integer0);
+assertNotNull(integer0);
+
+BiFunction<Object, Object, Object> biFunction0 = (BiFunction<Object, Object, Object>) mock(BiFunction.class, new ViolatedAssumptionAnswer());
+Object object0 = staticBucketMap1.merge(abstractMap_SimpleEntry1, integer0, biFunction0);
+assertFalse(staticBucketMap1.isEmpty());
+assertEquals(1, staticBucketMap1.size());
+assertEquals(219, object0);
+assertNotNull(object0);
+
+boolean boolean0 = staticBucketMap1.equals(staticBucketMap0);
+assertEquals(0, staticBucketMap0.size());
+assertTrue(staticBucketMap0.isEmpty());
+assertFalse(staticBucketMap1.isEmpty());
+assertEquals(1, staticBucketMap1.size());
+assertFalse(boolean0);
+
+StaticBucketMap<String, String> staticBucketMap2 = new StaticBucketMap<String, String>(205);
+assertTrue(staticBucketMap2.isEmpty());
+assertEquals(0, staticBucketMap2.size());
+assertNotNull(staticBucketMap2);
+
+StaticBucketMap<String, Object> staticBucketMap3 = new StaticBucketMap<String, Object>((-3362));
+assertTrue(staticBucketMap3.isEmpty());
+assertEquals(0, staticBucketMap3.size());
+assertNotNull(staticBucketMap3);
+
+staticBucketMap3.hashCode();
+assertTrue(staticBucketMap3.isEmpty());
+assertEquals(0, staticBucketMap3.size());
+
+staticBucketMap2.clear();
+assertTrue(staticBucketMap2.isEmpty());
+assertEquals(0, staticBucketMap2.size());
+
+StaticBucketMap<AbstractMap.SimpleImmutableEntry<String, Object>, Object> staticBucketMap4 = new StaticBucketMap<AbstractMap.SimpleImmutableEntry<String, Object>, Object>();
+assertEquals(0, staticBucketMap4.size());
+assertTrue(staticBucketMap4.isEmpty());
+assertNotNull(staticBucketMap4);
+
+AbstractMap.SimpleImmutableEntry<String, Object> abstractMap_SimpleImmutableEntry1 = new AbstractMap.SimpleImmutableEntry<String, Object>(abstractMap_SimpleEntry0);
+assertNotNull(abstractMap_SimpleImmutableEntry1);
+
+Object object1 = staticBucketMap4.put(abstractMap_SimpleImmutableEntry1, abstractMap_SimpleEntry0);
+assertFalse(staticBucketMap4.isEmpty());
+assertEquals(1, staticBucketMap4.size());
+assertNull(object1);
+
+boolean boolean1 = staticBucketMap4.isEmpty();
+assertTrue(boolean1 == boolean0);
+assertFalse(staticBucketMap4.isEmpty());
+assertEquals(1, staticBucketMap4.size());
+assertFalse(boolean1);
+
+StaticBucketMap<AbstractMap.SimpleEntry<String, Object>, AbstractMap.SimpleEntry<Integer, String>> staticBucketMap5 = new StaticBucketMap<AbstractMap.SimpleEntry<String, Object>, AbstractMap.SimpleEntry<Integer, String>>();
+assertEquals(0, staticBucketMap5.size());
+assertNotNull(staticBucketMap5);
+
+AbstractMap.SimpleImmutableEntry<String, Object> abstractMap_SimpleImmutableEntry2 = new AbstractMap.SimpleImmutableEntry<String, Object>("F$", "");
+assertNotNull(abstractMap_SimpleImmutableEntry2);
+
+AbstractMap.SimpleEntry<String, Object> abstractMap_SimpleEntry2 = new AbstractMap.SimpleEntry<String, Object>(abstractMap_SimpleImmutableEntry2);
+assertNotNull(abstractMap_SimpleEntry2);
+
+Integer integer1 = new Integer((-1));
+assertFalse(integer1.equals((Object)object0));
+assertFalse(integer1.equals((Object)integer0));
+assertEquals((-1), (int)integer1);
+assertNotNull(integer1);
+
+AbstractMap.SimpleEntry<Integer, String> abstractMap_SimpleEntry3 = new AbstractMap.SimpleEntry<Integer, String>(integer1, "");
+assertFalse(integer1.equals((Object)object0));
+assertFalse(integer1.equals((Object)integer0));
+assertNotNull(abstractMap_SimpleEntry3);
+
+AbstractMap.SimpleEntry<Integer, String> abstractMap_SimpleEntry4 = staticBucketMap5.put(abstractMap_SimpleEntry2, abstractMap_SimpleEntry3);
+assertFalse(integer1.equals((Object)object0));
+assertFalse(integer1.equals((Object)integer0));
+assertFalse(staticBucketMap5.isEmpty());
+assertEquals(1, staticBucketMap5.size());
+assertNull(abstractMap_SimpleEntry4);
+
+StaticBucketMap<Integer, String> staticBucketMap6 = new StaticBucketMap<Integer, String>((-1));
+assertEquals(0, staticBucketMap6.size());
+assertTrue(staticBucketMap6.isEmpty());
+assertNotNull(staticBucketMap6);
+
+boolean boolean2 = staticBucketMap6.containsKey((Object) null);
+assertTrue(boolean2 == boolean0);
+assertTrue(boolean2 == boolean1);
+assertEquals(0, staticBucketMap6.size());
+assertTrue(staticBucketMap6.isEmpty());
+assertFalse(boolean2);
+
+
+[MASTER] 11:02:11.691 [pool-2-thread-1] ERROR JUnitAnalyzer - Ran out of time while checking tests

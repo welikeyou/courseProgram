@@ -1,0 +1,67 @@
+[MASTER] 10:47:28.207 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Hashtable<K, V> : Type points to itself
+[MASTER] 10:47:28.210 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.ArrayDeque<E> : Type points to itself
+[MASTER] 10:47:28.210 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.ArrayList<E> : Type points to itself
+[MASTER] 10:47:28.210 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.EnumSet<E> : Type points to itself
+[MASTER] 10:47:28.210 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.HashSet<E> : Type points to itself
+[MASTER] 10:47:28.215 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 10:47:28.215 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 10:47:28.215 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.PriorityQueue<E> : Type points to itself
+[MASTER] 10:47:28.215 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.ServiceLoader<S> : Type points to itself
+[MASTER] 10:47:28.215 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Stack<E> : Type points to itself
+[MASTER] 10:47:28.215 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.TreeSet<E> : Type points to itself
+[MASTER] 10:47:28.216 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Vector<E> : Type points to itself
+[MASTER] 10:47:28.216 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 10:47:39.394 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+[MASTER] 10:48:08.173 [pool-2-thread-1] ERROR ClientNodeImpl - Error when generating tests for: org.apache.commons.collections4.IteratorUtils with seed 1556333243816. Configuration id : default
+java.lang.RuntimeException: not supported: class org.evosuite.utils.generic.WildcardTypeImpl
+	at com.googlecode.gentyref.GenericTypeReflector.erase(GenericTypeReflector.java:44) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.utils.generic.GenericClass.satisfiesBoundaries(GenericClass.java:1637) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.seeding.CastClassManager.getAssignableClasses(CastClassManager.java:399) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.seeding.CastClassManager.selectCastClass(CastClassManager.java:494) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.utils.generic.GenericClass.getGenericWildcardInstantiation(GenericClass.java:690) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.utils.generic.GenericClass.getGenericInstantiation(GenericClass.java:586) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.utils.generic.GenericClass.getGenericTypeVariableInstantiation(GenericClass.java:634) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.utils.generic.GenericClass.getGenericInstantiation(GenericClass.java:591) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.utils.generic.GenericClass.getGenericInstantiation(GenericClass.java:570) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.utils.generic.GenericAccessibleObject.getGenericInstantiation(GenericAccessibleObject.java:258) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestCluster.getRandomGenerator(TestCluster.java:1033) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.attemptObjectGeneration(TestFactory.java:875) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.createOrReuseObjectVariable(TestFactory.java:1587) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.createOrReuseVariable(TestFactory.java:1350) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.satisfyParameters(TestFactory.java:2365) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.addMethod(TestFactory.java:551) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.createObject(TestFactory.java:1306) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.attemptGeneration(TestFactory.java:836) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.createVariable(TestFactory.java:1431) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.createOrReuseVariable(TestFactory.java:1376) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.satisfyParameters(TestFactory.java:2365) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.addMethod(TestFactory.java:551) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.createObject(TestFactory.java:1306) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.attemptGeneration(TestFactory.java:836) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.createVariable(TestFactory.java:1431) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.createOrReuseVariable(TestFactory.java:1376) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.satisfyParameters(TestFactory.java:2365) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.addMethod(TestFactory.java:551) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.insertRandomCall(TestFactory.java:2217) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.mutation.RandomInsertion.insertStatement(RandomInsertion.java:82) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.TestFactory.insertRandomStatement(TestFactory.java:2308) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.factories.RandomLengthTestFactory.getRandomTestCase(RandomLengthTestFactory.java:69) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.factories.RandomLengthTestFactory.getChromosome(RandomLengthTestFactory.java:89) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.factories.RandomLengthTestFactory.getChromosome(RandomLengthTestFactory.java:40) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.ga.archive.ArchiveTestChromosomeFactory.getChromosome(ArchiveTestChromosomeFactory.java:88) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.ga.archive.ArchiveTestChromosomeFactory.getChromosome(ArchiveTestChromosomeFactory.java:35) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testsuite.factories.TestSuiteChromosomeFactory.getChromosome(TestSuiteChromosomeFactory.java:84) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testsuite.factories.TestSuiteChromosomeFactory.getChromosome(TestSuiteChromosomeFactory.java:35) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.ga.metaheuristics.GeneticAlgorithm.generateRandomPopulation(GeneticAlgorithm.java:413) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.ga.metaheuristics.GeneticAlgorithm.generateInitialPopulation(GeneticAlgorithm.java:356) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.ga.metaheuristics.MonotonicGA.initializePopulation(MonotonicGA.java:204) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.ga.metaheuristics.MonotonicGA.generateSolution(MonotonicGA.java:223) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.strategy.WholeTestSuiteStrategy.generateTests(WholeTestSuiteStrategy.java:113) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:653) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:236) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_201]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_201]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_201]

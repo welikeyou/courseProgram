@@ -1,0 +1,90 @@
+* Starting client
+* Connecting to master process on port 17698
+* Analyzing classpath: 
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes
+  - D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar
+  - D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar
+  - D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar
+  - D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.collections4.map.Flat3Map
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 10:10:17.488 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.map.Flat3Map.seed
+* Loaded 0 tests from D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.map.Flat3Map.seed
+* Total number of test goals: 
+  - Line 529
+  - Branch 496
+  - Exception 0
+  - MutationFactory 607
+  - Output 49
+  - Method 61
+  - MethodNoException 61
+  - CBranchFitnessFactory 496
+* Using seed 1556331010651
+* Starting evolution
+* Search finished after 834s and 142 generations, 94556 statements, best individual has fitness: 998.9505804311774
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 62%
+* Total number of goals: 529
+* Number of covered goals: 328
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 63%
+* Total number of goals: 496
+* Number of covered goals: 313
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 62%
+* Total number of goals: 607
+* Number of covered goals: 374
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 55%
+* Total number of goals: 49
+* Number of covered goals: 27
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 61
+* Number of covered goals: 61
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 90%
+* Total number of goals: 61
+* Number of covered goals: 55
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 62%
+* Total number of goals: 496
+* Number of covered goals: 306
+* Generated 105 tests with total length 465
+* Resulting test suite's coverage: 74% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 34%
+* Compiling and checking tests
+[MASTER] 10:25:47.680 [pool-2-thread-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class org.junit.ComparisonFailure: expected:<...ommons.collections4.[iterators.AbstractEmpty]Iterator> but was:<...ommons.collections4.[map.Flat3Map$KeySet]Iterator>
+[MASTER] 10:25:47.680 [pool-2-thread-1] WARN  JUnitAnalyzer - Failing test:
+ Flat3Map<String, String> flat3Map0 = new Flat3Map<String, String>();
+BiFunction<Object, Object, String> biFunction0 = (BiFunction<Object, Object, String>) mock(BiFunction.class, new ViolatedAssumptionAnswer());
+flat3Map0.merge("No next() entry in the iteration", "No next() entry in the iteration", biFunction0);
+flat3Map0.putIfAbsent("org.apache.commons.collections4.map.Flat3Map$KeySetIterator", "org.apache.commons.collections4.map.Flat3Map$KeySetIterator");
+String string0 = flat3Map0.getOrDefault("org.apache.commons.collections4.map.Flat3Map$KeySetIterator", "org.apache.commons.collections4.iterators.AbstractEmptyIterator");
+assertNotNull(string0);
+assertEquals("org.apache.commons.collections4.iterators.AbstractEmptyIterator", string0);
+
+
+* Writing JUnit test case 'Flat3Map_ESTest' to D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\tmp_2019_04_27_10_09_58\tests
+* Done!
+

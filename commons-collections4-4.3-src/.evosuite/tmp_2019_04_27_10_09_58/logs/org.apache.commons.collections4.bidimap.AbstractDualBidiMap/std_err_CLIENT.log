@@ -1,0 +1,18 @@
+[MASTER] 11:33:48.422 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 11:33:48.422 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 11:33:49.405 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Map<java.lang.String, java.lang.Integer> : Unable to instantiate K
+[MASTER] 11:33:49.729 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Map<java.lang.String, java.lang.String> : Unable to instantiate V
+[MASTER] 11:33:49.960 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Map<java.lang.Integer, java.lang.String> : Unable to instantiate V
+[MASTER] 11:33:50.855 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.BidiMap<java.lang.String, java.lang.String> : Unable to instantiate V
+[MASTER] 11:33:51.194 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Map<java.lang.String, java.lang.String> : Unable to instantiate K
+[MASTER] 11:33:52.182 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Map<java.lang.Integer, java.lang.String> : Unable to instantiate K
+[MASTER] 11:33:52.312 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.OrderedBidiMap<java.lang.String, java.lang.Integer> : Unable to instantiate K
+[MASTER] 11:33:53.125 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Map<java.lang.Integer, java.lang.Integer> : Unable to instantiate K
+[MASTER] 11:33:56.633 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.BidiMap<java.lang.Integer, java.lang.Integer> : Unable to instantiate K
+[MASTER] 11:33:57.628 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Map<java.lang.Integer, java.lang.Integer> : Unable to instantiate V
+[MASTER] 11:33:58.398 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Map<java.lang.String, java.lang.Integer> : Unable to instantiate V
+[MASTER] 11:34:07.869 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.OrderedBidiMap<java.lang.Integer, java.lang.String> : Unable to instantiate K
+[MASTER] 11:34:21.100 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.OrderedBidiMap<java.lang.String, java.lang.String> : Unable to instantiate K
+[MASTER] 11:34:44.878 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.BidiMap<java.lang.String, java.lang.Integer> : Unable to instantiate K
+[MASTER] 11:34:56.769 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.OrderedBidiMap<java.lang.Integer, java.lang.String> : Unable to instantiate V
+[MASTER] 11:35:32.272 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.commons.collections4.BidiMap<java.lang.Integer, java.lang.Integer> : Unable to instantiate V

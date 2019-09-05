@@ -1,0 +1,217 @@
+* Starting client
+* Connecting to master process on port 2238
+* Analyzing classpath: 
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\test-classes
+  - D:\myProjects\courseProgram\commons-collections4-4.3-src\target\classes
+  - D:\maven\LocalWare\org\easymock\easymock\4.0.2\easymock-4.0.2.jar
+  - D:\maven\LocalWare\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar
+  - D:\maven\LocalWare\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - D:\maven\LocalWare\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar
+  - D:\maven\LocalWare\junit\junit\4.12\junit-4.12.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.collections4.map.StaticBucketMap
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 10:58:26.301 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.map.StaticBucketMap.seed
+* Loaded 0 tests from D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\evosuite-seeds\org.apache.commons.collections4.map.StaticBucketMap.seed
+* Total number of test goals: 
+  - Line 225
+  - Branch 144
+  - Exception 0
+  - MutationFactory 476
+  - Output 31
+  - Method 40
+  - MethodNoException 40
+  - CBranchFitnessFactory 144
+* Using seed 1556333901124
+* Starting evolution
+* Search finished after 150s and 5 generations, 6228 statements, best individual has fitness: 534.2368421052631
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 11:01:26.176 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 67%
+* Total number of goals: 225
+* Number of covered goals: 150
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 47%
+* Total number of goals: 144
+* Number of covered goals: 67
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 77%
+* Total number of goals: 476
+* Number of covered goals: 365
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 42%
+* Total number of goals: 31
+* Number of covered goals: 13
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 42%
+* Total number of goals: 40
+* Number of covered goals: 17
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 42%
+* Total number of goals: 40
+* Number of covered goals: 17
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 44%
+* Total number of goals: 144
+* Number of covered goals: 63
+* Generated 28 tests with total length 442
+* Resulting test suite's coverage: 58% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 11:01:44.145 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.7159166666666666% of time used, but only 2/28 tests minimized), falling back to using all assertions
+* Resulting test suite's mutation score: 7%
+* Compiling and checking tests
+[MASTER] 11:02:09.393 [pool-2-thread-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: expected:<2> but was:<1>
+[MASTER] 11:02:09.395 [pool-2-thread-1] WARN  JUnitAnalyzer - Failing test:
+ StaticBucketMap<String, Integer> staticBucketMap0 = new StaticBucketMap<String, Integer>();
+assertEquals(0, staticBucketMap0.size());
+assertTrue(staticBucketMap0.isEmpty());
+assertNotNull(staticBucketMap0);
+
+staticBucketMap0.clear();
+assertEquals(0, staticBucketMap0.size());
+assertTrue(staticBucketMap0.isEmpty());
+
+BiFunction<String, Integer, Integer> biFunction0 = (BiFunction<String, Integer, Integer>) mock(BiFunction.class, new ViolatedAssumptionAnswer());
+Integer integer0 = staticBucketMap0.computeIfPresent("", biFunction0);
+assertEquals(0, staticBucketMap0.size());
+assertTrue(staticBucketMap0.isEmpty());
+assertNull(integer0);
+
+staticBucketMap0.clear();
+assertEquals(0, staticBucketMap0.size());
+assertTrue(staticBucketMap0.isEmpty());
+
+StaticBucketMap<Integer, Integer> staticBucketMap1 = new StaticBucketMap<Integer, Integer>();
+assertTrue(staticBucketMap1.isEmpty());
+assertEquals(0, staticBucketMap1.size());
+assertNotNull(staticBucketMap1);
+
+Integer integer1 = staticBucketMap1.get("");
+assertTrue(staticBucketMap1.isEmpty());
+assertEquals(0, staticBucketMap1.size());
+assertNull(integer1);
+
+StaticBucketMap<String, String> staticBucketMap2 = new StaticBucketMap<String, String>(0);
+assertEquals(0, staticBucketMap2.size());
+assertTrue(staticBucketMap2.isEmpty());
+assertNotNull(staticBucketMap2);
+
+BiFunction<String, String, String> biFunction1 = (BiFunction<String, String, String>) mock(BiFunction.class, new ViolatedAssumptionAnswer());
+String string0 = staticBucketMap2.merge("", "org.apache.commons.collections4.map.StaticBucketMap$KeySet", biFunction1);
+assertEquals(1, staticBucketMap2.size());
+assertFalse(staticBucketMap2.isEmpty());
+assertEquals("org.apache.commons.collections4.map.StaticBucketMap$KeySet", string0);
+assertNotNull(string0);
+
+String string1 = staticBucketMap2.put("", "org.apache.commons.collections4.map.AbstractIterableMap");
+assertEquals(2, staticBucketMap2.size());
+assertFalse(staticBucketMap2.isEmpty());
+assertNull(string1);
+
+StaticBucketMap<Integer, Object> staticBucketMap3 = new StaticBucketMap<Integer, Object>();
+assertEquals(0, staticBucketMap3.size());
+assertTrue(staticBucketMap3.isEmpty());
+assertNotNull(staticBucketMap3);
+
+MapIterator<Integer, Object> mapIterator0 = staticBucketMap3.mapIterator();
+assertEquals(0, staticBucketMap3.size());
+assertTrue(staticBucketMap3.isEmpty());
+assertNotNull(mapIterator0);
+
+Integer integer2 = new Integer(0);
+assertEquals(0, (int)integer2);
+assertNotNull(integer2);
+
+Object object0 = staticBucketMap3.get(integer2);
+assertEquals(0, staticBucketMap3.size());
+assertTrue(staticBucketMap3.isEmpty());
+assertNull(object0);
+
+StaticBucketMap<Object, AbstractMap.SimpleImmutableEntry<Object, Object>> staticBucketMap4 = new StaticBucketMap<Object, AbstractMap.SimpleImmutableEntry<Object, Object>>(0);
+assertEquals(0, staticBucketMap4.size());
+assertTrue(staticBucketMap4.isEmpty());
+assertNotNull(staticBucketMap4);
+
+boolean boolean0 = staticBucketMap4.isEmpty();
+assertEquals(0, staticBucketMap4.size());
+assertTrue(staticBucketMap4.isEmpty());
+assertTrue(boolean0);
+
+ThreadGroup threadGroup0 = mock(ThreadGroup.class, new ViolatedAssumptionAnswer());
+MockThread mockThread0 = new MockThread(threadGroup0, (Runnable) null, "");
+assertNotNull(mockThread0);
+
+MockThread.dumpStack();
+staticBucketMap0.atomic(mockThread0);
+assertEquals(0, staticBucketMap0.size());
+assertTrue(staticBucketMap0.isEmpty());
+assertFalse(mockThread0.isInterrupted());
+assertFalse(mockThread0.isDaemon());
+assertEquals(0, mockThread0.countStackFrames());
+
+StaticBucketMap<HashMap<Object, String>, Integer> staticBucketMap5 = new StaticBucketMap<HashMap<Object, String>, Integer>();
+assertTrue(staticBucketMap5.isEmpty());
+assertEquals(0, staticBucketMap5.size());
+assertNotNull(staticBucketMap5);
+
+HashMap<Object, String> hashMap0 = new HashMap<Object, String>();
+assertEquals(0, hashMap0.size());
+assertTrue(hashMap0.isEmpty());
+assertNotNull(hashMap0);
+
+HashMap<Object, String> hashMap1 = new HashMap<Object, String>(hashMap0);
+assertTrue(hashMap1.equals((Object)hashMap0));
+assertEquals(0, hashMap0.size());
+assertTrue(hashMap0.isEmpty());
+assertEquals(0, hashMap1.size());
+assertTrue(hashMap1.isEmpty());
+assertNotNull(hashMap1);
+
+String string2 = hashMap1.put("", (String) null);
+assertFalse(hashMap0.equals((Object)hashMap1));
+assertFalse(hashMap1.equals((Object)hashMap0));
+assertEquals(0, hashMap0.size());
+assertTrue(hashMap0.isEmpty());
+assertEquals(1, hashMap1.size());
+assertFalse(hashMap1.isEmpty());
+assertNull(string2);
+assertNotSame(hashMap0, hashMap1);
+assertNotSame(hashMap1, hashMap0);
+
+BiFunction<Object, Object, Integer> biFunction2 = (BiFunction<Object, Object, Integer>) mock(BiFunction.class, new ViolatedAssumptionAnswer());
+Integer integer3 = new Integer(0);
+assertTrue(integer3.equals((Object)integer2));
+assertEquals(0, (int)integer3);
+assertNotNull(integer3);
+
+staticBucketMap5.hashCode();
+assertTrue(staticBucketMap5.isEmpty());
+assertEquals(0, staticBucketMap5.size());
+
+Set<Map.Entry<String, Integer>> set0 = (Set<Map.Entry<String, Integer>>)staticBucketMap0.entrySet();
+assertEquals(0, staticBucketMap0.size());
+assertTrue(staticBucketMap0.isEmpty());
+assertEquals(0, set0.size());
+assertTrue(set0.isEmpty());
+assertNotNull(set0);
+
+
+* Writing JUnit test case 'StaticBucketMap_ESTest' to D:\myProjects\courseProgram\commons-collections4-4.3-src\.evosuite\tmp_2019_04_27_10_09_58\tests
+* Done!
+

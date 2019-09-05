@@ -1,0 +1,42 @@
+.addToCarDiv div{
+    margin:7px 0px;
+}
+.addToCarDiv{
+    width:16%;
+    margin:3%;
+    padding:2%;
+    background-color: #faebd7;
+}
+.addToCarDiv img{
+    width:95%;
+    height: auto;
+    margin-bottom: 5px;
+}
+#chooseAmount{
+    display: flex;
+    flex-direction: row;
+}
+
+#decrease, #increase{
+    width: 30px;
+    /*height: 5px;*/
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: aliceblue;
+    font-size: 30px;
+
+}
+#addBtn span{
+    background-color: aliceblue;
+    color: deepskyblue;
+    width:25%;
+    height: 15px;
+    margin: 0 10%;
+    padding:10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align:center;
+}

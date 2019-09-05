@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="bookShopWeb:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02c5e470-96e6-44d1-8416-8714fe65507d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../SummerCamp/reversNum/src/OverNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SummerCamp/reversNum/src/ReversNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POP/src/POPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListApp-master/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CCFExercise/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CCFExercise/CCFTest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CCFExercise/CCFTest/src/CommonKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CCFExercise/CircleGame/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CCFExercise/CircleGame/src/CircleGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CCFExercise/MovedBall/src/MoviedBall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CCFExercise/MoviedBallCmd/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/dao/CommentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/dao/HistoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/dao/MovieDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/dao/MovieListDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/dao/impl/CommentDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/dao/impl/HistoryDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/dao/impl/MovieDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/dao/impl/MovieListDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/pojo/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/pojo/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/pojo/MovieList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/service/HistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/service/MovieListService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/service/MovieService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/servlet/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/util/databaseUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/classes/util/recommendUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/annotations-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/catalina-ant.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/catalina-ha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/catalina-storeconfig.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/catalina-tribes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/catalina.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/ecj-4.7.3a.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/el-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/jasper-el.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/jasper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/jaspic-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/jsp-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/mysql-connector-java-5.1.26-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/servlet-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/tomcat-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/tomcat-coyote.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/tomcat-dbcp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/tomcat-jdbc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/tomcat-jni.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/tomcat-util-scan.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/tomcat-util.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/tomcat-websocket.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/lib/websocket-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/js/canvas-nest.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/js/jquery-1.4.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/jsp/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/bigLeef.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/branch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/centerBranch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/flower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/idiot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/leef.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/leftBranch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/20121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/20122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/V字仇杀队1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/V字仇杀队2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/一出好戏1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/一出好戏2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/七月与安生1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/七月与安生2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/三傻大闹宝莱坞1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/三傻大闹宝莱坞2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/云图1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/云图2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/人在囧途1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/人在囧途2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/你的名字1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/你的名字2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/初恋这件小事1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/初恋这件小事2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/剪刀手爱德华1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/剪刀手爱德华2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/功夫1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/功夫2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/动物世界1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/动物世界2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/叶问1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/叶问2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/后天1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/后天2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/呼吸1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/呼吸2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/哥斯拉1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/哥斯拉2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/唐山大地震1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/唐山大地震2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/喜剧之王1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/喜剧之王2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/夏洛特烦恼1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/夏洛特烦恼2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/天使爱美丽1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/天使爱美丽2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/头号玩家1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/头号玩家2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/她1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/她2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/孤儿怨1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/孤儿怨2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/安德的游戏1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/安德的游戏2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/寂静之地1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/寂静之地2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/寻梦环游记1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/寻梦环游记2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/小偷家族1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/小偷家族2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/影1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/影2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/志明与春娇1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/志明与春娇2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/快把我哥带走1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/快把我哥带走2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/怦然心动1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/怦然心动2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/悲伤逆流成河1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/悲伤逆流成河2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/情书1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/情书2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/我不是药神1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/我不是药神2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/招魂1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/招魂2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/无名之辈1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/无名之辈2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/无问西东1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/无问西东2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/星际穿越1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/星际穿越2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/暮光之城1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/暮光之城2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/林中小屋1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/林中小屋2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/毒液：致命守护者1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/毒液：致命守护者2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/泰坦尼克号1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/泰坦尼克号2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/流感1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/流感2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/深海狂鲨1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/深海狂鲨2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/爱1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/爱2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/独立日1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/独立日2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/盗梦空间1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/盗梦空间2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/第九区1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/第九区2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/美丽人生1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/美丽人生2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/肖申克的救赎1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/肖申克的救赎2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/自由广场1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/自由广场2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/蝴蝶效应1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/蝴蝶效应2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/让子弹飞1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/让子弹飞2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/超体1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/超体2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/超时空同居1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/超时空同居2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/这个杀手不太冷1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/这个杀手不太冷2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/速度与激情1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/速度与激情2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/釜山行1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/釜山行2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/阳光姐妹淘1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/阳光姐妹淘2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/阿凡达1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/阿凡达2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/阿甘正传1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/阿甘正传2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/阿黛尔的生活1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/阿黛尔的生活2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/雪国列车1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/雪国列车2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/风吹麦浪1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/风吹麦浪2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/黑暗中的舞者1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/poster/黑暗中的舞者2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/rightBranch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/tengman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/true.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/vine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/vinewall.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/wall.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/wall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/wallpaper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/wallpaper1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/WebContent/resources/img/walls.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MovieRecommand/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aliyun-oss-appserver-java-master/.idea/artifacts/appservermaven_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aliyun-oss-appserver-java-master/.idea/artifacts/appservermaven_jar2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aliyun-oss-appserver-java-master/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../blog-master/src/pages/upLoadImg/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../blog-master/src/pages/upLoadImg/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookShop/src/main/java/dao/GoodsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bookShop/src/main/java/dao/GoodsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookShop/src/main/java/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bookShop/src/main/java/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookShop/src/main/java/modul/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bookShop/src/main/java/modul/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookShop/src/main/java/modul/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bookShop/src/main/java/modul/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookShop/src/main/java/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bookShop/src/main/java/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookShop/src/main/java/util/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bookShop/src/main/java/util/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookShop/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../bookShop/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookShop/src/main/webapp/page/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../bookShop/src/main/webapp/page/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookShop/src/main/webapp/page/managerHome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../bookShop/src/main/webapp/page/managerHome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookShop/src/main/webapp/page/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../bookShop/src/main/webapp/page/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookShop/src/main/webapp/page/userHome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../bookShop/src/main/webapp/page/userHome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookShop/web/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../bookShop/web/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookShop/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookShop/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookShopWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bookShopWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/AddToCarServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/AddToCarServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/DetailServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/DetailServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/addToCar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/addToCar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/addToCar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/css/managerHome.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/css/managerHome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/myCar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/orderList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/orderList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/orderList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/.evosuite/tmp_2019_04_27_10_09_58/tests/org/apache/commons/collections4/ArrayUtils_ESTestP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commons-collections4-4.3-src/.evosuite/tmp_2019_04_27_10_09_58/tests/org/apache/commons/collections4/ArrayUtils_ESTestP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/commons-collections4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../commons-collections4-4.3-src/commons-collections4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/test/java/org/apache/commons/collections4/list/TreeListTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/ArrayStack_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/ArrayStack_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/ArrayUtils_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/ArrayUtils_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/CollectionUtils_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/CollectionUtils_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/ComparatorUtils_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/ComparatorUtils_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/IterableUtils_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/IterableUtils_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/ListUtils_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/ListUtils_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/MapUtils_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/MapUtils_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/MultiMapUtils_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/MultiMapUtils_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/SetUtils_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/SetUtils_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/SplitMapUtils_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/SplitMapUtils_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/bag/AbstractMapBag_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/bag/AbstractMapBag_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/bag/CollectionBag_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/bag/CollectionBag_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/bag/CollectionSortedBag_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/bag/CollectionSortedBag_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/bidimap/AbstractDualBidiMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/bidimap/AbstractDualBidiMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/bidimap/DualTreeBidiMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/bidimap/DualTreeBidiMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/bidimap/TreeBidiMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/bidimap/TreeBidiMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/collection/CompositeCollection_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/collection/CompositeCollection_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/collection/IndexedCollection_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/collection/IndexedCollection_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/collection/SynchronizedCollection_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/collection/SynchronizedCollection_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/comparators/BooleanComparator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/comparators/BooleanComparator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/comparators/ComparatorChain_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/comparators/ComparatorChain_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/comparators/FixedOrderComparator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/comparators/FixedOrderComparator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/comparators/NullComparator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/comparators/NullComparator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/comparators/TransformingComparator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/comparators/TransformingComparator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/AllPredicate_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/AllPredicate_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/AndPredicate_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/AndPredicate_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/AnyPredicate_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/AnyPredicate_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/ChainedClosure_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/ChainedClosure_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/ChainedTransformer_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/ChainedTransformer_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/ComparatorPredicate_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/ComparatorPredicate_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/ConstantTransformer_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/ConstantTransformer_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/DefaultEquator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/DefaultEquator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/FunctorUtils_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/FunctorUtils_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/IfTransformer_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/IfTransformer_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/InstantiateFactory_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/InstantiateFactory_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/InstantiateTransformer_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/InstantiateTransformer_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/InvokerTransformer_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/InvokerTransformer_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/NonePredicate_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/NonePredicate_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/OnePredicate_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/OnePredicate_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/SwitchClosure_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/SwitchClosure_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/SwitchTransformer_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/SwitchTransformer_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/WhileClosure_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/functors/WhileClosure_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/ArrayIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/ArrayIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/ArrayListIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/ArrayListIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/BoundedIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/BoundedIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/CollatingIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/CollatingIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/EntrySetMapIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/EntrySetMapIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/FilterIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/FilterIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/FilterListIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/FilterListIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/IteratorChain_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/IteratorChain_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/LazyIteratorChain_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/LazyIteratorChain_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/ListIteratorWrapper_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/ListIteratorWrapper_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/LoopingListIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/LoopingListIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/NodeListIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/NodeListIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/ObjectArrayIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/ObjectArrayIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/ObjectGraphIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/ObjectGraphIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/PeekingIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/PeekingIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/PermutationIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/PermutationIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/PushbackIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/PushbackIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/SingletonIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/SingletonIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/SingletonListIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/SingletonListIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/SkippingIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/SkippingIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/ZippingIterator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/iterators/ZippingIterator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/keyvalue/AbstractMapEntry_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/keyvalue/AbstractMapEntry_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/keyvalue/DefaultKeyValue_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/keyvalue/DefaultKeyValue_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/keyvalue/MultiKey_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/keyvalue/MultiKey_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/keyvalue/TiedMapEntry_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/keyvalue/TiedMapEntry_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/AbstractLinkedList_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/AbstractLinkedList_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/CursorableLinkedList_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/CursorableLinkedList_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/GrowthList_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/GrowthList_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/LazyList_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/LazyList_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/NodeCachingLinkedList_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/NodeCachingLinkedList_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/SetUniqueList_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/SetUniqueList_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/TransformedList_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/TransformedList_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/TreeList_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/list/TreeList_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/AbstractHashedMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/AbstractHashedMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/AbstractLinkedMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/AbstractLinkedMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/AbstractMapDecorator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/AbstractMapDecorator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/AbstractReferenceMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/AbstractReferenceMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/CompositeMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/CompositeMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/DefaultedMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/DefaultedMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/Flat3Map_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/Flat3Map_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/LRUMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/LRUMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/ListOrderedMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/ListOrderedMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/MultiKeyMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/MultiKeyMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/MultiValueMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/MultiValueMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/PassiveExpiringMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/PassiveExpiringMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/PredicatedMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/PredicatedMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/SingletonMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/SingletonMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/StaticBucketMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/StaticBucketMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/TransformedMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/TransformedMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/UnmodifiableEntrySet_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/map/UnmodifiableEntrySet_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/multimap/AbstractMultiValuedMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/multimap/AbstractMultiValuedMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/multimap/TransformedMultiValuedMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/multimap/TransformedMultiValuedMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/multiset/AbstractMapMultiSet_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/multiset/AbstractMapMultiSet_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/multiset/AbstractMultiSet_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/multiset/AbstractMultiSet_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/queue/CircularFifoQueue_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/queue/CircularFifoQueue_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/sequence/ReplacementsFinder_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/sequence/ReplacementsFinder_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/sequence/SequencesComparator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/sequence/SequencesComparator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/set/CompositeSet_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/set/CompositeSet_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/set/ListOrderedSet_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/set/ListOrderedSet_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/set/MapBackedSet_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/set/MapBackedSet_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/splitmap/AbstractIterableGetMapDecorator_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/splitmap/AbstractIterableGetMapDecorator_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/splitmap/TransformedSplitMap_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/splitmap/TransformedSplitMap_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/trie/AbstractBitwiseTrie_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/trie/AbstractBitwiseTrie_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/trie/AbstractPatriciaTrie_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/trie/AbstractPatriciaTrie_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/trie/KeyAnalyzer_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/trie/KeyAnalyzer_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/trie/analyzer/StringKeyAnalyzer_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons-collections4-4.3-src/src/tests/org/apache/commons/collections4/trie/analyzer/StringKeyAnalyzer_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junitTest/src/CountPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../junitTest/src/CountPositive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junitTest/src/CountPositiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../junitTest/src/CountPositiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junitTest/src/NumZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../junitTest/src/NumZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junitTest/src/NumZeroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../junitTest/src/NumZeroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../softwareTest/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../softwareTest/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../softwareTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../softwareTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../softwareTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../softwareTest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../softwareTest/softwareTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../softwareTest/softwareTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../softwareTest/src/main/java/CountPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../softwareTest/src/main/java/CountPositive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../softwareTest/src/test/java/CountPositiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../softwareTest/src/test/java/CountPositiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticPage/managerHome.html" beforeDir="false" afterPath="$PROJECT_DIR$/../staticPage/managerHome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticPage/teachBook.html" beforeDir="false" afterPath="$PROJECT_DIR$/../staticPage/teachBook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webServer/src/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webServer/src/WebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webServer/src/getFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../webServer/src/getFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../driverSchool/sourceCode/backCode/.idea/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../driverSchool/sourceCode/backCode/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/changeTime/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/changeTime/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/chooseTime/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/chooseTime/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/home2/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/home2/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/myForumHome/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/myForumHome/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/myIndex/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/myIndex/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/schoolValidate/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/schoolValidate/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/share/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/share/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/userinfo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../driverSchool/sourceCode/frontCode/frontCode/src/pages/userinfo/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/TencentTest/src/_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/TencentTest/src/_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/exerciseSrc/exerciseSrc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/exerciseSrc/src/_003.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/src/_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/Tencet/src/_003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/src/_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/Tencet/src/_004.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/src/dArrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/Tencet/src/dArrange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/src/fall2017_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/Tencet/src/fall2017_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/src/fall2017_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/Tencet/src/fall2017_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/src/fall2017_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/Tencet/src/fall2017_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/src/qiu2017_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/Tencet/src/qiu2017_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/src/summer2017_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/Tencet/src/summer2017_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/src/summer2017_1p.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/Tencet/src/summer2017_1p.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/src/summer2017_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/Tencet/src/summer2017_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/src/summer2017_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/Tencet/src/summer2017_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/Tencet/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/src/y2016_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/Tencet/src/y2016_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/Tencet/src/y2016_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/Tencet/src/y2016_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/bitJump/src/_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/bitJump/src/_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/bitJump/src/_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/bitJump/src/_002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/bitJump/src/_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/bitJump/src/_003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/bitJump/src/_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/bitJump/src/_004.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_004.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_005.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_005.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_2016_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_2016_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_2016_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_2016_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_2016_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/_2016_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/inputData" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/inputData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj004.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj004.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj005.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj005.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj005c.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj005c.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj006.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj006.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj007.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj007.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj008.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj008.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj009.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj009.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj010.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj010.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj011.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj011.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj016.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj016.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj019.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj019.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/oj18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/ojCalculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/ojCalculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/ojCombinString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/ojCombinString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/ojMuiltyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/ojMuiltyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/ojNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/ojNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWei/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWei/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWeiTest/src/_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWeiTest/src/_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWeiTest/src/_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWeiTest/src/_002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/huaWeiTest/src/_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/huaWeiTest/src/_003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/sequence/src/_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/sequence/src/_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/sequence/src/_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/sequence/src/_002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/sequence/src/_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/sequence/src/_003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/untitled/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/untitled/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/untitled/src/_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/untitled/src/_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/untitled/src/_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/untitled/src/_002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interviewTest/untitled/src/_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interviewTest/untitled/src/_003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../long/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../long/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testBugs/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testBugs/src/TestBugs.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/page/css/homePage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1330">
+              <caret line="70" column="13" selection-end-line="114" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/page/css/managerHome.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/AddToCarServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/DetailServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="22" selection-start-line="22" selection-end-line="23" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/page/detail.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/page/css/myCar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="14" selection-end-line="51" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/page/css/orderList.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/page/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/page/orderList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="26" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bottomBox</find>
+      <find>upImg</find>
+      <find>regiserDiv</find>
+      <find>detailBtn</find>
+      <find>toPay</find>
+      <find>sc</find>
+      <find>button</find>
+      <find>lo</find>
+      <find>butt</find>
+      <find>showBordRow</find>
+      <find>toD</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/page/register.html" />
+        <option value="$PROJECT_DIR$/web/page/css/addToCar.css" />
+        <option value="$PROJECT_DIR$/web/css/detail.css" />
+        <option value="$PROJECT_DIR$/web/page/myCar.html" />
+        <option value="$PROJECT_DIR$/web/css/myCar.css" />
+        <option value="$PROJECT_DIR$/web/page/orderList.html" />
+        <option value="$PROJECT_DIR$/web/css/orderList.css" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/RegisterServlet.java" />
+        <option value="$PROJECT_DIR$/web/page/addToCar.html" />
+        <option value="$PROJECT_DIR$/web/css/homePage.css" />
+        <option value="$PROJECT_DIR$/src/main/java/modul/User.java" />
+        <option value="$PROJECT_DIR$/web/page/detail.html" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modul/Goods.java" />
+        <option value="$PROJECT_DIR$/web/page/css/homePage.css" />
+        <option value="$PROJECT_DIR$/web/js/homePage.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/page/js/homePage.js" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/page/index.html" />
+        <option value="$PROJECT_DIR$/web/page/css/managerHome.css" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Database.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/DetailServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/AddToCarServlet.java" />
+        <option value="$PROJECT_DIR$/web/page/index.jsp" />
+        <option value="$PROJECT_DIR$/web/page/register.jsp" />
+        <option value="$PROJECT_DIR$/web/page/userHome.jsp" />
+        <option value="$PROJECT_DIR$/web/page/orderList.jsp" />
+        <option value="$PROJECT_DIR$/web/page/managerHome.jsp" />
+        <option value="$PROJECT_DIR$/web/page/login.jsp" />
+        <option value="$PROJECT_DIR$/web/page/detail.jsp" />
+        <option value="$PROJECT_DIR$/web/page/addToCar.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bookShopWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookShopWeb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookShopWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookShopWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookShopWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookShopWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookShopWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookShopWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookShopWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookShopWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookShopWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookShopWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookShopWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557148858145" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../staticPage" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.project" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myProjects\courseProgram\bookShopWeb\web\page\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\myProjects\courseProgram\bookShopWeb\web\page" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.23" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <deployment>
+        <artifact name="bookShopWeb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_23_bookShopWeb" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51103" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="bookShopWeb:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02c5e470-96e6-44d1-8416-8714fe65507d" name="Default Changelist" comment="" />
+      <created>1556895610124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556895610124</updated>
+      <workItem from="1556895615411" duration="2400000" />
+      <workItem from="1556921748196" duration="4706000" />
+      <workItem from="1556954341673" duration="22153000" />
+      <workItem from="1557025919539" duration="26242000" />
+      <workItem from="1557132768840" duration="2582000" />
+      <workItem from="1557147034111" duration="500000" />
+      <workItem from="1557147913587" duration="984000" />
+      <workItem from="1557313781978" duration="740000" />
+      <workItem from="1558792493152" duration="333000" />
+      <workItem from="1558840532058" duration="1587000" />
+      <workItem from="1559607206448" duration="17000" />
+      <workItem from="1561877828961" duration="840000" />
+      <workItem from="1561944791951" duration="1660000" />
+      <workItem from="1561966692834" duration="23000" />
+      <workItem from="1561966780768" duration="1163000" />
+      <workItem from="1562030917031" duration="41000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="65971000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15013404" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="EvoSuite" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25938338" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="EvoSuite" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/servlet/LoginServlet.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/servlet/DetailServlet.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/page/register.html" />
+    <entry file="file://$PROJECT_DIR$/web/css/detail.css" />
+    <entry file="file://$PROJECT_DIR$/web/css/myCar.css" />
+    <entry file="file://$PROJECT_DIR$/web/page/myCar.html" />
+    <entry file="file://$PROJECT_DIR$/web/page/orderList.html" />
+    <entry file="file://$PROJECT_DIR$/web/css/orderList.css" />
+    <entry file="file://$PROJECT_DIR$/web/css/addToCar.css" />
+    <entry file="file://$PROJECT_DIR$/web/css/homePage.css" />
+    <entry file="file://$PROJECT_DIR$/web/page/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/js/jquery.easing.1.3.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/detail.html" />
+    <entry file="file://$PROJECT_DIR$/web/js/homePage.js" />
+    <entry file="file://$PROJECT_DIR$/web/page/addToCar.html" />
+    <entry file="file://$PROJECT_DIR$/web/index.html" />
+    <entry file="file://$PROJECT_DIR$/web/page/index.html" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Tomcat/apache-tomcat-8.5.23/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modul/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="25" column="5" lean-forward="true" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modul/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="33" lean-forward="true" selection-end-line="95" />
+          <folding>
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" lean-forward="true" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="10" selection-end-line="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="16" lean-forward="true" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addUser#0;class#UserDao#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/RegisterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" column="32" lean-forward="true" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/addToCar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="30" lean-forward="true" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/managerHome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="7" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/userHome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/js/homePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="44" column="20" selection-end-line="79" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#login#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/css/addToCar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="30" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/css/detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/css/homePage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="70" column="13" selection-end-line="114" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/css/managerHome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/AddToCarServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/DetailServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/css/myCar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="14" selection-end-line="51" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/css/orderList.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/orderList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="26" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="22" selection-start-line="22" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>bookShopWeb:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bookShopWeb</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-5.1.45-bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
